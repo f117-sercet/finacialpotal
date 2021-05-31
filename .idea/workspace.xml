@@ -20,12 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/ServiceCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/test/java/com/epdemic/srm/core/CodeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,6 +66,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -64,6 +77,43 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="JUnit.CodeGenerator.genCode">
+    <configuration name="CodeGenerator.genCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epdemic.srm.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
+      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.CodeGenerator" />
+      <option name="METHOD_NAME" value="genCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epdemic.srm.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.core.ServiceCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CodeGenerator.genCode" />
+        <item itemvalue="Spring Boot.ServiceCoreApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -77,6 +127,7 @@
       <updated>1622433582393</updated>
       <workItem from="1622433599185" duration="4638000" />
       <workItem from="1622448899020" duration="504000" />
+      <workItem from="1622449437858" duration="3293000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -92,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622447230204</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="编写readme">
+      <created>1622449518272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622449518272</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目后台架构搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目后台架构搭建" />
+    <MESSAGE value="编写readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1622443724385">
@@ -127,17 +186,21 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622443554619" />
-    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622447241979">
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622449523285">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622447241979" />
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622449523285" />
+    <state x="861" y="215" key="git4idea.merge.GitPullDialog" timestamp="1622450698796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="861" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1622450698796" />
     <state x="178" y="73" key="new project wizard" timestamp="1622446938632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1622446938632" />
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622446400546">
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622452501550">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622446400546" />
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622452501550" />
   </component>
 </project>
