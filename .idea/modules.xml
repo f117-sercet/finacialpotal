@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/srm/rabbit-mq/rabbit-mq.iml" filepath="$PROJECT_DIR$/srm/rabbit-mq/rabbit-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srm/service-base/service-base.iml" filepath="$PROJECT_DIR$/srm/service-base/service-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srm/service-common/service-common.iml" filepath="$PROJECT_DIR$/srm/service-common/service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srm/service-core/service-core.iml" filepath="$PROJECT_DIR$/srm/service-core/service-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srm/service-gateway/service-gateway.iml" filepath="$PROJECT_DIR$/srm/service-gateway/service-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srm/service-oss/service-oss.iml" filepath="$PROJECT_DIR$/srm/service-oss/service-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srm/service-sms/service-sms.iml" filepath="$PROJECT_DIR$/srm/service-sms/service-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srm/srm.iml" filepath="$PROJECT_DIR$/srm/srm.iml" />
+    </modules>
+  </component>
+</project>
