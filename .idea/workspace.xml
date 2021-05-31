@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/srm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/rabbit-mq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-base/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-oss/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-sms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/rabbit-mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/rabbit-mq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-oss/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-oss/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-sms/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,8 +82,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622433582393</updated>
-      <workItem from="1622433599185" duration="1210000" />
+      <workItem from="1622433599185" duration="3865000" />
     </task>
+    <task id="LOCAL-00001" summary="项目后台架构搭建">
+      <created>1622444744375</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622444744375</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +108,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目后台架构搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目后台架构搭建" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1622443724385">
       <screen x="0" y="0" width="1536" height="824" />
@@ -113,9 +125,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622443554619" />
-    <state x="178" y="73" key="new project wizard" timestamp="1622443976256">
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622444778253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1622443976256" />
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622444778253" />
+    <state x="178" y="73" key="new project wizard" timestamp="1622446938632">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1622446938632" />
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622446400546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622446400546" />
   </component>
 </project>
