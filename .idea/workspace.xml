@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/exception/Assert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/result/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/result/ResponseEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/controller/admin/AdminIntegralGradeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/controller/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/exception/UnifiedExceptionhandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/util/HttpUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +160,7 @@
       <workItem from="1622433599185" duration="4638000" />
       <workItem from="1622448899020" duration="504000" />
       <workItem from="1622449437858" duration="3909000" />
-      <workItem from="1622455846490" duration="6882000" />
+      <workItem from="1622455846490" duration="11292000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -194,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622453665915</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="统一结果处理">
+      <created>1622516092002</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622516092002</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +219,8 @@
     <MESSAGE value="项目后台架构搭建" />
     <MESSAGE value="编写readme" />
     <MESSAGE value="生成数据库相关类和xml文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="生成数据库相关类和xml文件" />
+    <MESSAGE value="统一结果处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="统一结果处理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1622455876202">
@@ -231,38 +235,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622433857531" />
-    <state width="773" height="404" key="GridCell.Tab.0.bottom" timestamp="1622510772265">
+    <state width="746" height="560" key="GridCell.Tab.0.bottom" timestamp="1622516132872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="773" height="404" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622510772265" />
-    <state width="773" height="404" key="GridCell.Tab.0.center" timestamp="1622510772264">
+    <state width="746" height="560" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
+    <state width="746" height="560" key="GridCell.Tab.0.center" timestamp="1622516132872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="773" height="404" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622510772264" />
-    <state width="773" height="404" key="GridCell.Tab.0.left" timestamp="1622510772264">
+    <state width="746" height="560" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
+    <state width="746" height="560" key="GridCell.Tab.0.left" timestamp="1622516132872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="773" height="404" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622510772264" />
-    <state width="773" height="404" key="GridCell.Tab.0.right" timestamp="1622510772265">
+    <state width="746" height="560" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
+    <state width="746" height="560" key="GridCell.Tab.0.right" timestamp="1622516132872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="773" height="404" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622510772265" />
-    <state width="773" height="404" key="GridCell.Tab.1.bottom" timestamp="1622510772265">
+    <state width="746" height="560" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
+    <state width="746" height="560" key="GridCell.Tab.1.bottom" timestamp="1622516132872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="773" height="404" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622510772265" />
-    <state width="773" height="404" key="GridCell.Tab.1.center" timestamp="1622510772265">
+    <state width="746" height="560" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
+    <state width="746" height="560" key="GridCell.Tab.1.center" timestamp="1622516132872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="773" height="404" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622510772265" />
-    <state width="773" height="404" key="GridCell.Tab.1.left" timestamp="1622510772265">
+    <state width="746" height="560" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
+    <state width="746" height="560" key="GridCell.Tab.1.left" timestamp="1622516132872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="773" height="404" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622510772265" />
-    <state width="773" height="404" key="GridCell.Tab.1.right" timestamp="1622510772265">
+    <state width="746" height="560" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
+    <state width="746" height="560" key="GridCell.Tab.1.right" timestamp="1622516132872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="773" height="404" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622510772265" />
+    <state width="746" height="560" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1622443554619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -287,9 +291,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="817" y="200" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1622511347222" />
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622452501550">
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622518311469">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622452501550" />
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622518311469" />
   </component>
 </project>
