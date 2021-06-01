@@ -82,7 +82,7 @@ public final class HttpUtils {
     /**
      * 从输入流中国读取信息
      * 从输入流中读取数据
-     * @param inputStream
+     * @param inStream
      * @throws Exception
      * @return
      */
