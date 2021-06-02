@@ -1,7 +1,7 @@
-package com.epdemic.common.exception;
+package com.epdemic.srm.common.exception;
 
-import com.epdemic.common.result.R;
-import com.epdemic.common.result.ResponseEnum;
+import com.epdemic.srm.common.result.R;
+import com.epdemic.srm.common.result.ResponseEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.ConversionNotSupportedException;
 import org.springframework.beans.TypeMismatchException;

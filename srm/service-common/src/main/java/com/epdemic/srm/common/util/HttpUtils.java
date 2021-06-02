@@ -1,12 +1,9 @@
-package com.epdemic.common.util;
+package com.epdemic.srm.common.util;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.core.io.ByteArrayResource;
-import org.springframework.web.bind.annotation.PostMapping;
 
 import java.io.*;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 /**

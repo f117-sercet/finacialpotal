@@ -1,6 +1,6 @@
 package com.epdemic.srm.core.controller.admin;
 
-import com.epdemic.common.result.R;
+import com.epdemic.srm.common.result.R;
 import com.epdemic.srm.core.pojo.entity.IntegralGrade;
 import com.epdemic.srm.core.service.IntegralGradeService;
 import io.swagger.annotations.ApiOperation;

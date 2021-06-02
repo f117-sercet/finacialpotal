@@ -1,4 +1,4 @@
-package com.epdemic.common.util;
+package com.epdemic.srm.common.util;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

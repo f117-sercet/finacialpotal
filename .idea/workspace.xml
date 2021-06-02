@@ -20,10 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/util/Md5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/util/RandomUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/util/RegexValidateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-base/src/main/java/com/epdemic/srm/base/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-base/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/test/java/com/epdemic/srm/core/RedisTemplateTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-sms/src/main/java/com/epdemic/srm/sms/ServcieSmsApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/exception/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/srm/common/exception/Assert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/srm/common/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/exception/UnifiedExceptionhandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/srm/common/exception/UnifiedExceptionhandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/result/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/srm/common/result/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/result/ResponseEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/srm/common/result/ResponseEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/util/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/srm/common/util/HttpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/util/Md5.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/srm/common/util/Md5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/util/RandomUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/srm/common/util/RandomUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/common/util/RegexValidateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-common/src/main/java/com/epdemic/srm/common/util/RegexValidateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/controller/admin/AdminIntegralGradeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/controller/admin/AdminIntegralGradeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +100,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -96,8 +110,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceCoreApplication">
-    <configuration name="CodeGenerator.genCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RedisTemplateTests.saveDict">
+    <configuration name="RedisTemplateTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-core" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +120,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
-      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.CodeGenerator" />
-      <option name="METHOD_NAME" value="genCode" />
+      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.RedisTemplateTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTemplateTests.getDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epdemic.srm.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
+      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.RedisTemplateTests" />
+      <option name="METHOD_NAME" value="getDict" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTemplateTests.saveDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epdemic.srm.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
+      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.RedisTemplateTests" />
+      <option name="METHOD_NAME" value="saveDict" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,9 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedisTemplateTests.saveDict" />
+        <item itemvalue="JUnit.RedisTemplateTests.getDict" />
+        <item itemvalue="JUnit.RedisTemplateTests" />
         <item itemvalue="Spring Boot.ServiceCoreApplication" />
         <item itemvalue="JUnit.com.epdemic.srm.core.controller in service-core" />
-        <item itemvalue="JUnit.CodeGenerator.genCode" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +208,10 @@
       <workItem from="1622433599185" duration="4638000" />
       <workItem from="1622448899020" duration="504000" />
       <workItem from="1622449437858" duration="3909000" />
-      <workItem from="1622455846490" duration="13543000" />
+      <workItem from="1622455846490" duration="13849000" />
+      <workItem from="1622595996158" duration="1756000" />
+      <workItem from="1622603541065" duration="6417000" />
+      <workItem from="1622622716147" duration="910000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -212,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622519879033</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="service-common 工具类">
+      <created>1622532489081</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622532489081</updated>
+    </task>
+    <task id="LOCAL-00009" summary="前端部分更新">
+      <created>1622603621557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622603621557</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,13 +300,15 @@
     <MESSAGE value="生成数据库相关类和xml文件" />
     <MESSAGE value="统一结果处理" />
     <MESSAGE value="controller结果统一处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="controller结果统一处理" />
+    <MESSAGE value="service-common 工具类" />
+    <MESSAGE value="前端部分更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端部分更新" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="0" key="#Project_Structure" timestamp="1622455876202">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1622621659993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1622455876202" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1622621659993" />
     <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1622443724385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -251,22 +317,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622433857531" />
-    <state width="746" height="560" key="GridCell.Tab.0.bottom" timestamp="1622516132872">
+    <state width="423" height="2" key="GridCell.Tab.0.bottom" timestamp="1622621654406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="560" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
-    <state width="746" height="560" key="GridCell.Tab.0.center" timestamp="1622516132872">
+    <state width="423" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622621654406" />
+    <state width="423" height="2" key="GridCell.Tab.0.center" timestamp="1622621654405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="560" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
-    <state width="746" height="560" key="GridCell.Tab.0.left" timestamp="1622516132872">
+    <state width="423" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622621654405" />
+    <state width="423" height="2" key="GridCell.Tab.0.left" timestamp="1622621654405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="560" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
-    <state width="746" height="560" key="GridCell.Tab.0.right" timestamp="1622516132872">
+    <state width="423" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622621654405" />
+    <state width="423" height="2" key="GridCell.Tab.0.right" timestamp="1622621654405">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="560" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
+    <state width="423" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622621654405" />
     <state width="746" height="560" key="GridCell.Tab.1.bottom" timestamp="1622516132872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -283,14 +349,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="746" height="560" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622516132872" />
-    <state x="270" y="57" key="SettingsEditor" timestamp="1622443554619">
+    <state x="270" y="57" key="SettingsEditor" timestamp="1622619871486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622443554619" />
-    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622519886313">
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622619871486" />
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622603630150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622519886313" />
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622603630150" />
     <state x="498" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1622510305928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -307,9 +373,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="817" y="200" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1622511347222" />
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622518311469">
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622596522121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622518311469" />
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622596522121" />
   </component>
 </project>

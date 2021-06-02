@@ -1,4 +1,4 @@
-package com.epdemic.common.result;
+package com.epdemic.srm.common.result;
 
 import lombok.Data;
 

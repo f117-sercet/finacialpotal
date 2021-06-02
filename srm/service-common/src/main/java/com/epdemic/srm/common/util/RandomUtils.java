@@ -1,4 +1,4 @@
-package com.epdemic.common.util;
+package com.epdemic.srm.common.util;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
