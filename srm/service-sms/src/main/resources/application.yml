@@ -1,0 +1,17 @@
+server:
+  port: 8120 # 服务端口
+
+spring:
+  profiles:
+    active: dev # 环境设置
+  application:
+    name: service-sms # 服务名
+
+#阿里云短信
+aliyun:
+  sms:
+    region-id: cn-hangzhou
+    key-id: LTAI4G5Svnb2TWBMuKnNT6jY
+    key-secret: N7v6R4V3EJ1SGDZlsqtqo8QyVVMmtQ
+    template-code: SMS_96695065
+    sign-name: 谷粒
