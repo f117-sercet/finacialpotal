@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/srm/service-oss/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-sms/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-oss/src/main/java/com/epdemic/srm/oss/ServiceOssApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-oss/src/main/java/com/epdemic/srm/oss/controller/api/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-oss/src/main/java/com/epdemic/srm/oss/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-oss/src/main/java/com/epdemic/srm/oss/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-oss/src/main/java/com/epdemic/srm/oss/util/OssProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-sms/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-oss/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-oss/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,22 +104,7 @@
       <recent name="F:\Github\Git\repo\finacialpotal\srm" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServcieSmsApplication">
-    <configuration name="RedisTemplateTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epdemic.srm.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
-      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.RedisTemplateTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ServiceOssApplication">
     <configuration name="RedisTemplateTests.getDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-core" />
       <extension name="coverage">
@@ -177,13 +165,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceOssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-oss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epdemic.srm.oss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.oss.ServiceOssApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ServiceOssApplication" />
         <item itemvalue="Spring Boot.ServcieSmsApplication" />
         <item itemvalue="JUnit.SmsPropertiesTest" />
         <item itemvalue="JUnit.RedisTemplateTests.saveDict" />
         <item itemvalue="JUnit.RedisTemplateTests.getDict" />
-        <item itemvalue="JUnit.RedisTemplateTests" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +206,7 @@
       <workItem from="1622603541065" duration="6417000" />
       <workItem from="1622622716147" duration="4613000" />
       <workItem from="1622630192431" duration="35000" />
-      <workItem from="1622681753587" duration="7997000" />
+      <workItem from="1622681753587" duration="15143000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -291,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622690987327</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="service-oss 文件上传 部分做完">
+      <created>1622692404334</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1622692404334</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,17 +328,18 @@
     <MESSAGE value="service-sms" />
     <MESSAGE value="短信部分更新" />
     <MESSAGE value="service-sms 短信服务 部分做完" />
-    <option name="LAST_COMMIT_MESSAGE" value="service-sms 短信服务 部分做完" />
+    <MESSAGE value="service-oss 文件上传 部分做完" />
+    <option name="LAST_COMMIT_MESSAGE" value="service-oss 文件上传 部分做完" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1622691970122">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1622691970122" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1622626484841">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1622708428573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1622626484841" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1622708428573" />
     <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1622443724385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -343,46 +352,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622433857531" />
-    <state width="902" height="80" key="GridCell.Tab.0.bottom" timestamp="1622691476328">
+    <state width="902" height="2" key="GridCell.Tab.0.bottom" timestamp="1622708772832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="80" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622691476328" />
-    <state width="902" height="80" key="GridCell.Tab.0.center" timestamp="1622691476328">
+    <state width="902" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622708772832" />
+    <state width="902" height="2" key="GridCell.Tab.0.center" timestamp="1622708772832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="80" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622691476328" />
-    <state width="902" height="80" key="GridCell.Tab.0.left" timestamp="1622691476328">
+    <state width="902" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622708772832" />
+    <state width="902" height="2" key="GridCell.Tab.0.left" timestamp="1622708772832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="80" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622691476328" />
-    <state width="902" height="80" key="GridCell.Tab.0.right" timestamp="1622691476328">
+    <state width="902" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622708772832" />
+    <state width="902" height="2" key="GridCell.Tab.0.right" timestamp="1622708772832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="80" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622691476328" />
-    <state width="902" height="80" key="GridCell.Tab.1.bottom" timestamp="1622691476328">
+    <state width="902" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622708772832" />
+    <state width="902" height="2" key="GridCell.Tab.1.bottom" timestamp="1622708772832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="80" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622691476328" />
-    <state width="902" height="80" key="GridCell.Tab.1.center" timestamp="1622691476328">
+    <state width="902" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622708772832" />
+    <state width="902" height="2" key="GridCell.Tab.1.center" timestamp="1622708772832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="80" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622691476328" />
-    <state width="902" height="80" key="GridCell.Tab.1.left" timestamp="1622691476328">
+    <state width="902" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622708772832" />
+    <state width="902" height="2" key="GridCell.Tab.1.left" timestamp="1622708772832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="80" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622691476328" />
-    <state width="902" height="80" key="GridCell.Tab.1.right" timestamp="1622691476328">
+    <state width="902" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622708772832" />
+    <state width="902" height="2" key="GridCell.Tab.1.right" timestamp="1622708772832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="80" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622691476328" />
+    <state width="902" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622708772832" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1622625364564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622625364564" />
-    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622690993197">
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622692417640">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622690993197" />
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622692417640" />
     <state x="498" y="177" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1622625232217">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -399,9 +408,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="817" y="200" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1622511347222" />
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622630145455">
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622706205641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622630145455" />
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622706205641" />
   </component>
 </project>
