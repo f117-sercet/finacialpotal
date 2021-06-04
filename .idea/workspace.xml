@@ -201,6 +201,7 @@
       <workItem from="1622622716147" duration="4613000" />
       <workItem from="1622630192431" duration="35000" />
       <workItem from="1622681753587" duration="16989000" />
+      <workItem from="1622713066227" duration="913000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -300,7 +301,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622709504699</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="nuxt 初识">
+      <created>1622713126688</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622713126688</updated>
+    </task>
+    <task id="LOCAL-00016" summary="nuxt 初识1">
+      <created>1622713201505</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1622713201505</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +346,11 @@
     <MESSAGE value="service-sms 短信服务 部分做完" />
     <MESSAGE value="service-oss 文件上传 部分做完" />
     <MESSAGE value="service-oss 文件上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="service-oss 文件上传" />
+    <MESSAGE value="nuxt 初识" />
+    <MESSAGE value="1231231231" />
+    <MESSAGE value="nuxt" />
+    <MESSAGE value="nuxt 初识1" />
+    <option name="LAST_COMMIT_MESSAGE" value="nuxt 初识1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1622691970122">
@@ -390,10 +409,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622625364564" />
-    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622709532031">
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622713219548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622709532031" />
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622713219548" />
+    <state x="378" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1622714199208">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="378" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1622714199208" />
     <state x="498" y="177" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1622625232217">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
