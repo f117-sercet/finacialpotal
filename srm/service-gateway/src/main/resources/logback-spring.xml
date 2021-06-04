@@ -4,7 +4,7 @@
     <contextName>epdemicSrm</contextName>
 
     <!-- 日志的输出目录 -->
-    <property name="log.path" value="F:/java/practice/log" />
+    <property name="log.path" value="F:/java/practice/log/gateway" />
 
     <!--控制台日志格式：彩色日志-->
     <!-- magenta:洋红 -->
@@ -67,14 +67,14 @@
     </appender>
 
     <!-- 日志记录器  -->
-    <!--    <logger name="com.atguigu" level="INFO">-->
-    <!--        <appender-ref ref="CONSOLE" />-->
-    <!--        <appender-ref ref="FILE" />-->
-    <!--    </logger>-->
+<!--    <logger name="com.epdemic" level="INFO">-->
+<!--        <appender-ref ref="CONSOLE" />-->
+<!--        <appender-ref ref="FILE" />-->
+<!--    </logger>-->
 
     <!-- 开发环境和测试环境 -->
     <springProfile name="dev,test">
-        <logger name="com.epdemic.srm" level="INFO">
+        <logger name="com.epdemic" level="INFO">
             <appender-ref ref="CONSOLE" />
             <appender-ref ref="ROLLING_FILE" />
         </logger>
@@ -82,7 +82,7 @@
 
     <!-- 生产环境 -->
     <springProfile name="prod">
-        <logger name="com.epdemic.srm" level="ERROR">
+        <logger name="com.epdemic" level="ERROR">
             <appender-ref ref="CONSOLE" />
             <appender-ref ref="FILE" />
         </logger>

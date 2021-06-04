@@ -20,7 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/srm/service-gateway/src/main/java/com/epdemic/srm/gateway/ServiceGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-gateway/src/main/java/com/epdemic/srm/gateway/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-sms/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-base/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-base/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/target/classes/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-sms/src/main/java/com/epdemic/srm/sms/util/SmsProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-sms/src/main/java/com/epdemic/srm/sms/util/SmsProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-sms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-sms/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +87,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/srm/service-gateway/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,6 +104,13 @@
       <recent name="com.epdemic.srm.sms.util" />
       <recent name="com.epdemic.srm.core.controller.admin" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.epdemic.srm.gateway" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Github\Git\repo\finacialpotal\srm\service-gateway\src\main\resources" />
+      <recent name="F:\Github\Git\repo\finacialpotal\srm\service-sms\src\main\resources" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -98,39 +118,7 @@
       <recent name="F:\Github\Git\repo\finacialpotal\srm" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceOssApplication">
-    <configuration name="RedisTemplateTests.getDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epdemic.srm.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
-      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.RedisTemplateTests" />
-      <option name="METHOD_NAME" value="getDict" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisTemplateTests.saveDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epdemic.srm.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
-      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.RedisTemplateTests" />
-      <option name="METHOD_NAME" value="saveDict" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ServiceGatewayApplication">
     <configuration name="SmsPropertiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-sms" />
       <extension name="coverage">
@@ -159,6 +147,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epdemic.srm.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.core.ServiceCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epdemic.srm.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.gateway.ServiceGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceOssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-oss" />
       <extension name="coverage">
@@ -174,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServiceOssApplication" />
+        <item itemvalue="Spring Boot.ServiceGatewayApplication" />
         <item itemvalue="Spring Boot.ServcieSmsApplication" />
+        <item itemvalue="Spring Boot.ServiceCoreApplication" />
+        <item itemvalue="Spring Boot.ServiceOssApplication" />
         <item itemvalue="JUnit.SmsPropertiesTest" />
-        <item itemvalue="JUnit.RedisTemplateTests.saveDict" />
-        <item itemvalue="JUnit.RedisTemplateTests.getDict" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +216,7 @@
       <workItem from="1622630192431" duration="35000" />
       <workItem from="1622681753587" duration="16989000" />
       <workItem from="1622713066227" duration="913000" />
+      <workItem from="1622767146224" duration="3808000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -315,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622713201505</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="nuxt更新">
+      <created>1622767273489</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1622767273490</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +372,8 @@
     <MESSAGE value="1231231231" />
     <MESSAGE value="nuxt" />
     <MESSAGE value="nuxt 初识1" />
-    <option name="LAST_COMMIT_MESSAGE" value="nuxt 初识1" />
+    <MESSAGE value="nuxt更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="nuxt更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1622691970122">
@@ -373,50 +396,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622433857531" />
-    <state width="902" height="445" key="GridCell.Tab.0.bottom" timestamp="1622709464654">
+    <state width="1015" height="276" key="GridCell.Tab.0.bottom" timestamp="1622771509288">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="445" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622709464654" />
-    <state width="902" height="445" key="GridCell.Tab.0.center" timestamp="1622709464653">
+    <state width="1015" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622771509288" />
+    <state width="1015" height="276" key="GridCell.Tab.0.center" timestamp="1622771509288">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="445" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622709464653" />
-    <state width="902" height="445" key="GridCell.Tab.0.left" timestamp="1622709464653">
+    <state width="1015" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622771509288" />
+    <state width="1015" height="276" key="GridCell.Tab.0.left" timestamp="1622771509288">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="445" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622709464653" />
-    <state width="902" height="445" key="GridCell.Tab.0.right" timestamp="1622709464653">
+    <state width="1015" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622771509288" />
+    <state width="1015" height="276" key="GridCell.Tab.0.right" timestamp="1622771509288">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="445" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622709464653" />
-    <state width="902" height="445" key="GridCell.Tab.1.bottom" timestamp="1622709464654">
+    <state width="1015" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622771509288" />
+    <state width="1015" height="276" key="GridCell.Tab.1.bottom" timestamp="1622771509289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="445" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622709464654" />
-    <state width="902" height="445" key="GridCell.Tab.1.center" timestamp="1622709464654">
+    <state width="1015" height="276" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622771509289" />
+    <state width="1015" height="276" key="GridCell.Tab.1.center" timestamp="1622771509288">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="445" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622709464654" />
-    <state width="902" height="445" key="GridCell.Tab.1.left" timestamp="1622709464654">
+    <state width="1015" height="276" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622771509288" />
+    <state width="1015" height="276" key="GridCell.Tab.1.left" timestamp="1622771509288">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="445" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622709464654" />
-    <state width="902" height="445" key="GridCell.Tab.1.right" timestamp="1622709464654">
+    <state width="1015" height="276" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622771509288" />
+    <state width="1015" height="276" key="GridCell.Tab.1.right" timestamp="1622771509289">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="902" height="445" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622709464654" />
+    <state width="1015" height="276" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622771509289" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1622625364564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622625364564" />
-    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622713219548">
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622767236883">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622713219548" />
-    <state x="378" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1622714199208">
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622767236883" />
+    <state x="378" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1622767290272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="378" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1622714199208" />
+    <state x="378" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1622767290272" />
     <state x="498" y="177" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1622625232217">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -433,9 +456,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="817" y="200" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1622511347222" />
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622706205641">
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622772700393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622706205641" />
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622772700393" />
   </component>
 </project>
