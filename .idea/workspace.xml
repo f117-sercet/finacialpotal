@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/ManagApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +205,9 @@
       <workItem from="1622630192431" duration="35000" />
       <workItem from="1622681753587" duration="16989000" />
       <workItem from="1622713066227" duration="913000" />
-      <workItem from="1622767146224" duration="4804000" />
+      <workItem from="1622767146224" duration="5711000" />
+      <workItem from="1622802802217" duration="94000" />
+      <workItem from="1622902761832" duration="556000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -330,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622774171580</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="前端修改">
+      <created>1622776067265</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1622776067265</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +379,8 @@
     <MESSAGE value="nuxt 初识1" />
     <MESSAGE value="nuxt更新" />
     <MESSAGE value="spring cloud 基本配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring cloud 基本配置" />
+    <MESSAGE value="前端修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1622691970122">
@@ -422,18 +435,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1015" height="496" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622773182524" />
-    <state x="270" y="57" key="SettingsEditor" timestamp="1622625364564">
+    <state x="270" y="0" key="SettingsEditor" timestamp="1622776144141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622625364564" />
-    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622767236883">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622776144141" />
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622802819612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622767236883" />
-    <state x="378" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1622774187591">
+    <state x="722" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622802819612" />
+    <state x="474" y="230" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1622776138055">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="378" y="170" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1622774187591" />
+    <state x="474" y="230" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1622776138055" />
     <state x="498" y="177" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1622625232217">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
