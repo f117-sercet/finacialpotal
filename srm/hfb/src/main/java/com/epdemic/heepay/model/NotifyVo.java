@@ -1,5 +1,7 @@
 package com.epdemic.heepay.model;
 
+import lombok.Data;
+
 import java.io.Serializable;
 import java.util.Map;
 
@@ -8,6 +10,7 @@ import java.util.Map;
  * @Author:estic
  * @Date: 2021/6/7 14:54
  */
+@Data
 public class NotifyVo implements Serializable {
 
     private static final long serialVersionUID = 1L;
