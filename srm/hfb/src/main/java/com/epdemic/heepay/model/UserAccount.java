@@ -3,7 +3,9 @@ package com.epdemic.heepay.model;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.databind.ser.Serializers;
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
@@ -15,21 +17,21 @@ import java.util.Date;
  * @Date: 2021/6/7 15:01
  */
 @Data
-public class UserAccount  extends BaseEntity {
+@ApiModel(description = "UserAccount")
+@TableName("user_account")
+public class UserAccount extends BaseEntity {
 
-    @ApiModelProperty(value = "id")
-    @TableId(type = IdType.AUTO)
-    private Long id;
+    private static final long serialVersionUID = 1L;
 
-    @ApiModelProperty(value = "创建时间")
-    @TableField("create_time")
-    private Date createTime;
+    @ApiModelProperty(value = "用户code")
+    @TableField("user_code")
+    private String userCode;
 
-    @ApiModelProperty(value = "更新时间")
-    @TableField("update_time")
-    private Date updateTime;
+    @ApiModelProperty(value = "帐户可用余额")
+    @TableField("amount")
+    private String amount;
 
-    @ApiModelProperty(value = "逻辑删除(1:已删除，0:未删除)")
-    @TableField("is_deleted")
-    private Integer isDeleted;
+    @ApiModelProperty(value = "冻结金额")
+    @TableField("freeze_amount")
+    private String freezeAmount;
 }
