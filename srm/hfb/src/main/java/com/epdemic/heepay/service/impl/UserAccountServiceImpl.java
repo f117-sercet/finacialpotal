@@ -7,6 +7,7 @@ import com.epdemic.heepay.mapper.UserAccountMapper;
 import com.epdemic.heepay.model.UserAccount;
 import com.epdemic.heepay.service.UserAccountService;
 import com.epdemic.heepay.util.BigDecimalUtil;
+import org.apache.catalina.User;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -26,6 +27,8 @@ public class UserAccountServiceImpl extends ServiceImpl<UserAccountMapper, UserA
 
     @Resource
     private UserAccountMapper userAccountMapper;
+    @Resource
+    private UserAccountService  userAccountService;
 
 
     @Override
@@ -71,70 +74,66 @@ public class UserAccountServiceImpl extends ServiceImpl<UserAccountMapper, UserA
      UserAccount userAccount = this.getByUserCode(userCode);
      String amount = userAccount.getAmount();
      if (Double.parseDouble(amount) < Double.parseDouble(lockAmt)){
-
          return false;
      }
-
-        return false;
+      amount = BigDecimalUtil.subtract(amount,lockAmt);
+     String freezAmount = BigDecimalUtil.add(userAccount.getFreezeAmount(),lockAmt);
+    userAccount.setAmount(amount);
+    userAccount.setFreezeAmount(freezAmount);
+    this.updateById(userAccount);
+        return true;
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public boolean unLockAccount(String userCode, String unLockAmt) {
-        return false;
+        UserAccount userAccount = this.getByUserCode(userCode);
+        String freezeAmount = userAccount.getFreezeAmount();
+        if(Double.parseDouble(freezeAmount) < Double.parseDouble(unLockAmt)) {
+            return false;
+        }
+
+        freezeAmount = BigDecimalUtil.subtract(userAccount.getFreezeAmount(), unLockAmt);
+        userAccount.setFreezeAmount(freezeAmount);
+        this.updateById(userAccount);
+        return true;
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public boolean transferAccounts(String userCode, String unLockAmt) {
+
+        UserAccount userAccount = this.getByUserCode(userCode);
+        String amount = userAccount.getAmount();
+
+        amount = BigDecimalUtil.add(amount, unLockAmt);
+        userAccount.setAmount(amount);
+        this.updateById(userAccount);
         return false;
     }
 
     @Override
     public String getAmount(String userCode) {
-        return null;
+        UserAccount userAccount = this.getByUserCode(userCode);
+        String amount = userAccount.getAmount();
+        return amount;
     }
 
     @Override
     public UserAccount getByUserCode(String userCode) {
-        return null;
+        return userAccountMapper.selectOne(new QueryWrapper<UserAccount>().eq("user_bind",userCode));
     }
 
     @Override
     public boolean dealAccount(String userCode, String amount, String freezeAmount) {
+        UserAccount userAccount = this.getByUserCode(userCode);
+        String amount1 = BigDecimalUtil.add(userAccount.getAmount(), amount);
+        String freezeAmount1 = BigDecimalUtil.add(userAccount.getFreezeAmount(), freezeAmount);
+        userAccount.setAmount(amount1);
+        userAccount.setFreezeAmount(freezeAmount1);
+        this.updateById(userAccount);
         return false;
     }
 
-    @Override
-    public boolean saveBatch(Collection<UserAccount> entityList, int batchSize) {
-        return false;
-    }
 
-    @Override
-    public boolean saveOrUpdateBatch(Collection<UserAccount> entityList, int batchSize) {
-        return false;
-    }
-
-    @Override
-    public boolean updateBatchById(Collection<UserAccount> entityList, int batchSize) {
-        return false;
-    }
-
-    @Override
-    public boolean saveOrUpdate(UserAccount entity) {
-        return false;
-    }
-
-    @Override
-    public UserAccount getOne(Wrapper<UserAccount> queryWrapper, boolean throwEx) {
-        return null;
-    }
-
-    @Override
-    public Map<String, Object> getMap(Wrapper<UserAccount> queryWrapper) {
-        return null;
-    }
-
-    @Override
-    public <V> V getObj(Wrapper<UserAccount> queryWrapper, Function<? super Object, V> mapper) {
-        return null;
-    }
 }
