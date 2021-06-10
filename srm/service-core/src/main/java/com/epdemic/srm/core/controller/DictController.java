@@ -17,5 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/dict")
 public class DictController {
 
+
 }
 
