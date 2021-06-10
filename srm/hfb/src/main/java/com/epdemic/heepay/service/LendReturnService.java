@@ -1,5 +1,7 @@
 package com.epdemic.heepay.service;
 
+import org.springframework.stereotype.Service;
+
 import java.util.Map;
 
 /**
@@ -8,6 +10,7 @@ import java.util.Map;
  * @date
  * 借款还贷
  */
+@Service
 public interface LendReturnService {
 
 	/**

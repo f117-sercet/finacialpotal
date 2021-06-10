@@ -1,12 +1,16 @@
 package com.epdemic.heepay.model;
 
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import lombok.Data;
 
 /**
  * UserInvestQueryVo
  * @Author:estic
  * @Date: 2021/6/7 15:12
  */
+@Data
+@ApiModel(description = "UserInvest")
 public class UserInvestQueryVo {
 
     private static final long serialVersionUID = 1L;
