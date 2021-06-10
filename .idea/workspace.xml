@@ -20,11 +20,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/controller/UserAccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/controller/UserBindController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-core/src/test/java/com/epdemic/srm/core/DateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/145a9fab43c50ecdc198001f10139592.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/1e0b7b98bb47bdb4cfadcef02486db3d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/2528f2eb9fd4839fce42438c0d83eab0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/Logo-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/a1a1a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/buttonbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/buttonbghover.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/c5b06b7beac79d665c8bd44534df021f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/detail02_clip_image001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/detail02_clip_image002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/f6f11299f8822f6065c5c8b2f4aa3c09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/image01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/image02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/image03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/image04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/image05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/image06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/image07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/plbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/plbgtop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/topimage01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/topimage02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/topimage03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/topimage04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/topimage05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/topimage055.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/yds.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/ytc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/images/zs.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/js/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/js/jquery-1.7.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/js/jquery-easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/static/js/jquery.lazyload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/templates/lendReturn/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/templates/lendReturn/sucess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/templates/user/bindUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/templates/user/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/templates/userAccount/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/templates/userAccount/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/templates/userInvest/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/templates/userInvest/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/templates/withdraw/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/templates/withdraw/success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/controller/DictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/controller/DictController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/service/impl/UserAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/service/impl/UserAccountServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +89,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -67,6 +118,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -79,7 +131,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/srm/hfb/src/main/resources/templates/withdraw" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -100,11 +152,11 @@
       <recent name="com.epdemic.srm.gateway" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\java\com\epdemic\heepay\service" />
-      <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\java\com\epdemic\heepay\util" />
-      <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\java\com\epdemic\heepay\mapper" />
-      <recent name="F:\Github\Git\repo\finacialpotal\srm\service-gateway\src\main\resources" />
-      <recent name="F:\Github\Git\repo\finacialpotal\srm\service-sms\src\main\resources" />
+      <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\resources\templates\withdraw" />
+      <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\resources\templates\userInvest" />
+      <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\resources\templates\userAccount" />
+      <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\resources\templates\user" />
+      <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\resources\static\js" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -113,39 +165,7 @@
       <recent name="F:\Github\Git\repo\finacialpotal\srm" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DateTest.test02">
-    <configuration name="CodeGengerator.genCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hfb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epdemic.heepay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epdemic.heepay" />
-      <option name="MAIN_CLASS_NAME" value="com.epdemic.heepay.CodeGengerator" />
-      <option name="METHOD_NAME" value="genCode" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epdemic.srm.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
-      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.DateTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ServiceGatewayApplication">
     <configuration name="DateTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-core" />
       <extension name="coverage">
@@ -182,6 +202,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epdemic.srm.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.core.ServiceCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-gateway" />
       <extension name="coverage">
@@ -195,13 +228,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceOssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-oss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epdemic.srm.oss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.oss.ServiceOssApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DateTest.test02" />
-        <item itemvalue="JUnit.DateTest.test01" />
-        <item itemvalue="JUnit.CodeGengerator.genCode" />
         <item itemvalue="Spring Boot.ServiceGatewayApplication" />
         <item itemvalue="Spring Boot.ServcieSmsApplication" />
+        <item itemvalue="Spring Boot.ServiceOssApplication" />
+        <item itemvalue="Spring Boot.ServiceCoreApplication" />
+        <item itemvalue="JUnit.DateTest.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +279,8 @@
       <workItem from="1623113476679" duration="11638000" />
       <workItem from="1623201898932" duration="14786000" />
       <workItem from="1623230745815" duration="756000" />
-      <workItem from="1623287125507" duration="1533000" />
+      <workItem from="1623287125507" duration="5058000" />
+      <workItem from="1623293026728" duration="4327000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -431,7 +478,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623229215627</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="hfbController">
+      <created>1623289154864</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1623289154864</updated>
+    </task>
+    <task id="LOCAL-00030" summary="hfbConfig">
+      <created>1623289796098</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1623289796098</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +511,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="统一结果处理" />
     <MESSAGE value="controller结果统一处理" />
     <MESSAGE value="service-common 工具类" />
     <MESSAGE value="前端部分更新" />
@@ -475,13 +535,14 @@
     <MESSAGE value="hfbserviceImpl" />
     <MESSAGE value="hfbserviceimpl" />
     <MESSAGE value="hfbController" />
-    <option name="LAST_COMMIT_MESSAGE" value="hfbController" />
+    <MESSAGE value="hfbConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="hfbConfig" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="0" key="#Project_Structure" timestamp="1622691970122">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1623291739177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1622691970122" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1623291739177" />
     <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1623207755809">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -494,42 +555,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="105" y="390" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1622623634094" />
+    <state x="998" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623297101558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="998" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1623297101558" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622433857531">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622433857531" />
-    <state width="789" height="215" key="GridCell.Tab.0.bottom" timestamp="1623231510867">
+    <state width="1210" height="244" key="GridCell.Tab.0.bottom" timestamp="1623292073489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="789" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623231510867" />
-    <state width="789" height="215" key="GridCell.Tab.0.center" timestamp="1623231510867">
+    <state width="1210" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623292073489" />
+    <state width="1210" height="244" key="GridCell.Tab.0.center" timestamp="1623292073489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="789" height="215" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1623231510867" />
-    <state width="789" height="215" key="GridCell.Tab.0.left" timestamp="1623231510867">
+    <state width="1210" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1623292073489" />
+    <state width="1210" height="244" key="GridCell.Tab.0.left" timestamp="1623292073489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="789" height="215" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1623231510867" />
-    <state width="789" height="215" key="GridCell.Tab.0.right" timestamp="1623231510867">
+    <state width="1210" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1623292073489" />
+    <state width="1210" height="244" key="GridCell.Tab.0.right" timestamp="1623292073489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="789" height="215" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1623231510867" />
-    <state width="1015" height="496" key="GridCell.Tab.1.bottom" timestamp="1622773182524">
+    <state width="1210" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1623292073489" />
+    <state width="1210" height="244" key="GridCell.Tab.1.bottom" timestamp="1623292073491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1015" height="496" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622773182524" />
-    <state width="1015" height="496" key="GridCell.Tab.1.center" timestamp="1622773182524">
+    <state width="1210" height="244" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623292073491" />
+    <state width="1210" height="244" key="GridCell.Tab.1.center" timestamp="1623292073491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1015" height="496" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622773182524" />
-    <state width="1015" height="496" key="GridCell.Tab.1.left" timestamp="1622773182524">
+    <state width="1210" height="244" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1623292073491" />
+    <state width="1210" height="244" key="GridCell.Tab.1.left" timestamp="1623292073490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1015" height="496" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622773182524" />
-    <state width="1015" height="496" key="GridCell.Tab.1.right" timestamp="1622773182524">
+    <state width="1210" height="244" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1623292073490" />
+    <state width="1210" height="244" key="GridCell.Tab.1.right" timestamp="1623292073491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1015" height="496" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622773182524" />
+    <state width="1210" height="244" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1623292073491" />
     <state x="598" y="84" key="Maven.ArtifactSearchDialog" timestamp="1623055805463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

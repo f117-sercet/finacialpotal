@@ -27,8 +27,6 @@ public class UserAccountServiceImpl extends ServiceImpl<UserAccountMapper, UserA
 
     @Resource
     private UserAccountMapper userAccountMapper;
-    @Resource
-    private UserAccountService  userAccountService;
 
 
     @Override
