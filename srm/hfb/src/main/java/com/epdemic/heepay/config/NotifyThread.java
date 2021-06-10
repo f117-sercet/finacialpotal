@@ -6,11 +6,6 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.util.Map;
 
-/**
- * 自定义对象
- * @Author:estic
- * @Date: 2021/6/7 16:50
- */
 @Slf4j
 public class NotifyThread implements Runnable {
 
@@ -42,7 +37,7 @@ public class NotifyThread implements Runnable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            /**ScheduledTask.queue.offer(new NotifyVo(notifyUrl, paramMap));*/
+            //ScheduledTask.queue.offer(new NotifyVo(notifyUrl, paramMap));
             count++;
             if(count <= 5) {
                 task();
