@@ -4,6 +4,10 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+/**
+ * @author dsc
+ * 登陆对象
+ */
 @Data
 @ApiModel(description="登录对象")
 public class LoginVO {

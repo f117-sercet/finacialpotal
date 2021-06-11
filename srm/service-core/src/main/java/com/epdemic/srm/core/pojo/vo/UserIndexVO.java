@@ -7,6 +7,10 @@ import lombok.Data;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+/**
+ * @author 首页用户信息
+ *
+ */
 @Data
 @ApiModel(description = "首页用户信息")
 public class UserIndexVO {

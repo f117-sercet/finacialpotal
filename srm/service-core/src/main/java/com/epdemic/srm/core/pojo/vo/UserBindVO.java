@@ -4,6 +4,11 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+/**
+ * @author dsc
+ * @date
+ * 账户绑定
+ */
 @Data
 @ApiModel(description = "账户绑定")
 public class UserBindVO {

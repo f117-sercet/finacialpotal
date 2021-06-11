@@ -20,31 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/srm/hfb/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/controller/admin/AdminBorrowerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/model/UserInvestQueryVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/model/UserInvestQueryVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/service/LendReturnService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/service/LendReturnService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/service/impl/LendReturnServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/hfb/src/main/java/com/epdemic/heepay/service/impl/LendReturnServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/BorrowInfoApprovalVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/BorrowInfoApprovalVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/InvestVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/InvestVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/LoginVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/LoginVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/RegisterVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/RegisterVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/UserBindVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/UserBindVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/UserIndexVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/UserIndexVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/UserInfoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/UserInfoVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/BorrowerAttachService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/BorrowerAttachService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/BorrowerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/BorrowerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/BorrowInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/BorrowerAttachMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/BorrowerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/DictMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/IntegralGradeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/LendItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/LendItemReturnMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/LendMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/LendReturnMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/TransFlowMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/UserAccountMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/UserBindMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/UserInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/UserIntegralMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/com/epdemic/srm/core/mapper/xml/UserLoginRecordMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/target/test-classes/META-INF/service-core.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/DictService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/DictService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/impl/BorrowerAttachServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/impl/BorrowerAttachServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/impl/BorrowerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/impl/BorrowerServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +89,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/srm/hfb/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -118,21 +106,21 @@
       <recent name="com.epdemic.srm.sms.util" />
       <recent name="com.epdemic.srm.core.controller.admin" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Github\Git\repo\finacialpotal\srm" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.epdemic.srm.gateway" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Github\Git\repo\finacialpotal\srm\service-core\src\main\java\com\epdemic\srm\core" />
+      <recent name="F:\Github\Git\repo\finacialpotal\srm\service-core\src\main\java\com\epdemic\srm\core\pojo" />
       <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\resources\templates" />
       <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\resources\templates\withdraw" />
       <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\resources\templates\userInvest" />
-      <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\resources\templates\userAccount" />
-      <recent name="F:\Github\Git\repo\finacialpotal\srm\hfb\src\main\resources\templates\user" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Github\Git\repo\finacialpotal\srm" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ServcieSmsApplication">
@@ -256,7 +244,8 @@
       <workItem from="1623311619954" duration="184000" />
       <workItem from="1623312171606" duration="1229000" />
       <workItem from="1623314397937" duration="117000" />
-      <workItem from="1623314645836" duration="1289000" />
+      <workItem from="1623314645836" duration="2984000" />
+      <workItem from="1623373685981" duration="7896000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -475,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623307314930</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032">
+      <created>1623317043426</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1623317043426</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +490,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="service-common 工具类" />
     <MESSAGE value="前端部分更新" />
     <MESSAGE value="service-sms" />
     <MESSAGE value="短信部分更新" />
@@ -519,7 +514,8 @@
     <MESSAGE value="hfbController" />
     <MESSAGE value="hfbConfig" />
     <MESSAGE value="汇付宝全部功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="汇付宝全部功能" />
+    <MESSAGE value="service-core 进一步代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="service-core 进一步代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1623291739177">
@@ -530,10 +526,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="131" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1623309553961" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1623207755809">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1623374829662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1623207755809" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1623374829662" />
     <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1622443724385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -606,10 +602,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622776144141" />
-    <state x="46" y="0" key="Vcs.Push.Dialog.v2" timestamp="1623307320448">
+    <state x="46" y="0" key="Vcs.Push.Dialog.v2" timestamp="1623317045727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="46" y="0" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623307320448" />
+    <state x="46" y="0" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623317045727" />
     <state x="474" y="230" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1623113523203">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -6,6 +6,12 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 
+/**
+ *
+ * @author estic
+ * @date
+ * 借款信息审批
+ */
 @Data
 @ApiModel(description = "借款信息审批")
 public class BorrowInfoApprovalVO {

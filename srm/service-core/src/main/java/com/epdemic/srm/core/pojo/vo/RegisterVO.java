@@ -5,6 +5,11 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+/**
+ * @author estic
+ * @date
+ * 注册对象
+ */
 @Data
 @ApiModel(description="注册对象")
 public class RegisterVO {

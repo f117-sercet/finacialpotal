@@ -4,6 +4,11 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+/**
+ * @author dsc
+ * @date
+ * 用户信息对象
+ */
 @Data
 @ApiModel(description="用户信息对象")
 public class UserInfoVO {
