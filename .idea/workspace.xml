@@ -21,18 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/BorrowInfoApprovalVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/BorrowInfoApprovalVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/InvestVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/InvestVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/LoginVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/LoginVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/RegisterVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/RegisterVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/UserBindVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/UserBindVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/UserIndexVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/UserIndexVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/UserInfoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/vo/UserInfoVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/BorrowerAttachService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/BorrowerAttachService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/BorrowerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/BorrowerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/DictService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/DictService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/impl/BorrowerAttachServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/impl/BorrowerAttachServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/impl/BorrowerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/impl/BorrowerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/mapper/BorrowInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/mapper/BorrowInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/mapper/xml/BorrowInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/mapper/xml/BorrowInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/entity/BorrowInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/pojo/entity/BorrowInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/BorrowInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/BorrowInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/impl/BorrowInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/epdemic/srm/core/service/impl/BorrowInfoServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,6 +239,9 @@
       <workItem from="1623314397937" duration="117000" />
       <workItem from="1623314645836" duration="2984000" />
       <workItem from="1623373685981" duration="7896000" />
+      <workItem from="1623419909991" duration="363000" />
+      <workItem from="1623713632146" duration="287000" />
+      <workItem from="1623717823755" duration="9853000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -471,7 +467,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623317043426</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="service-core 更新">
+      <created>1623419969290</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1623419969291</updated>
+    </task>
+    <task id="LOCAL-00034" summary="BorrowerServiceImpl.java 更新">
+      <created>1623742228227</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1623742228227</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,8 +500,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="前端部分更新" />
-    <MESSAGE value="service-sms" />
     <MESSAGE value="短信部分更新" />
     <MESSAGE value="service-sms 短信服务 部分做完" />
     <MESSAGE value="service-oss 文件上传 部分做完" />
@@ -515,7 +523,9 @@
     <MESSAGE value="hfbConfig" />
     <MESSAGE value="汇付宝全部功能" />
     <MESSAGE value="service-core 进一步代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="service-core 进一步代码" />
+    <MESSAGE value="service-core 更新" />
+    <MESSAGE value="BorrowerServiceImpl.java 更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="BorrowerServiceImpl.java 更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1623291739177">
@@ -526,10 +536,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="131" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1623309553961" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1623374829662">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1623742500446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1623374829662" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1623742500446" />
     <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1622443724385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -602,10 +612,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622776144141" />
-    <state x="46" y="0" key="Vcs.Push.Dialog.v2" timestamp="1623317045727">
+    <state x="46" y="0" key="Vcs.Push.Dialog.v2" timestamp="1623742218318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="46" y="0" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623317045727" />
+    <state x="46" y="0" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623742218318" />
     <state x="474" y="230" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1623113523203">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -614,6 +624,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="177" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1622625232217" />
+    <state x="657" y="201" key="extract.method.dialog" timestamp="1623749214287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="657" y="201" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1623749214287" />
     <state x="861" y="215" key="git4idea.merge.GitPullDialog" timestamp="1622450698796">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
