@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.epdemic.srm.core.enums.BorrowerStatusEnum;
+import com.epdemic.srm.core.enums.IntegralEnum;
 import com.epdemic.srm.core.mapper.BorrowerAttachMapper;
 import com.epdemic.srm.core.mapper.UserInfoMapper;
 import com.epdemic.srm.core.mapper.UserIntegralMapper;
@@ -95,8 +96,7 @@ public class BorrowerServiceImpl extends ServiceImpl<BorrowerMapper, Borrower> i
             return  BorrowerStatusEnum.NO_AUTH.getStatus();
         }
 
-        Integer status = (Integer) objects.get(0);
-        return status;
+        return (Integer) objects.get(0);
     }
 
     @Override
@@ -185,8 +185,42 @@ public class BorrowerServiceImpl extends ServiceImpl<BorrowerMapper, Borrower> i
         if (borrowerApprovalVO.getIsCarOk()){
             userIntegral = new UserIntegral();
             userIntegral.setUserId(userId);
+            userIntegral.setIntegral(IntegralEnum.BORROWER_IDCARD.getIntegral());
+            userIntegral.setContent(IntegralEnum.BORROWER_IDCARD.getMsg());
+            currentIntegral +=IntegralEnum.BORROWER_IDCARD.getIntegral();
+
+        }
+        //房产积分
+        if(borrowerApprovalVO.getIsHouseOk()){
+            userIntegral = new UserIntegral();
+            userIntegral.setUserId(userId);
+            userIntegral.
+                    setIntegral(IntegralEnum.BORROWER_HOUSE.
+                            getIntegral());
+            userIntegral.setContent(IntegralEnum.BORROWER_HOUSE.
+                    getMsg());
+            userIntegralMapper.insert(userIntegral);
+            currentIntegral += IntegralEnum.
+                    BORROWER_HOUSE.getIntegral();
         }
 
+        //车辆积分
+        if(borrowerApprovalVO.getIsCarOk()){
+            userIntegral = new UserIntegral();
+            userIntegral.setUserId(userId);
+            userIntegral.setIntegral(IntegralEnum.BORROWER_CAR.getIntegral());
+            userIntegral.setContent(IntegralEnum.BORROWER_CAR.getMsg());
+            userIntegralMapper.insert(userIntegral);
+            currentIntegral += IntegralEnum.BORROWER_CAR.getIntegral();
+        }
+        // 设置用户总积分
+        userInfo.setIntegral(currentIntegral);
+
+        //修改审核状态
+        userInfo.setBorrowAuthStatus(borrowerApprovalVO.getStatus());
+
+        //更新userInfo
+        userInfoMapper.updateById(userInfo);
 
 
     }
