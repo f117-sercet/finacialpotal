@@ -6,6 +6,8 @@ import com.epdemic.srm.core.service.UserLoginRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * <p>
  * 用户登录记录表 服务实现类
@@ -17,4 +19,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserLoginRecordServiceImpl extends ServiceImpl<UserLoginRecordMapper, UserLoginRecord> implements UserLoginRecordService {
 
+    @Override
+    public List<UserLoginRecord> listTop50(Long userId) {
+        return null;
+    }
 }
