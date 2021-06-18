@@ -6,6 +6,9 @@ import com.epdemic.srm.common.exception.Assert;
 import com.epdemic.srm.common.result.ResponseEnum;
 import com.epdemic.srm.core.enums.LendStatusEnum;
 import com.epdemic.srm.core.enums.TransTypeEnum;
+import com.epdemic.srm.core.hfb.FormHelper;
+import com.epdemic.srm.core.hfb.HfbConst;
+import com.epdemic.srm.core.hfb.RequestHelper;
 import com.epdemic.srm.core.mapper.*;
 import com.epdemic.srm.core.pojo.bo.TransFlowBO;
 import com.epdemic.srm.core.pojo.entity.Lend;
@@ -91,7 +94,7 @@ public class LendReturnServiceImpl extends ServiceImpl<LendReturnMapper, LendRet
 
         //组装参数
         Map<String,Object> paramMap = new HashMap<>();
-        paramMap.put("agentId",HfbConst.AGENT_TD);
+        paramMap.put("agentId",HfbConst.AGENT_ID);
 
         //商户商品名称
         paramMap.put("agentGoodsName",lend.getTitle());
@@ -135,7 +138,7 @@ public class LendReturnServiceImpl extends ServiceImpl<LendReturnMapper, LendRet
         }
 
         //获取还款数据
-        QueryWrapper<LendReturn> lendReturnQueryWrapper = new QueryWrapper<>()；
+        QueryWrapper<LendReturn> lendReturnQueryWrapper = new QueryWrapper<>();
         lendReturnQueryWrapper.eq("return_no",agentBatchNo);
         LendReturn lendReturn = baseMapper.selectOne(lendReturnQueryWrapper);
 

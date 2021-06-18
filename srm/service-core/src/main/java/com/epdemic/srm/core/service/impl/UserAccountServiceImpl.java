@@ -1,9 +1,13 @@
 package com.epdemic.srm.core.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.epdemic.srm.base.dto.SmsDto;
 import com.epdemic.srm.common.exception.Assert;
 import com.epdemic.srm.common.result.ResponseEnum;
 import com.epdemic.srm.core.enums.TransTypeEnum;
+import com.epdemic.srm.core.hfb.FormHelper;
+import com.epdemic.srm.core.hfb.HfbConst;
+import com.epdemic.srm.core.hfb.RequestHelper;
 import com.epdemic.srm.core.mapper.UserInfoMapper;
 import com.epdemic.srm.core.pojo.bo.TransFlowBO;
 import com.epdemic.srm.core.pojo.entity.UserAccount;
@@ -15,6 +19,8 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.epdemic.srm.core.service.UserBindService;
 import com.epdemic.srm.core.service.UserInfoService;
 import com.epdemic.srm.core.util.LendNoUtils;
+import com.epdemic.srm.rabbitutil.constant.MQConst;
+import com.epdemic.srm.rabbitutil.service.MQService;
 import lombok.extern.slf4j.Slf4j;
 import lombok.extern.slf4j.XSlf4j;
 import org.springframework.stereotype.Service;
@@ -106,7 +112,7 @@ public class UserAccountServiceImpl extends ServiceImpl<UserAccountMapper, UserA
 
        //发消息
        String mobile = userInfoService.getMobileByBindCode(bindCode);
-       SmsDTO smsDTO = new SmsDTO();
+       SmsDto smsDTO = new SmsDto();
        smsDTO.setMobile(mobile);
        smsDTO.setMessage("充值成功");
        mqService.sendMessage(
@@ -180,4 +186,4 @@ public class UserAccountServiceImpl extends ServiceImpl<UserAccountMapper, UserA
         transFlowService.saveTransFlow(transFlowBO);
     }
     }
-}
+
