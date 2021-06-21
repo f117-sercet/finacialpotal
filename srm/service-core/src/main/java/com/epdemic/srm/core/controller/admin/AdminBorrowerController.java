@@ -3,7 +3,6 @@ package com.epdemic.srm.core.controller.admin;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.epdemic.srm.common.result.R;
-import com.epdemic.srm.core.controller.BorrowerController;
 import com.epdemic.srm.core.pojo.entity.Borrower;
 import com.epdemic.srm.core.pojo.vo.BorrowerApprovalVO;
 import com.epdemic.srm.core.pojo.vo.BorrowerDetailVO;
