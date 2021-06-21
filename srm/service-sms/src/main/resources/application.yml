@@ -11,6 +11,12 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848 # nacos服务地址
+  rabbitmq:
+    host: localhost
+    port: 5672
+    virtual-host: /srmhost
+    username: srm
+    password: 123123
 
 #阿里云短信
 aliyun:
@@ -20,3 +26,16 @@ aliyun:
     key-secret: N7v6R4V3EJ1SGDZlsqtqo8QyVVMmtQ
     template-code: SMS_96695065
     sign-name: 谷粒
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 10000 #连接超时配置
+        readTimeout: 600000 #执行超时配置
+  #开启Feign对Sentinel的支持
+  #feign:
+  sentinel:
+    enabled: true
+logging:
+  level: debug
