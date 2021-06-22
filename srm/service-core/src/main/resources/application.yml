@@ -31,12 +31,12 @@ spring:
             server-addr: localhost:8848 # nacos服务地址
 
 
-  rabbitmq:
-    host: localhost
-    port: 5672
-    virtual-host: /srmhost
-    username: srm
-    password: 123123
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    virtual-host: /srmhost
+#    username: srm
+#    password: 123123
 
 mybatis-plus: #mybatis
   configuration:

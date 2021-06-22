@@ -16,7 +16,10 @@ import org.springframework.stereotype.Component;
 public class ServcieSmsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServcieSmsApplication.class, args);
+
+            SpringApplication.run(ServcieSmsApplication.class, args);
+
+
     }
 }
 

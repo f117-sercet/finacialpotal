@@ -5,14 +5,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * @Author:estic
+ * @author:estic
  * @Date: 2021/5/31 17:26
  */
 @SpringBootApplication
 @ComponentScan({"com.epdemic.srm"})
 public class ServiceCoreApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(ServiceCoreApplication.class,args);
+    public static void main (String[]args){
+            SpringApplication.run(ServiceCoreApplication.class, args);
+
+        }
     }
-}
+

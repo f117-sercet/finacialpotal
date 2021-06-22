@@ -1,7 +1,12 @@
 package com.epdemic.srm.core.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.epdemic.srm.common.exception.Assert;
+import com.epdemic.srm.common.result.ResponseEnum;
 import com.epdemic.srm.core.enums.UserBindEnum;
+import com.epdemic.srm.core.hfb.FormHelper;
+import com.epdemic.srm.core.hfb.HfbConst;
+import com.epdemic.srm.core.hfb.RequestHelper;
 import com.epdemic.srm.core.mapper.UserInfoMapper;
 import com.epdemic.srm.core.pojo.entity.UserBind;
 import com.epdemic.srm.core.mapper.UserBindMapper;
