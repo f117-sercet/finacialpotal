@@ -28,17 +28,18 @@ public class AdminBorrowInfoController {
     @Resource
     private BorrowInfoService borrowInfoService;
 
-    @ApiOperation("借款信息")
+    @ApiOperation("借款信息列表")
     @GetMapping("/list")
-    public R list(){
+    public R list() {
         List<BorrowInfo> borrowInfoList = borrowInfoService.selectList();
-        return R.ok().data("list",borrowInfoList);
+        return R.ok().data("list", borrowInfoList);
     }
+
     @ApiOperation("借款信息详情")
     @GetMapping("/show/{id}")
     public R show(
             @ApiParam(value = "借款信息id", required = true)
-            @PathVariable Long id){
+            @PathVariable Long id) {
 
         Map<String, Object> borrowInfoDetail = borrowInfoService.getBorrowInfoDetail(id);
         return R.ok().data("borrowInfoDetail", borrowInfoDetail);

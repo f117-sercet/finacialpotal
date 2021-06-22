@@ -17,7 +17,7 @@ spring:
       host: 127.0.0.1
       port: 6379
       database: 0
-      password: 123123 #默认为空
+      password: #默认为空
       timeout: 3000ms #最大等待时间，超时则抛出异常，否则请求一直等待
       lettuce:
         pool:
@@ -31,12 +31,12 @@ spring:
             server-addr: localhost:8848 # nacos服务地址
 
 
-#  rabbitmq:
-#    host: localhost
-#    port: 5672
-#    virtual-host: /srmhost
-#    username: srm
-#    password: 123123
+  rabbitmq:
+    host: localhost
+    port: 15672
+    virtual-host: /srmhost
+    username: srm
+    password: 123123
 
 mybatis-plus: #mybatis
   configuration:

@@ -5,7 +5,6 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -13,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
  * 积分等级表 前端控制器
  * </p>
  *
- * @author combine
- * @since 2021-05-31
+ * @author Helen
+ * @since 2021-02-20
  */
 @Api(tags = "网站积分等级接口")
 @RestController
@@ -26,6 +25,5 @@ public class IntegralGradeController {
     public void test(){
         return;
     }
-
 }
 

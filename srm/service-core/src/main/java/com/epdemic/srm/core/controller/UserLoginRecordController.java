@@ -2,7 +2,6 @@ package com.epdemic.srm.core.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -10,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
  * 用户登录记录表 前端控制器
  * </p>
  *
- * @author combine
- * @since 2021-05-31
+ * @author Helen
+ * @since 2021-02-20
  */
 @RestController
 @RequestMapping("/userLoginRecord")

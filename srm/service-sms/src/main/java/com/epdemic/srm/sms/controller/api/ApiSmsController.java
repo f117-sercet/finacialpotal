@@ -23,7 +23,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 短信发送Congtroller
+ * 短信发送 Controller
  * @Author:estic
  * @Date: 2021/6/3 9:56
  */

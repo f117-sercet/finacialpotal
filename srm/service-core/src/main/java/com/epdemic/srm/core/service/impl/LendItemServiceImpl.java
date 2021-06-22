@@ -18,6 +18,7 @@ import com.epdemic.srm.core.pojo.vo.InvestVO;
 import com.epdemic.srm.core.service.*;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.epdemic.srm.core.util.LendNoUtils;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -37,6 +38,7 @@ import java.util.Map;
  * @since 2021-05-31
  */
 @Service
+@Slf4j
 public class LendItemServiceImpl extends ServiceImpl<LendItemMapper, LendItem> implements LendItemService {
 
     @Resource

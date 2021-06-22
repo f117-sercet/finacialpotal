@@ -6,15 +6,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * <p>
- * 用户积分记录表 前端控制器
+ * 操作行为记录表 前端控制器
  * </p>
  *
  * @author Helen
  * @since 2021-02-20
  */
 @RestController
-@RequestMapping("/userIntegral")
-public class UserIntegralController {
+@RequestMapping("/operateAction")
+public class OperateActionController {
 
 }
 
