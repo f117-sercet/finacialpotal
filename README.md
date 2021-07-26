@@ -28,12 +28,13 @@ t-mac金融服务平台是一个网络借贷信息中介服务平台，为个人
 #### 3.资金托管平台   
 第三方存管模式：“第三方存管”的全称是“客户交易结算资金第三方存管”。  
 这里的第三方存管机构，目前是指具备第三方存管资格的商业银行。  
-银行的流入资金成本低，风控体系较完善。
-##五.所有技术
+银行的流入资金成本低，风控体系较完善。  
+
+##五.所用技术
 #### 1. 后端
 |后端技术栈|版本号|使用|  
  |:---:|:---:|:---|
- |SpringBoot| 2.3.4.RELEASE|后端整体矿建|  
+ |SpringBoot| 2.3.4.RELEASE|后端整体框架|  
  |SpringCloud| Hoxton.SR8| 微服务基础设施|
  |SpringCloud Alibaba|2.2.2.RELEASE|阿里的微服务框架|  
  |MyBatis Plus|3.4.1|持久层框架和代码生成器|
@@ -43,7 +44,28 @@ t-mac金融服务平台是一个网络借贷信息中介服务平台，为个人
  |alibaba-easyexcel|2.1.1|Excel读写|
  |Spring Data RedisSpring|2.3.4|项目中访问Redis缓存|
  |HTTPClient|4.5.1| 基于Http协议的客户端，用来实现远程调用|
- |Spring Task|2.10.1|定时任务|
+ |Spring Task|2.10.1|定时任务|  
+ 
+ #### 2.数据库和中间件    
+ |数据库和中间件|版本号|使用|  
+  |:---:|:---:|:---|
+  |MySQL | 5.7|关系型数据库|
+  |Redis| 5.0| 缓存技术 |
+  |RabbitMQ |3.8|消息中间件|  
+  
+ #### 3.前端技术  
+|前端技术|使用|  
+ |:---:|:---:|
+ |Node.js|JavaScript|
+ |ES6|JavaScript的模块化版本|
+ |axios |一个发送Ajax请求的工具| 
+ |Vue.js|web 界面的渐进式框架|
+ |Element-UI|前端组件库|
+ |NPM|模块资源管理器|
+ |vue-element-admin|基于Vue.js的后台管理系统UI集成方案|
+ |NuxtJS|基于Vue.js构建的服务器端渲染应用的轻量级框架|   
+       
+ 
  
   
 
