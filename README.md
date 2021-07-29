@@ -65,7 +65,9 @@ t-mac金融服务平台是一个网络借贷信息中介服务平台，为个人
  |vue-element-admin|基于Vue.js的后台管理系统UI集成方案|
  |NuxtJS|基于Vue.js构建的服务器端渲染应用的轻量级框架|     
  ## 六.启动方法  
- git clone 之后，用idea打开，并且通过maven将其所用的jar包下载好。并且将RabbitMq，mysql，修改配置文件。之后启动项目。
+ git clone 之后，用idea打开，并且通过maven将其所用的jar包下载好。并且将RabbitMq，mysql，修改配置文件。之后启动项目。  
+ ## 七.业务细节和流程  
+ 
  
        
  
