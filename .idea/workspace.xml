@@ -20,16 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/img/数据库表.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/img/账户绑定.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/申请额度贷款.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/账户绑定.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/rabbit-mq/rabbit-mq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/rabbit-mq/rabbit-mq.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-base/service-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-base/service-base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-common/service-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-common/service-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-core/service-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/service-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-gateway/service-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-gateway/service-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-oss/service-oss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-oss/service-oss.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-sms/service-sms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-sms/service-sms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/srm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/srm.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +45,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -83,6 +80,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -277,7 +275,9 @@
       <workItem from="1624324531521" duration="3745000" />
       <workItem from="1624330551506" duration="5729000" />
       <workItem from="1627030411735" duration="70000" />
-      <workItem from="1627265017733" duration="4377000" />
+      <workItem from="1627265017733" duration="4942000" />
+      <workItem from="1627270393785" duration="890000" />
+      <workItem from="1627541907603" duration="3927000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -608,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627267875341</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="文档更新">
+      <created>1627269508447</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1627269508447</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,6 +690,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="998" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1623297101558" />
+    <state x="0" y="0" key="DiffContextDialog" timestamp="1627270432892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1627270432892" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622433857531">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -743,14 +754,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="598" y="84" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1623055805463" />
+    <state x="653" y="279" width="428" height="266" key="MultipleFileMergeDialog" timestamp="1627269567914">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="653" y="279" width="428" height="266" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1627269567914" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1627030439538">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1627030439538" />
-    <state x="46" y="0" key="Vcs.Push.Dialog.v2" timestamp="1627267881962">
+    <state x="46" y="0" key="Vcs.Push.Dialog.v2" timestamp="1627270484474">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="46" y="0" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1627267881962" />
+    <state x="46" y="0" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1627270484474" />
     <state x="474" y="230" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1623113523203">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -783,10 +798,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="791" y="214" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1627267590106" />
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1627266682362">
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1627615820460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1627266682362" />
+    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1627615820460" />
     <state x="848" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1623829851544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
