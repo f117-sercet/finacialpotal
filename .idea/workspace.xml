@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/申请额度贷款.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/申请额度贷款.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,6 +273,7 @@
       <workItem from="1627265017733" duration="4942000" />
       <workItem from="1627270393785" duration="890000" />
       <workItem from="1627541907603" duration="4778000" />
+      <workItem from="1627888793175" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
