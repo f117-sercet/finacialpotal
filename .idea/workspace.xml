@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,13 +22,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="文档更新">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-common/target/classes/META-INF/service-common.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-oss/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-oss/target/classes/log-back.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,7 +57,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../java/maven/apache-maven-3.6.3" />
+        <option name="localRepository" value="F:\maven\MavenResposity" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../maven/apache-maven-3.6.3" />
         <option name="userSettingsFile" value="F:\java\maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -55,6 +67,9 @@
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="1tHkopPYBjbmxvYmISCkSMuXW7k" />
   <component name="ProjectLevelVcsManager">
@@ -65,6 +80,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -90,7 +106,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -123,7 +139,14 @@
       <recent name="F:\Github\Git\repo\finacialpotal\srm\service-core\src\main\java\com\epdemic\srm\core" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceOssApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceCoreApplication">
     <configuration name="RedisTemplateTests.getDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-core" />
       <extension name="coverage">
@@ -199,16 +222,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.RedisTemplateTests.getDict" />
+      <item itemvalue="Spring Boot.ManagApplication" />
+      <item itemvalue="Spring Boot.ServcieSmsApplication" />
+      <item itemvalue="Spring Boot.ServiceCoreApplication" />
+      <item itemvalue="Spring Boot.ServiceGatewayApplication" />
+      <item itemvalue="Spring Boot.ServiceOssApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServiceCoreApplication" />
         <item itemvalue="Spring Boot.ServiceOssApplication" />
         <item itemvalue="Spring Boot.ServiceGatewayApplication" />
+        <item itemvalue="Spring Boot.ServiceCoreApplication" />
         <item itemvalue="Spring Boot.ServcieSmsApplication" />
         <item itemvalue="JUnit.RedisTemplateTests.getDict" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -276,6 +308,10 @@
       <workItem from="1627888793175" duration="1456000" />
       <workItem from="1627955680922" duration="3021000" />
       <workItem from="1628156347036" duration="2606000" />
+      <workItem from="1637136830699" duration="1362000" />
+      <workItem from="1637140892288" duration="513000" />
+      <workItem from="1637141444596" duration="499000" />
+      <workItem from="1637198858329" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -617,7 +653,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -658,152 +694,6 @@
     <MESSAGE value="后端调试修改" />
     <MESSAGE value="文档更新" />
     <option name="LAST_COMMIT_MESSAGE" value="文档更新" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="249" y="0" key="#Project_Structure" timestamp="1624327644583">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1624327644583" />
-    <state x="223" y="131" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623309553961">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="131" width="1164" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1623309553961" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1624268814760">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1624268814760" />
-    <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1622443724385">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="388" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1622443724385" />
-    <state x="105" y="390" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1624064931831">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="105" y="390" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1624064931831" />
-    <state x="856" y="296" width="474" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1624261336830">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="856" y="296" width="474" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1624261336830" />
-    <state x="998" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623297101558">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="998" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1623297101558" />
-    <state x="0" y="0" key="DiffContextDialog" timestamp="1627270432892">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="0" y="0" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1627270432892" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622433857531">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622433857531" />
-    <state width="1069" height="231" key="GridCell.Tab.0.bottom" timestamp="1624346356156">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1069" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624346356156" />
-    <state width="1069" height="231" key="GridCell.Tab.0.center" timestamp="1624346356155">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1069" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1624346356155" />
-    <state width="1069" height="231" key="GridCell.Tab.0.left" timestamp="1624346356155">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1069" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1624346356155" />
-    <state width="1069" height="231" key="GridCell.Tab.0.right" timestamp="1624346356155">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1069" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1624346356155" />
-    <state width="1069" height="231" key="GridCell.Tab.1.bottom" timestamp="1624346356156">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1069" height="231" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624346356156" />
-    <state width="1069" height="231" key="GridCell.Tab.1.center" timestamp="1624346356156">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1069" height="231" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1624346356156" />
-    <state width="1069" height="231" key="GridCell.Tab.1.left" timestamp="1624346356156">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1069" height="231" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1624346356156" />
-    <state width="1069" height="231" key="GridCell.Tab.1.right" timestamp="1624346356156">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1069" height="231" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1624346356156" />
-    <state width="532" height="339" key="GridCell.Tab.2.bottom" timestamp="1624328311219">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="532" height="339" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1624328311219" />
-    <state width="532" height="339" key="GridCell.Tab.2.center" timestamp="1624328311219">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="532" height="339" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1624328311219" />
-    <state width="532" height="339" key="GridCell.Tab.2.left" timestamp="1624328311219">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="532" height="339" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1624328311219" />
-    <state width="532" height="339" key="GridCell.Tab.2.right" timestamp="1624328311219">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="532" height="339" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1624328311219" />
-    <state x="521" y="172" key="IDE.errors.dialog" timestamp="1624333090972">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="521" y="172" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1624333090972" />
-    <state x="598" y="84" key="Maven.ArtifactSearchDialog" timestamp="1623055805463">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="598" y="84" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1623055805463" />
-    <state x="653" y="279" width="428" height="266" key="MultipleFileMergeDialog" timestamp="1627269567914">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="653" y="279" width="428" height="266" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1627269567914" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1627030439538">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1627030439538" />
-    <state x="46" y="0" key="Vcs.Push.Dialog.v2" timestamp="1627270484474">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="46" y="0" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1627270484474" />
-    <state x="474" y="230" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1623113523203">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="474" y="230" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1623113523203" />
-    <state x="839" y="271" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627030453196">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="839" y="271" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1627030453196" />
-    <state x="498" y="177" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1624332688587">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="498" y="177" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1624332688587" />
-    <state x="657" y="201" key="extract.method.dialog" timestamp="1623749214287">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="657" y="201" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1623749214287" />
-    <state x="861" y="215" key="git4idea.merge.GitPullDialog" timestamp="1622450698796">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="861" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1622450698796" />
-    <state x="178" y="73" key="new project wizard" timestamp="1622446938632">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1622446938632" />
-    <state x="817" y="200" key="refactoring.ChangeSignatureDialog" timestamp="1622511347222">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="817" y="200" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1622511347222" />
-    <state x="791" y="214" width="672" height="677" key="run.anything.popup" timestamp="1627267590106">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="791" y="214" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1627267590106" />
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1627615820460">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="822" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1627615820460" />
-    <state x="848" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1623829851544">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="848" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1623829851544" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
