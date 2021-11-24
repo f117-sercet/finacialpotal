@@ -41,4 +41,4 @@ spring:
 mybatis-plus: #mybatis
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  mapper-locations: classpath:com/epdemic/srm/core/mapper/xml/*.xml
+  mapper-locations:  classpath:com/epdemic/srm/core/mapper/xml/*.xml
