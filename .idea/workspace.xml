@@ -22,9 +22,124 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="修改类">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="对该项目进行重新修正">
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/ServiceCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/BorrowInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/BorrowerAttachController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/BorrowerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/IntegralGradeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/LendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/LendItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/LendItemReturnController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/LendReturnController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/TransFlowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/UserAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/UserBindController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/UserIntegralController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/controller/UserLoginRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/BorrowInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/BorrowerAttachMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/BorrowerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/DictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/IntegralGradeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/LendItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/LendItemReturnMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/LendMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/LendReturnMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/TransFlowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/UserAccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/UserBindMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/UserInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/UserIntegralMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/UserLoginRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/BorrowInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/BorrowerAttachMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/BorrowerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/DictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/IntegralGradeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/LendItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/LendItemReturnMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/LendMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/LendReturnMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/TransFlowMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/UserAccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/UserBindMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/UserInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/UserIntegralMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/mapper/xml/UserLoginRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/BorrowInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/Borrower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/BorrowerAttach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/Dict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/IntegralGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/Lend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/LendItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/LendItemReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/LendReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/TransFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/UserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/UserBind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/UserIntegral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/pojo/entity/UserLoginRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/BorrowInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/BorrowerAttachService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/BorrowerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/DictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/IntegralGradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/LendItemReturnService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/LendItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/LendReturnService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/LendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/TransFlowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/UserAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/UserBindService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/UserIntegralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/UserLoginRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/BorrowInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/BorrowerAttachServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/BorrowerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/DictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/IntegralGradeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/LendItemReturnServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/LendItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/LendReturnServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/LendServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/TransFlowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/UserAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/UserBindServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/UserIntegralServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/service-core/src/main/java/com/atguigu/srb/core/service/impl/UserLoginRecordServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_easyexcel_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ehcache_ehcache_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/service-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/service-core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/test/java/com/epdemic/srm/core/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/test/java/com/epdemic/srm/core/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/test/java/com/epdemic/srm/core/DateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/test/java/com/epdemic/srm/core/RedisTemplateTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +156,8 @@
         <option value="Enum" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,7 +170,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="F:\maven\MavenResposity" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../../../maven/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="F:\java\maven\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="userSettingsFile" value="F:\maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -103,7 +218,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -144,7 +259,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ServiceCoreApplication">
-    <configuration name="CodeGenerator.genCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CodeGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-core" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +269,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
       <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.CodeGenerator" />
-      <option name="METHOD_NAME" value="genCode" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,22 +285,6 @@
       <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
       <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.DateTest" />
       <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epdemic.srm.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
-      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.DateTest" />
-      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -211,6 +309,19 @@
     <configuration name="ManagApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hfb" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.heepay.ManagApplication" />
+      <option name="ENABLE_JMX_AGENT" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServcieSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.sms.ServcieSmsApplication" />
+      <option name="ENABLE_JMX_AGENT" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,30 +330,52 @@
       <module name="service-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epdemic.srm.core.*" />
+          <option name="PATTERN" value="com.atguigu.srb.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.core.ServiceCoreApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.srb.core.ServiceCoreApplication" />
+      <option name="ENABLE_JMX_AGENT" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.gateway.ServiceGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-oss" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.oss.ServiceOssApplication" />
+      <option name="ENABLE_JMX_AGENT" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ManagApplication" />
-      <item itemvalue="JUnit.CodeGenerator.genCode" />
-      <item itemvalue="JUnit.DateTest.test02" />
       <item itemvalue="JUnit.DateTest.test01" />
       <item itemvalue="JUnit.RedisTemplateTests.getDict" />
+      <item itemvalue="JUnit.CodeGenerator" />
+      <item itemvalue="Spring Boot.ServcieSmsApplication" />
+      <item itemvalue="Spring Boot.ManagApplication" />
+      <item itemvalue="Spring Boot.ServiceOssApplication" />
+      <item itemvalue="Spring Boot.ServiceGatewayApplication" />
       <item itemvalue="Spring Boot.ServiceCoreApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ServiceCoreApplication" />
+        <item itemvalue="JUnit.CodeGenerator" />
+        <item itemvalue="Spring Boot.ServiceCoreApplication" />
         <item itemvalue="JUnit.RedisTemplateTests.getDict" />
         <item itemvalue="JUnit.DateTest.test01" />
-        <item itemvalue="JUnit.DateTest.test02" />
-        <item itemvalue="JUnit.CodeGenerator.genCode" />
       </list>
     </recent_temporary>
   </component>
@@ -321,21 +454,8 @@
       <workItem from="1637292560837" duration="1551000" />
       <workItem from="1637575080620" duration="256000" />
       <workItem from="1637738782207" duration="908000" />
-      <workItem from="1637740040004" duration="1007000" />
-    </task>
-    <task id="LOCAL-00001" summary="项目后台架构搭建">
-      <created>1622444744375</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1622444744375</updated>
-    </task>
-    <task id="LOCAL-00002" summary="项目后台架构搭建">
-      <created>1622447230204</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1622447230204</updated>
+      <workItem from="1637740040004" duration="4388000" />
+      <workItem from="1637745175639" duration="1062000" />
     </task>
     <task id="LOCAL-00003" summary="编写readme">
       <created>1622449518272</created>
@@ -666,7 +786,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637740746099</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="修改类">
+      <created>1637741157764</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1637741157764</updated>
+    </task>
+    <task id="LOCAL-00051" summary="对该项目进行重新修正">
+      <created>1637741261931</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1637741261931</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,7 +820,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="汇付宝mapper，model" />
     <MESSAGE value="汇付宝其设定" />
     <MESSAGE value="汇付宝工具类" />
     <MESSAGE value="汇付宝servicie" />
@@ -711,7 +844,8 @@
     <MESSAGE value="后端调试修改" />
     <MESSAGE value="文档更新" />
     <MESSAGE value="修改类" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改类" />
+    <MESSAGE value="对该项目进行重新修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="对该项目进行重新修正" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,15 +855,11 @@
           <line>35</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/srm/service-core/src/test/java/com/epdemic/srm/core/DateTest.java</url>
-          <line>20</line>
-          <properties class="com.epdemic.srm.core.DateTest" method="test01">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
