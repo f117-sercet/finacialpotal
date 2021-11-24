@@ -23,12 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="文档更新">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-common/target/classes/META-INF/service-common.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-oss/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/service-oss/target/classes/log-back.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/service-core/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/service-core/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,9 +99,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
@@ -146,7 +142,55 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceCoreApplication">
+  <component name="RunManager" selected="JUnit.RedisTemplateTests.getDict">
+    <configuration name="CodeGenerator.genCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epdemic.srm.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
+      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.CodeGenerator" />
+      <option name="METHOD_NAME" value="genCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epdemic.srm.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
+      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.DateTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epdemic.srm.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
+      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.DateTest" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedisTemplateTests.getDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-core" />
       <extension name="coverage">
@@ -170,32 +214,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServcieSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="service-sms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epdemic.srm.sms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.sms.ServcieSmsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServiceCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="service-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epdemic.srm.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.core.ServiceCoreApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ServiceGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-gateway" />
       <extension name="coverage">
@@ -209,34 +227,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceOssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="service-oss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epdemic.srm.oss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.epdemic.srm.oss.ServiceOssApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.RedisTemplateTests.getDict" />
       <item itemvalue="Spring Boot.ManagApplication" />
-      <item itemvalue="Spring Boot.ServcieSmsApplication" />
-      <item itemvalue="Spring Boot.ServiceCoreApplication" />
       <item itemvalue="Spring Boot.ServiceGatewayApplication" />
-      <item itemvalue="Spring Boot.ServiceOssApplication" />
+      <item itemvalue="JUnit.CodeGenerator.genCode" />
+      <item itemvalue="JUnit.DateTest.test02" />
+      <item itemvalue="JUnit.DateTest.test01" />
+      <item itemvalue="JUnit.RedisTemplateTests.getDict" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServiceOssApplication" />
-        <item itemvalue="Spring Boot.ServiceGatewayApplication" />
-        <item itemvalue="Spring Boot.ServiceCoreApplication" />
-        <item itemvalue="Spring Boot.ServcieSmsApplication" />
         <item itemvalue="JUnit.RedisTemplateTests.getDict" />
+        <item itemvalue="JUnit.DateTest.test01" />
+        <item itemvalue="JUnit.DateTest.test02" />
+        <item itemvalue="JUnit.CodeGenerator.genCode" />
+        <item itemvalue="Spring Boot.ServiceGatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +317,10 @@
       <workItem from="1637140892288" duration="513000" />
       <workItem from="1637141444596" duration="499000" />
       <workItem from="1637198858329" duration="997000" />
+      <workItem from="1637292560837" duration="1551000" />
+      <workItem from="1637575080620" duration="256000" />
+      <workItem from="1637738782207" duration="908000" />
+      <workItem from="1637740040004" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="项目后台架构搭建">
       <created>1622444744375</created>
@@ -702,6 +711,14 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.3.4.RELEASE/spring-boot-autoconfigure-2.3.4.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class</url>
           <line>35</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/srm/service-core/src/test/java/com/epdemic/srm/core/DateTest.java</url>
+          <line>20</line>
+          <properties class="com.epdemic.srm.core.DateTest" method="test01">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
