@@ -7,18 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-oss" />
-        <module name="hfb" />
-        <module name="service-common" />
+        <module name="rabbit-mq" />
         <module name="service-gateway" />
         <module name="service-base" />
-        <module name="service-sms" />
+        <module name="hfb" />
+        <module name="guigu-common" />
+        <module name="guigu-service-core" />
+        <module name="service-oss" />
         <module name="service-core" />
-        <module name="rabbit-mq" />
+        <module name="service-sms" />
+        <module name="service-common" />
+        <module name="guigu-service-base" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="finacialpotal" target="1.5" />
+      <module name="guigu-common" target="8" />
+      <module name="guigu-service-base" target="8" />
+      <module name="guigu-service-core" target="8" />
       <module name="hfb" target="1.8" />
       <module name="rabbit-mq" target="1.8" />
       <module name="service-base" target="1.8" />
@@ -32,6 +38,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="guigu-common" options="-parameters" />
+      <module name="guigu-service-base" options="-parameters" />
+      <module name="guigu-service-core" options="-parameters" />
       <module name="rabbit-mq" options="-parameters" />
       <module name="service-base" options="-parameters" />
       <module name="service-common" options="-parameters" />
