@@ -23,9 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="service-common接口调试">
-      <change afterPath="$PROJECT_DIR$/srm/guigu-common/src/main/java/com/atguigu/common/result/ResponseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/guigu-common/src/main/java/com/atguigu/common/result/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/controller/admin/AdminIntegralGradeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/controller/admin/AdminIntegralGradeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-common/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,14 +311,8 @@
       <workItem from="1637897587869" duration="1867000" />
       <workItem from="1638020663264" duration="2866000" />
       <workItem from="1638089726791" duration="436000" />
-      <workItem from="1638106727958" duration="806000" />
-    </task>
-    <task id="LOCAL-00006" summary="controller结果统一处理">
-      <created>1622519823809</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1622519823809</updated>
+      <workItem from="1638106727958" duration="990000" />
+      <workItem from="1638149425064" duration="300000" />
     </task>
     <task id="LOCAL-00007" summary="controller结果统一处理">
       <created>1622519879033</created>
@@ -656,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638089644350</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="service-common接口调试">
+      <created>1638107716377</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1638107716377</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
