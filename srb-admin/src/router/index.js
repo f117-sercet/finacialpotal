@@ -51,8 +51,39 @@ export const constantRoutes = [
       path: 'dashboard',
       name: 'Dashboard',
       component: () => import('@/views/dashboard/index'),
-      meta: { title: 'Dashboard', icon: 'dashboard' }
+      meta: { title: '首页', icon: 'dashboard' }
     }]
+  },
+  {
+    path: '/core/integral-grade',
+    component: Layout,
+    redirect: '/core/integral-grade/list',
+    name: 'coreIntegralGrade',
+    meta: { title: '积分等级管理', icon: 'el-icon-s-marketing' },
+    // false（默认值）：当且仅当父节点下只有一个子节点时，不显示父节点
+    // true：任何时候都显示父节点和子节点
+    alwaysShow: true,
+    children: [
+      {
+        path: 'list',
+        name: 'coreIntegralGradeList', //每个路由节点的name的名字不能相同
+        component: () => import('@/views/core/integral-grade/list'), //指向template模板组件
+        meta: { title: '积分等级列表' } //定义导航的标题
+      },
+      {
+        path: 'create',
+        name: 'coreIntegralGradeCreate',
+        component: () => import('@/views/core/integral-grade/form'),
+        meta: { title: '新增积分等级' }
+      },
+      {
+        path: 'edit/:id', // :id 是一个占位符，表示这部分url会是任何一个id
+        name: 'coreIntegralGradeEdit',
+        component: () => import('@/views/core/integral-grade/form'),
+        meta: { title: '编辑积分等级' },
+        hidden: true
+      }
+    ]
   },
 
   {
