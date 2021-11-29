@@ -1,5 +1,5 @@
 module.exports = {
-  title: '飞邱金融管理平台',
+  title: '尚融宝金融管理平台',
 
   /**
    * @type {boolean} true | false
