@@ -25,7 +25,7 @@ export default {
 
   getById(id) {
     return request({
-      url: '/admin/core/integralGrade/get/' + id,
+      url: '/admin/core/integralGrade/get/'+id,
       method: 'get'
     })
   },
