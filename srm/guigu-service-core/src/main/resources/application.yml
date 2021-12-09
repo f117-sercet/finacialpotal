@@ -12,6 +12,18 @@ spring:
     url: jdbc:mysql://localhost:3306/srb_core?serverTimezone=GMT%2B8&characterEncoding=utf-8
     username: root
     password: 123123
+  redis:
+    host: 198.127.0.0
+    port: 6379
+    database: 0
+    password:
+    timeout: 3000ms
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
 
 mybatis-plus: #mybatis
   configuration:
