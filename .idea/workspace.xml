@@ -22,12 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="数据字典service，controller">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="数据字典 redis">
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/test/java/com/atguigu/srb/core/RedisTestTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-base/guigu-service-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-base/guigu-service-base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/controller/DictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/controller/DictController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -160,22 +158,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceCoreApplication (1)">
-    <configuration name="CodeGenerator (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guigu-service-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.srb.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.srb.core" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.srb.core.CodeGenerator" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RedisTestTemplate.getDict">
     <configuration name="CodeGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-core" />
       <extension name="coverage">
@@ -207,6 +190,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisTestTemplate.getDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guigu-service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.srb.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.srb.core" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.srb.core.RedisTestTemplate" />
+      <option name="METHOD_NAME" value="getDict" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTestTemplate.saveDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guigu-service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.srb.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.srb.core" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.srb.core.RedisTestTemplate" />
+      <option name="METHOD_NAME" value="saveDict" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceCoreApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="guigu-service-core" />
       <extension name="coverage">
@@ -221,15 +236,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RedisTemplateTests.getDict" />
       <item itemvalue="JUnit.CodeGenerator" />
-      <item itemvalue="JUnit.CodeGenerator (1)" />
+      <item itemvalue="JUnit.RedisTemplateTests.getDict" />
       <item itemvalue="Spring Boot.ServiceCoreApplication (1)" />
+      <item itemvalue="JUnit.RedisTestTemplate.saveDict" />
+      <item itemvalue="JUnit.RedisTestTemplate.getDict" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedisTestTemplate.getDict" />
+        <item itemvalue="JUnit.RedisTestTemplate.saveDict" />
         <item itemvalue="Spring Boot.ServiceCoreApplication (1)" />
-        <item itemvalue="JUnit.CodeGenerator (1)" />
+        <item itemvalue="JUnit.RedisTemplateTests.getDict" />
         <item itemvalue="JUnit.CodeGenerator" />
       </list>
     </recent_temporary>
@@ -339,14 +357,10 @@
       <workItem from="1638789134763" duration="746000" />
       <workItem from="1638836625005" duration="4166000" />
       <workItem from="1639021073034" duration="690000" />
-      <workItem from="1639021806421" duration="1442000" />
-    </task>
-    <task id="LOCAL-00012" summary="service-sms 短信服务 部分做完">
-      <created>1622690987327</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1622690987327</updated>
+      <workItem from="1639021806421" duration="1725000" />
+      <workItem from="1639530280428" duration="5291000" />
+      <workItem from="1639536809522" duration="3365000" />
+      <workItem from="1639560755713" duration="4794000" />
     </task>
     <task id="LOCAL-00013" summary="service-oss 文件上传 部分做完">
       <created>1622692404334</created>
@@ -684,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638789844372</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="数据字典 redis">
+      <created>1639033660792</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1639033660793</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -703,7 +724,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="汇付宝全部功能" />
     <MESSAGE value="service-core 进一步代码" />
     <MESSAGE value="service-core 更新" />
     <MESSAGE value="BorrowerServiceImpl.java 更新" />
@@ -728,7 +748,8 @@
     <MESSAGE value="数据字典" />
     <MESSAGE value="数据字典service" />
     <MESSAGE value="数据字典service，controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据字典service，controller" />
+    <MESSAGE value="数据字典 redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据字典 redis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
