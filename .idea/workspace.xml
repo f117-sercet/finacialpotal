@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="数据字典 redis">
-      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/test/java/com/atguigu/srb/core/RedisTestTemplate.java" afterDir="false" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="redis 缓存测试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,9 +236,9 @@
     <list>
       <item itemvalue="JUnit.CodeGenerator" />
       <item itemvalue="JUnit.RedisTemplateTests.getDict" />
-      <item itemvalue="Spring Boot.ServiceCoreApplication (1)" />
       <item itemvalue="JUnit.RedisTestTemplate.saveDict" />
       <item itemvalue="JUnit.RedisTestTemplate.getDict" />
+      <item itemvalue="Spring Boot.ServiceCoreApplication (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -360,14 +358,8 @@
       <workItem from="1639021806421" duration="1725000" />
       <workItem from="1639530280428" duration="5291000" />
       <workItem from="1639536809522" duration="3365000" />
-      <workItem from="1639560755713" duration="4794000" />
-    </task>
-    <task id="LOCAL-00013" summary="service-oss 文件上传 部分做完">
-      <created>1622692404334</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1622692404334</updated>
+      <workItem from="1639560755713" duration="4976000" />
+      <workItem from="1639647927810" duration="3338000" />
     </task>
     <task id="LOCAL-00014" summary="service-oss 文件上传">
       <created>1622709504699</created>
@@ -705,7 +697,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639033660793</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="redis 缓存测试">
+      <created>1639566843339</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1639566843340</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +723,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="service-core 进一步代码" />
     <MESSAGE value="service-core 更新" />
     <MESSAGE value="BorrowerServiceImpl.java 更新" />
     <MESSAGE value="核心业务代码更新" />
@@ -749,7 +747,8 @@
     <MESSAGE value="数据字典service" />
     <MESSAGE value="数据字典service，controller" />
     <MESSAGE value="数据字典 redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据字典 redis" />
+    <MESSAGE value="redis 缓存测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis 缓存测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

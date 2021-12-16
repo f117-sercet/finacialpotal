@@ -13,6 +13,7 @@
         <module name="hfb" />
         <module name="guigu-common" />
         <module name="guigu-service-core" />
+        <module name="guigu_service_sms" />
         <module name="service-oss" />
         <module name="service-core" />
         <module name="service-sms" />
@@ -25,6 +26,7 @@
       <module name="guigu-common" target="8" />
       <module name="guigu-service-base" target="8" />
       <module name="guigu-service-core" target="8" />
+      <module name="guigu_service_sms" target="8" />
       <module name="hfb" target="1.8" />
       <module name="rabbit-mq" target="1.8" />
       <module name="service-base" target="1.8" />
@@ -41,6 +43,7 @@
       <module name="guigu-common" options="-parameters" />
       <module name="guigu-service-base" options="-parameters" />
       <module name="guigu-service-core" options="-parameters" />
+      <module name="guigu_service_sms" options="-parameters" />
       <module name="rabbit-mq" options="-parameters" />
       <module name="service-base" options="-parameters" />
       <module name="service-common" options="-parameters" />

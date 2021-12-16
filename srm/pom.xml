@@ -12,6 +12,7 @@
         <module>guigu-common</module>
         <module>guigu-service-base</module>
         <module>guigu-service-core</module>
+        <module>guigu_service_sms</module>
     </modules>
 
     <parent>
