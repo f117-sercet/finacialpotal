@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="sms测试">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="sms配置类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -360,14 +360,7 @@
       <workItem from="1639536809522" duration="3365000" />
       <workItem from="1639560755713" duration="4976000" />
       <workItem from="1639647927810" duration="3835000" />
-      <workItem from="1639702534588" duration="6634000" />
-    </task>
-    <task id="LOCAL-00015" summary="nuxt 初识">
-      <created>1622713126688</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1622713126688</updated>
+      <workItem from="1639702534588" duration="7028000" />
     </task>
     <task id="LOCAL-00016" summary="nuxt 初识1">
       <created>1622713201505</created>
@@ -705,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639654331711</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="sms配置类">
+      <created>1639912230088</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1639912230089</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +724,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="BorrowerServiceImpl.java 更新" />
     <MESSAGE value="核心业务代码更新" />
     <MESSAGE value="service实现" />
     <MESSAGE value="serviceImpl更新" />
@@ -749,7 +748,8 @@
     <MESSAGE value="数据字典 redis" />
     <MESSAGE value="redis 缓存测试" />
     <MESSAGE value="sms测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="sms测试" />
+    <MESSAGE value="sms配置类" />
+    <option name="LAST_COMMIT_MESSAGE" value="sms配置类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
