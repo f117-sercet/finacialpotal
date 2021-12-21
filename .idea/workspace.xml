@@ -22,8 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="sms配置类">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="sms配置文件">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_3_4_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/guigu_service_sms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/guigu_service_sms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/java/com/atguigu/util/SmsProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/java/com/atguigu/util/SmsProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/resources/logback-spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +121,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -156,22 +161,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RedisTestTemplate.getDict">
-    <configuration name="CodeGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epdemic.srm.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
-      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.CodeGenerator" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ServiceCoreApplication (1)">
     <configuration name="RedisTemplateTests.getDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service-core" />
       <extension name="coverage">
@@ -233,20 +223,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="guigu_service_sms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ServiceSmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.CodeGenerator" />
       <item itemvalue="JUnit.RedisTemplateTests.getDict" />
       <item itemvalue="JUnit.RedisTestTemplate.saveDict" />
       <item itemvalue="JUnit.RedisTestTemplate.getDict" />
       <item itemvalue="Spring Boot.ServiceCoreApplication (1)" />
+      <item itemvalue="Spring Boot.ServiceSmsApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ServiceCoreApplication (1)" />
+        <item itemvalue="Spring Boot.ServiceSmsApplication" />
         <item itemvalue="JUnit.RedisTestTemplate.getDict" />
         <item itemvalue="JUnit.RedisTestTemplate.saveDict" />
-        <item itemvalue="Spring Boot.ServiceCoreApplication (1)" />
         <item itemvalue="JUnit.RedisTemplateTests.getDict" />
-        <item itemvalue="JUnit.CodeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -361,13 +364,9 @@
       <workItem from="1639560755713" duration="4976000" />
       <workItem from="1639647927810" duration="3835000" />
       <workItem from="1639702534588" duration="7028000" />
-    </task>
-    <task id="LOCAL-00016" summary="nuxt 初识1">
-      <created>1622713201505</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1622713201505</updated>
+      <workItem from="1639998353597" duration="313000" />
+      <workItem from="1640048630380" duration="4199000" />
+      <workItem from="1640068838641" duration="157000" />
     </task>
     <task id="LOCAL-00017" summary="nuxt更新">
       <created>1622767273489</created>
@@ -705,7 +704,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639912230089</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="sms配置文件">
+      <created>1639998655811</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1639998655811</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +730,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="核心业务代码更新" />
     <MESSAGE value="service实现" />
     <MESSAGE value="serviceImpl更新" />
     <MESSAGE value="服务实现类" />
@@ -749,7 +754,8 @@
     <MESSAGE value="redis 缓存测试" />
     <MESSAGE value="sms测试" />
     <MESSAGE value="sms配置类" />
-    <option name="LAST_COMMIT_MESSAGE" value="sms配置类" />
+    <MESSAGE value="sms配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="sms配置文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,5 +771,9 @@
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

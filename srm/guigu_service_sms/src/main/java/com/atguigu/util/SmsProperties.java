@@ -40,4 +40,3 @@ public class SmsProperties implements InitializingBean {
             SIGN_NAME = signName;
         }
     }
-}
