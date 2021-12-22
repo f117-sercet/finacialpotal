@@ -22,14 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="sms配置文件">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_3_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/guigu_service_sms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/guigu_service_sms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/java/com/atguigu/util/SmsProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/java/com/atguigu/util/SmsProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/resources/logback-spring.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="sms配置文件" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -367,13 +360,7 @@
       <workItem from="1639998353597" duration="313000" />
       <workItem from="1640048630380" duration="4199000" />
       <workItem from="1640068838641" duration="157000" />
-    </task>
-    <task id="LOCAL-00017" summary="nuxt更新">
-      <created>1622767273489</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1622767273490</updated>
+      <workItem from="1640093948225" duration="44000" />
     </task>
     <task id="LOCAL-00018" summary="spring cloud 基本配置">
       <created>1622774171580</created>
@@ -711,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639998655811</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="sms配置文件">
+      <created>1640093968675</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1640093968675</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
