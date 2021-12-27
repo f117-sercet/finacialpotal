@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="JWT测试">
-      <change afterPath="$PROJECT_DIR$/srm/guigu_service_sms/src/test/java/com/atguigu/sms/Utils/UtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="SMS测试类" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -366,14 +363,7 @@
       <workItem from="1640175475198" duration="234000" />
       <workItem from="1640256220924" duration="1488000" />
       <workItem from="1640349788908" duration="205000" />
-      <workItem from="1640432590466" duration="658000" />
-    </task>
-    <task id="LOCAL-00020" summary="汇付宝启动类">
-      <created>1622903556263</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1622903556263</updated>
+      <workItem from="1640432590466" duration="719000" />
     </task>
     <task id="LOCAL-00021" summary="汇付宝实体类构建">
       <created>1622946343629</created>
@@ -711,7 +701,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640349991282</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="SMS测试类">
+      <created>1640433300922</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1640433300922</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -730,7 +727,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="serviceImpl更新" />
     <MESSAGE value="服务实现类" />
     <MESSAGE value="业务逻辑完成" />
     <MESSAGE value="汇付宝接口" />
@@ -755,7 +751,8 @@
     <MESSAGE value="sms配置类" />
     <MESSAGE value="sms配置文件" />
     <MESSAGE value="JWT测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="JWT测试" />
+    <MESSAGE value="SMS测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="SMS测试类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

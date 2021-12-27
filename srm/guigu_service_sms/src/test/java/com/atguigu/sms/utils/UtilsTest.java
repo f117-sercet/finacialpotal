@@ -1,4 +1,4 @@
-package com.atguigu.sms.Utils;
+package com.atguigu.sms.utils;
 
 import com.atguigu.util.SmsProperties;
 import org.junit.Test;
