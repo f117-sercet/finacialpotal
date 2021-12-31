@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/srm/guigu-common/guigu-common.iml" filepath="$PROJECT_DIR$/srm/guigu-common/guigu-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/srm/guigu-service-base/guigu-service-base.iml" filepath="$PROJECT_DIR$/srm/guigu-service-base/guigu-service-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/srm/guigu-service-core/guigu-service-core.iml" filepath="$PROJECT_DIR$/srm/guigu-service-core/guigu-service-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/srm/guigu_service_oss/guigu_service_oss.iml" filepath="$PROJECT_DIR$/srm/guigu_service_oss/guigu_service_oss.iml" />
       <module fileurl="file://$PROJECT_DIR$/srm/guigu_service_sms/guigu_service_sms.iml" filepath="$PROJECT_DIR$/srm/guigu_service_sms/guigu_service_sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/srm/hfb/hfb.iml" filepath="$PROJECT_DIR$/srm/hfb/hfb.iml" />
       <module fileurl="file://$PROJECT_DIR$/srm/rabbit-mq/rabbit-mq.iml" filepath="$PROJECT_DIR$/srm/rabbit-mq/rabbit-mq.iml" />
