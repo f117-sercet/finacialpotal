@@ -1,4 +1,4 @@
-package com.atguigu.srb.oss.Util;
+package com.atguigu.srb.oss.util;
 
 import lombok.Getter;
 import lombok.Setter;

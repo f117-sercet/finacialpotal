@@ -22,10 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="oss分布式云服务类">
-      <change afterPath="$PROJECT_DIR$/srm/guigu_service_oss/src/main/java/com/atguigu/srb/oss/Service/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/guigu_service_oss/src/main/java/com/atguigu/srb/oss/Service/impl/FileServiceImpl.java" afterDir="false" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="oss分布式云服务类接口实现">
+      <change afterPath="$PROJECT_DIR$/srm/guigu_service_oss/src/main/java/com/atguigu/srb/oss/controller/FileController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu_service_oss/src/main/java/com/atguigu/srb/oss/Service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_oss/src/main/java/com/atguigu/srb/oss/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu_service_oss/src/main/java/com/atguigu/srb/oss/Service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_oss/src/main/java/com/atguigu/srb/oss/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu_service_oss/src/main/java/com/atguigu/srb/oss/Util/OssProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_oss/src/main/java/com/atguigu/srb/oss/util/OssProperties.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,14 +390,8 @@
       <workItem from="1641283675594" duration="446000" />
       <workItem from="1641287480284" duration="947000" />
       <workItem from="1641288454850" duration="507000" />
-      <workItem from="1641303369212" duration="730000" />
-    </task>
-    <task id="LOCAL-00025" summary="汇付宝servicie">
-      <created>1623123231676</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1623123231676</updated>
+      <workItem from="1641303369212" duration="1060000" />
+      <workItem from="1641376270013" duration="2150000" />
     </task>
     <task id="LOCAL-00026" summary="hfbserviceImpl">
       <created>1623147352122</created>
@@ -733,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641218315644</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="oss分布式云服务类接口实现">
+      <created>1641304338062</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1641304338062</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -752,7 +755,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="controller类更新" />
     <MESSAGE value="后端部分修改" />
     <MESSAGE value="后端调试" />
     <MESSAGE value="后端调试修改" />
@@ -777,7 +779,8 @@
     <MESSAGE value="SmsServiceImpl" />
     <MESSAGE value="SmsController" />
     <MESSAGE value="oss分布式云服务类" />
-    <option name="LAST_COMMIT_MESSAGE" value="oss分布式云服务类" />
+    <MESSAGE value="oss分布式云服务类接口实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="oss分布式云服务类接口实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

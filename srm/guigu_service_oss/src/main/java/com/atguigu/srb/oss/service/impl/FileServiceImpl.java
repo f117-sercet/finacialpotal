@@ -1,11 +1,10 @@
-package com.atguigu.srb.oss.Service.impl;
+package com.atguigu.srb.oss.service.impl;
 
 import com.aliyun.oss.OSS;
-import com.aliyun.oss.OSSClient;
 import com.aliyun.oss.OSSClientBuilder;
 import com.aliyun.oss.model.CannedAccessControlList;
-import com.atguigu.srb.oss.Service.FileService;
-import com.atguigu.srb.oss.Util.OssProperties;
+import com.atguigu.srb.oss.service.FileService;
+import com.atguigu.srb.oss.util.OssProperties;
 import org.joda.time.DateTime;
 import org.springframework.stereotype.Service;
 
@@ -56,4 +55,29 @@ public class FileServiceImpl implements FileService {
             //阿里云文件绝对路径
             return "https://" + OssProperties.BUCKET_NAME + "." + OssProperties.ENDPOINT + "/" + key;
         }
-    }
+
+    @Override
+    public void removeFile(String url) {
+
+     //创建ossClient实例
+
+     OSS ossClient = new OSSClientBuilder()
+             .build(
+           OssProperties.ENDPOINT,
+           OssProperties.KEY_ID,
+           OssProperties.KEY_ID
+             );
+     //文件名(服务器上的路径)
+
+        //文件名（服务器上的文件路径）
+        String host = "https://" + OssProperties.BUCKET_NAME + "." + OssProperties.ENDPOINT + "/";
+        String objectName = url.substring(host.length());
+
+        //删除文件
+        ossClient.deleteObject(OssProperties.BUCKET_NAME,objectName);
+
+        //关闭ossClient。
+        ossClient.shutdown();
+
+        }
+}
