@@ -9,7 +9,7 @@ spring:
 
 aliyun:
   oss:
-    endpoint: 你的endponit
-    keyId: 你的阿里云keyid
-    keySecret: 你的阿里云keysecret
-    bucketName: srb-file
+    endpoint: oss-cn-beijing.aliyuncs.com
+    keyId: LTAI4G5Svnb2TWBMuKnNT6jY
+    keySecret: N7v6R4V3EJ1SGDZlsqtqo8QyVVMmtQ
+    bucketName: srb-file-200921

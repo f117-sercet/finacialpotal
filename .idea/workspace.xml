@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="oss分布存储，控制层和实现层">
-      <change afterPath="$PROJECT_DIR$/srm/guigu-service-base/src/main/java/com/atguigu/srb/base/dto/SmsDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="JwtToken">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -390,14 +388,8 @@
       <workItem from="1641288454850" duration="507000" />
       <workItem from="1641303369212" duration="1060000" />
       <workItem from="1641376270013" duration="3121000" />
-      <workItem from="1641563996907" duration="972000" />
-    </task>
-    <task id="LOCAL-00027" summary="hfbserviceimpl">
-      <created>1623210040117</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1623210040117</updated>
+      <workItem from="1641563996907" duration="1422000" />
+      <workItem from="1641647577770" duration="694000" />
     </task>
     <task id="LOCAL-00028" summary="hfbController">
       <created>1623229215627</created>
@@ -735,7 +727,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641378782494</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="JwtToken">
+      <created>1641565408899</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1641565408900</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -754,7 +753,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="后端调试" />
     <MESSAGE value="后端调试修改" />
     <MESSAGE value="文档更新" />
     <MESSAGE value="修改类" />
@@ -779,7 +777,8 @@
     <MESSAGE value="oss分布式云服务类" />
     <MESSAGE value="oss分布式云服务类接口实现" />
     <MESSAGE value="oss分布存储，控制层和实现层" />
-    <option name="LAST_COMMIT_MESSAGE" value="oss分布存储，控制层和实现层" />
+    <MESSAGE value="JwtToken" />
+    <option name="LAST_COMMIT_MESSAGE" value="JwtToken" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
