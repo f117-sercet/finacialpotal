@@ -22,8 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="JwtToken">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="日志记录">
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +38,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Enum" />
         <option value="HTML File" />
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -389,14 +391,8 @@
       <workItem from="1641303369212" duration="1060000" />
       <workItem from="1641376270013" duration="3121000" />
       <workItem from="1641563996907" duration="1422000" />
-      <workItem from="1641647577770" duration="694000" />
-    </task>
-    <task id="LOCAL-00028" summary="hfbController">
-      <created>1623229215627</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1623229215627</updated>
+      <workItem from="1641647577770" duration="989000" />
+      <workItem from="1641738216190" duration="240000" />
     </task>
     <task id="LOCAL-00029" summary="hfbController">
       <created>1623289154864</created>
@@ -734,7 +730,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641565408900</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="日志记录">
+      <created>1641651704970</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1641651704970</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -753,7 +756,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="后端调试修改" />
     <MESSAGE value="文档更新" />
     <MESSAGE value="修改类" />
     <MESSAGE value="对该项目进行重新修正" />
@@ -778,7 +780,8 @@
     <MESSAGE value="oss分布式云服务类接口实现" />
     <MESSAGE value="oss分布存储，控制层和实现层" />
     <MESSAGE value="JwtToken" />
-    <option name="LAST_COMMIT_MESSAGE" value="JwtToken" />
+    <MESSAGE value="日志记录" />
+    <option name="LAST_COMMIT_MESSAGE" value="日志记录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
