@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="日志记录">
-      <change afterPath="$PROJECT_DIR$/srm/guigu-service-gateway/pom.xml" afterDir="false" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="云服务网关">
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-gateway/src/main/java/com/atguigu/srb/gateway/config/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +41,8 @@
         <option value="HTML File" />
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,6 +99,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml" />
@@ -392,14 +392,9 @@
       <workItem from="1641376270013" duration="3121000" />
       <workItem from="1641563996907" duration="1422000" />
       <workItem from="1641647577770" duration="989000" />
-      <workItem from="1641738216190" duration="240000" />
-    </task>
-    <task id="LOCAL-00029" summary="hfbController">
-      <created>1623289154864</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1623289154864</updated>
+      <workItem from="1641738216190" duration="552000" />
+      <workItem from="1641776734430" duration="361000" />
+      <workItem from="1641811263497" duration="455000" />
     </task>
     <task id="LOCAL-00030" summary="hfbConfig">
       <created>1623289796098</created>
@@ -737,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641651704970</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="云服务网关">
+      <created>1641738613796</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1641738613797</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -756,7 +758,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="文档更新" />
     <MESSAGE value="修改类" />
     <MESSAGE value="对该项目进行重新修正" />
     <MESSAGE value="service-core重新修正" />
@@ -781,7 +782,8 @@
     <MESSAGE value="oss分布存储，控制层和实现层" />
     <MESSAGE value="JwtToken" />
     <MESSAGE value="日志记录" />
-    <option name="LAST_COMMIT_MESSAGE" value="日志记录" />
+    <MESSAGE value="云服务网关" />
+    <option name="LAST_COMMIT_MESSAGE" value="云服务网关" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
