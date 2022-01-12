@@ -24,6 +24,9 @@ import lombok.EqualsAndHashCode;
 @ApiModel(value="UserInfo对象", description="用户基本信息")
 public class UserInfo implements Serializable {
 
+    public static  final Integer STATUS_NORMAL = 1;
+    public static  final Integer STATUS_LOCKED = 0;
+
     private static final long serialVersionUID = 1L;
 
     @ApiModelProperty(value = "编号")

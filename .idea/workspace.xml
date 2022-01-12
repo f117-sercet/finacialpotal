@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="云服务网关">
-      <change afterPath="$PROJECT_DIR$/srm/guigu-service-gateway/src/main/java/com/atguigu/srb/gateway/config/CorsConfig.java" afterDir="false" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="跨域配置">
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/Vo/RegisterVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/entity/UserInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -394,14 +395,13 @@
       <workItem from="1641647577770" duration="989000" />
       <workItem from="1641738216190" duration="552000" />
       <workItem from="1641776734430" duration="361000" />
-      <workItem from="1641811263497" duration="455000" />
-    </task>
-    <task id="LOCAL-00030" summary="hfbConfig">
-      <created>1623289796098</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1623289796098</updated>
+      <workItem from="1641811263497" duration="505000" />
+      <workItem from="1641885208819" duration="1419000" />
+      <workItem from="1641952390117" duration="1278000" />
+      <workItem from="1641954195171" duration="109000" />
+      <workItem from="1641956194172" duration="1126000" />
+      <workItem from="1641971074953" duration="92000" />
+      <workItem from="1641981615763" duration="1191000" />
     </task>
     <task id="LOCAL-00031" summary="汇付宝全部功能">
       <created>1623307314930</created>
@@ -739,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641738613797</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="跨域配置">
+      <created>1641812085403</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1641812085403</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -758,7 +765,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="修改类" />
     <MESSAGE value="对该项目进行重新修正" />
     <MESSAGE value="service-core重新修正" />
     <MESSAGE value="service-core接口调试" />
@@ -783,7 +789,8 @@
     <MESSAGE value="JwtToken" />
     <MESSAGE value="日志记录" />
     <MESSAGE value="云服务网关" />
-    <option name="LAST_COMMIT_MESSAGE" value="云服务网关" />
+    <MESSAGE value="跨域配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="跨域配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
