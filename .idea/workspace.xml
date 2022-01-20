@@ -22,10 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="跨域配置">
-      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/Vo/RegisterVO.java" afterDir="false" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="用户登录信息类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/entity/UserInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,14 +399,9 @@
       <workItem from="1641954195171" duration="109000" />
       <workItem from="1641956194172" duration="1126000" />
       <workItem from="1641971074953" duration="92000" />
-      <workItem from="1641981615763" duration="1191000" />
-    </task>
-    <task id="LOCAL-00031" summary="汇付宝全部功能">
-      <created>1623307314930</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1623307314930</updated>
+      <workItem from="1641981615763" duration="1384000" />
+      <workItem from="1642150106092" duration="263000" />
+      <workItem from="1642331803673" duration="170000" />
     </task>
     <task id="LOCAL-00032">
       <created>1623317043426</created>
@@ -746,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641812085403</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="用户登录信息类">
+      <created>1641983095717</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1641983095717</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,7 +765,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="对该项目进行重新修正" />
     <MESSAGE value="service-core重新修正" />
     <MESSAGE value="service-core接口调试" />
     <MESSAGE value="service-common接口调试" />
@@ -790,7 +789,8 @@
     <MESSAGE value="日志记录" />
     <MESSAGE value="云服务网关" />
     <MESSAGE value="跨域配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="跨域配置" />
+    <MESSAGE value="用户登录信息类" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户登录信息类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
