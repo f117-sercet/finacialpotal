@@ -22,7 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="操作日志类">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="投标">
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/enums/BorrowAuthEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/enums/BorrowInfoStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/enums/BorrowerStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/enums/DictEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +40,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="HTML File" />
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -403,14 +407,8 @@
       <workItem from="1642150106092" duration="263000" />
       <workItem from="1642331803673" duration="170000" />
       <workItem from="1642674053266" duration="384000" />
-      <workItem from="1642857996451" duration="292000" />
-    </task>
-    <task id="LOCAL-00033" summary="service-core 更新">
-      <created>1623419969290</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1623419969291</updated>
+      <workItem from="1642857996451" duration="1233000" />
+      <workItem from="1642984812401" duration="4406000" />
     </task>
     <task id="LOCAL-00034" summary="BorrowerServiceImpl.java 更新">
       <created>1623742228227</created>
@@ -748,7 +746,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642674417471</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="投标">
+      <created>1642858756523</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1642858756525</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -767,7 +772,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="service-core接口调试" />
     <MESSAGE value="service-common接口调试" />
     <MESSAGE value="异常处理组件" />
     <MESSAGE value="数据字典" />
@@ -792,7 +796,8 @@
     <MESSAGE value="跨域配置" />
     <MESSAGE value="用户登录信息类" />
     <MESSAGE value="操作日志类" />
-    <option name="LAST_COMMIT_MESSAGE" value="操作日志类" />
+    <MESSAGE value="投标" />
+    <option name="LAST_COMMIT_MESSAGE" value="投标" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
