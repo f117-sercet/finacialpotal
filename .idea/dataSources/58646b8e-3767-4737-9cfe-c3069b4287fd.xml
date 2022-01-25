@@ -1,0 +1,5105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@113.24.63.100">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.32">
+    <root id="1">
+      <DefaultCasing>exact</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <Grants>|root||root||ALTER|G
+|root||root|localhost|ALTER|G
+|root||root||ALTER ROUTINE|G
+|root||root|localhost|ALTER ROUTINE|G
+|root||root||CREATE|G
+|root||root|localhost|CREATE|G
+|root||root||CREATE ROUTINE|G
+|root||root|localhost|CREATE ROUTINE|G
+|root||root||CREATE TABLESPACE|G
+|root||root|localhost|CREATE TABLESPACE|G
+|root||root||CREATE TEMPORARY TABLES|G
+|root||root|localhost|CREATE TEMPORARY TABLES|G
+|root||root||CREATE USER|G
+|root||root|localhost|CREATE USER|G
+|root||root||CREATE VIEW|G
+|root||root|localhost|CREATE VIEW|G
+|root||root||DELETE|G
+|root||root|localhost|DELETE|G
+|root||root||DROP|G
+|root||root|localhost|DROP|G
+|root||root||EVENT|G
+|root||root|localhost|EVENT|G
+|root||root||EXECUTE|G
+|root||root|localhost|EXECUTE|G
+|root||root||FILE|G
+|root||root|localhost|FILE|G
+|root||root||INDEX|G
+|root||root|localhost|INDEX|G
+|root||root||INSERT|G
+|root||root|localhost|INSERT|G
+|root||root||LOCK TABLES|G
+|root||root|localhost|LOCK TABLES|G
+|root||root||PROCESS|G
+|root||root|localhost|PROCESS|G
+|root||root||REFERENCES|G
+|root||root|localhost|REFERENCES|G
+|root||root||RELOAD|G
+|root||root|localhost|RELOAD|G
+|root||root||REPLICATION CLIENT|G
+|root||root|localhost|REPLICATION CLIENT|G
+|root||root||REPLICATION SLAVE|G
+|root||root|localhost|REPLICATION SLAVE|G
+|root||root||SELECT|G
+|root||root|localhost|SELECT|G
+|root||root||SHOW DATABASES|G
+|root||root|localhost|SHOW DATABASES|G
+|root||root||SHOW VIEW|G
+|root||root|localhost|SHOW VIEW|G
+|root||root||SHUTDOWN|G
+|root||root|localhost|SHUTDOWN|G
+|root||mysql.session|localhost|SUPER|G
+|root||root||SUPER|G
+|root||root|localhost|SUPER|G
+|root||root||TRIGGER|G
+|root||root|localhost|TRIGGER|G
+|root||root||UPDATE|G
+|root||root|localhost|UPDATE|G
+|root||root|localhost|grant option|G
+performance_schema|schema||mysql.session|localhost|SELECT|G
+sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
+      <ServerVersion>5.7.34</ServerVersion>
+    </root>
+    <collation id="2" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+    </collation>
+    <collation id="3" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="4" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+    </collation>
+    <collation id="5" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="6" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+    </collation>
+    <collation id="7" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="8" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="9" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="10" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="11" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="12" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="13" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+    </collation>
+    <collation id="14" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="15" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="16" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="17" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="18" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+    </collation>
+    <collation id="19" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+    </collation>
+    <collation id="20" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="21" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="22" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="23" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+    </collation>
+    <collation id="24" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+    </collation>
+    <collation id="25" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="26" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+    </collation>
+    <collation id="27" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="28" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+    </collation>
+    <collation id="29" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="30" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+    </collation>
+    <collation id="31" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="32" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+    </collation>
+    <collation id="33" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="34" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+    </collation>
+    <collation id="35" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="36" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+    </collation>
+    <collation id="37" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="38" parent="1" name="gb18030_bin">
+      <Charset>gb18030</Charset>
+    </collation>
+    <collation id="39" parent="1" name="gb18030_chinese_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="gb18030_unicode_520_ci">
+      <Charset>gb18030</Charset>
+    </collation>
+    <collation id="41" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+    </collation>
+    <collation id="42" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="43" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+    </collation>
+    <collation id="44" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="45" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+    </collation>
+    <collation id="46" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="47" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+    </collation>
+    <collation id="48" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="49" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+    </collation>
+    <collation id="50" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+    </collation>
+    <collation id="52" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="53" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+    </collation>
+    <collation id="54" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="55" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+    </collation>
+    <collation id="56" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+    </collation>
+    <collation id="58" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="59" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="60" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="61" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="62" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="63" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="64" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="65" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+    </collation>
+    <collation id="66" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="67" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="68" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="69" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="70" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="71" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+    </collation>
+    <collation id="72" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+    </collation>
+    <collation id="73" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="74" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="75" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="76" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="77" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+    </collation>
+    <collation id="78" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+    </collation>
+    <collation id="79" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+    </collation>
+    <collation id="81" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="82" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+    </collation>
+    <collation id="83" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+    </collation>
+    <collation id="85" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="86" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+    </collation>
+    <collation id="87" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="89" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="90" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="91" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="92" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="93" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="94" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="95" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="96" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="97" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="98" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="99" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="100" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="101" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="102" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="103" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="104" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="105" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="106" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="107" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="108" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="109" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="110" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="111" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="112" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="113" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="114" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+    </collation>
+    <collation id="115" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+    </collation>
+    <collation id="116" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="117" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="118" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="119" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="120" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="121" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="122" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="123" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="124" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="125" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="126" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="127" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="128" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="129" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="130" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="131" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="132" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="133" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="134" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="135" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="136" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="137" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="138" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="139" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="140" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="141" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="142" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+    </collation>
+    <collation id="143" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+    </collation>
+    <collation id="144" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="145" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="146" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="147" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="148" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="149" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="150" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="151" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="152" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="153" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="154" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="155" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="156" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="157" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="158" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="159" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="160" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="161" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="162" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="163" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="164" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="165" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="166" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="167" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="168" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="169" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="170" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+    </collation>
+    <collation id="171" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="172" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="173" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="174" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="175" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="176" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="177" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="178" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="179" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="180" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="181" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="182" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="183" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="184" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="185" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="186" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="187" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="188" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="189" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="190" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="191" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="192" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="193" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="194" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="195" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="196" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="197" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+    </collation>
+    <collation id="198" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="199" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="200" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="201" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="202" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="203" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="204" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="205" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="206" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="207" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="208" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="209" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="210" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="211" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="212" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="213" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="214" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="215" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="216" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="217" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="218" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="219" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="220" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="221" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="222" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <collation id="223" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+    </collation>
+    <schema id="224" parent="1" name="certification">
+      <Current>1</Current>
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="225" parent="1" name="community">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="226" parent="1" name="information_schema">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="227" parent="1" name="mydb">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="228" parent="1" name="mysql">
+      <Grants>user|||mysql.session|localhost|SELECT|G</Grants>
+      <CollationName>latin1_swedish_ci</CollationName>
+    </schema>
+    <schema id="229" parent="1" name="performance_schema">
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <schema id="230" parent="1" name="sys">
+      <Grants>sys_config|||mysql.sys|localhost|SELECT|G</Grants>
+      <CollationName>utf8_general_ci</CollationName>
+    </schema>
+    <user id="231" parent="1" name="mysql.session">
+      <Host>localhost</Host>
+    </user>
+    <user id="232" parent="1" name="mysql.sys">
+      <Host>localhost</Host>
+    </user>
+    <user id="233" parent="1" name="root"/>
+    <user id="234" parent="1" name="root">
+      <Host>localhost</Host>
+    </user>
+    <table id="235" parent="225" name="admin_login_record">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="236" parent="225" name="c_cms_batch_log">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="237" parent="225" name="c_cms_batch_module">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="238" parent="225" name="c_cms_block_item">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="239" parent="225" name="c_cms_block_title">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="240" parent="225" name="c_cms_city_item">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="241" parent="225" name="c_cms_item_data">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="242" parent="225" name="c_cms_item_data_schedule">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="243" parent="225" name="c_cms_page">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="244" parent="225" name="c_cms_page_block">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="245" parent="225" name="casbin_rule">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="246" parent="225" name="city">
+      <Comment>城市表</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="247" parent="225" name="cityarea">
+      <Comment>区域表</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="248" parent="225" name="district">
+      <Comment>地区表</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="249" parent="225" name="province">
+      <Comment>省份表</Comment>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="250" parent="225" name="sys_api">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="251" parent="225" name="sys_casbin_rule">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="252" parent="225" name="sys_columns">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="253" parent="225" name="sys_config">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="254" parent="225" name="sys_dept">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="255" parent="225" name="sys_dict_data">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="256" parent="225" name="sys_dict_type">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="257" parent="225" name="sys_job">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="258" parent="225" name="sys_login_log">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="259" parent="225" name="sys_menu">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="260" parent="225" name="sys_menu_api_rule">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="261" parent="225" name="sys_migration">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="262" parent="225" name="sys_opera_log">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="263" parent="225" name="sys_post">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="264" parent="225" name="sys_role">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="265" parent="225" name="sys_role_dept">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="266" parent="225" name="sys_role_menu">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="267" parent="225" name="sys_tables">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="268" parent="225" name="sys_user">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="269" parent="225" name="tb_active_party">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="270" parent="225" name="tb_admin">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="271" parent="225" name="tb_development_party">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="272" parent="225" name="tb_dog">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="273" parent="225" name="tb_entitled">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="274" parent="225" name="tb_flow_party">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="275" parent="225" name="tb_party">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="276" parent="225" name="tb_registration_party">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="277" parent="225" name="tb_resident">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="278" parent="225" name="tb_retirement_party">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="279" parent="225" name="tb_service">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="280" parent="225" name="tb_social">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="281" parent="225" name="tb_user">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <column id="282" parent="235" name="id">
+      <Comment>编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="283" parent="235" name="name">
+      <Comment>姓名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="284" parent="235" name="ip">
+      <Comment>登录up</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="285" parent="235" name="create_time">
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <NotNull>1</NotNull>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+      <Position>4</Position>
+    </column>
+    <column id="286" parent="235" name="update_time">
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <key id="287" parent="235" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="288" parent="236" name="id">
+      <Comment>主键编码</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="289" parent="236" name="module_id">
+      <Comment>模块id</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="290" parent="236" name="data_area">
+      <Comment>数据项</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="291" parent="236" name="city_list">
+      <Comment>投放城市</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="292" parent="236" name="schedule_time">
+      <Comment>排期时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="293" parent="236" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="294" parent="236" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="295" parent="236" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="296" parent="236" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <OnUpdate>CURRENT_TIMESTAMP(3)</OnUpdate>
+      <Position>9</Position>
+    </column>
+    <column id="297" parent="236" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <index id="298" parent="236" name="idx_c_cms_batch_log_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="299" parent="236" name="idx_c_cms_batch_log_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="300" parent="236" name="idx_c_cms_batch_log_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="301" parent="236" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="302" parent="237" name="id">
+      <Comment>主键编码</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="303" parent="237" name="module_name">
+      <Comment>模块名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="304" parent="237" name="area_name">
+      <Comment>区域名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="305" parent="237" name="page_id">
+      <Comment>页面id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="306" parent="237" name="block_id">
+      <Comment>块id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="307" parent="237" name="item_id">
+      <Comment>数据id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="308" parent="237" name="city_range">
+      <Comment>可投放城市0是全部1是新城市站</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>7</Position>
+    </column>
+    <column id="309" parent="237" name="module_status">
+      <Comment>模块状态1可用0删除</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>1</DefaultExpression>
+      <Position>8</Position>
+    </column>
+    <column id="310" parent="237" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="311" parent="237" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="312" parent="237" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="313" parent="237" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="314" parent="237" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <index id="315" parent="237" name="idx_c_cms_batch_module_module_name">
+      <ColNames>module_name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="316" parent="237" name="idx_c_cms_batch_module_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="317" parent="237" name="idx_c_cms_batch_module_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="318" parent="237" name="idx_c_cms_batch_module_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="319" parent="237" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <key id="320" parent="237" name="idx_c_cms_batch_module_module_name">
+      <ColNames>module_name</ColNames>
+      <UnderlyingIndexName>idx_c_cms_batch_module_module_name</UnderlyingIndexName>
+    </key>
+    <column id="321" parent="238" name="item_id">
+      <Comment>数据项id</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="322" parent="238" name="item_ename">
+      <Comment>数据元素英文名</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="323" parent="238" name="item_name">
+      <Comment>数据元素名</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="324" parent="238" name="block_id">
+      <Comment>数据元素对应块</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="325" parent="238" name="page_id">
+      <Comment>数据元素对应页</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="326" parent="238" name="data_count">
+      <Comment>数据元素块数量</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="327" parent="238" name="item_status">
+      <Comment>数据元素状态</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="328" parent="238" name="item_extra">
+      <Comment>扩展控件</Comment>
+      <DataType>varchar(4096)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="329" parent="238" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="330" parent="238" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="331" parent="238" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="332" parent="238" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="333" parent="238" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <index id="334" parent="238" name="idx_c_cms_block_item_item_ename">
+      <ColNames>item_ename</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="335" parent="238" name="idx_c_cms_block_item_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="336" parent="238" name="idx_c_cms_block_item_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="337" parent="238" name="idx_c_cms_block_item_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="338" parent="238" name="PRIMARY">
+      <ColNames>item_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <key id="339" parent="238" name="idx_c_cms_block_item_item_ename">
+      <ColNames>item_ename</ColNames>
+      <UnderlyingIndexName>idx_c_cms_block_item_item_ename</UnderlyingIndexName>
+    </key>
+    <column id="340" parent="239" name="block_id">
+      <Comment>数据块id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="341" parent="239" name="block_index">
+      <Comment>数据块索引项</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="342" parent="239" name="city_id">
+      <Comment>城市id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="343" parent="239" name="block_title">
+      <Comment>数据块标题</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="344" parent="239" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="345" parent="239" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="346" parent="239" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="347" parent="239" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="348" parent="239" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <index id="349" parent="239" name="idx_c_cms_block_title_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="350" parent="239" name="idx_c_cms_block_title_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="351" parent="239" name="idx_c_cms_block_title_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <column id="352" parent="240" name="id">
+      <Comment>主键编码</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="353" parent="240" name="citem_type">
+      <Comment>cms项类别 1：数据项 2：数据块 3：数据页</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="354" parent="240" name="citem_index">
+      <Comment>cms项索引</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="355" parent="240" name="city_id">
+      <Comment>城市ID</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="356" parent="240" name="citem_title">
+      <Comment>cms项标题</Comment>
+      <DataType>longtext|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="357" parent="240" name="order_index">
+      <Comment>cms项排序</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="358" parent="240" name="citem_setting">
+      <Comment>cms项设置0x1是否启用</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="359" parent="240" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="360" parent="240" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="361" parent="240" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="362" parent="240" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="363" parent="240" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <index id="364" parent="240" name="idx_type_city_index">
+      <ColNames>citem_type
+city_id
+citem_index</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="365" parent="240" name="idx_c_cms_city_item_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="366" parent="240" name="idx_c_cms_city_item_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="367" parent="240" name="idx_c_cms_city_item_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="368" parent="240" name="PRIMARY">
+      <ColNames>id
+citem_type
+citem_index
+city_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="369" parent="241" name="id">
+      <Comment>主键编码</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="370" parent="241" name="city_id">
+      <Comment>城市id</Comment>
+      <DataType>mediumint(9)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="371" parent="241" name="item_id">
+      <Comment>元素id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="372" parent="241" name="item_index">
+      <Comment>元素索引</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="373" parent="241" name="block_id">
+      <Comment>块id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="374" parent="241" name="block_index">
+      <Comment>块索引</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="375" parent="241" name="page_id">
+      <Comment>页面id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="376" parent="241" name="title">
+      <Comment>标题</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="377" parent="241" name="link">
+      <Comment>链接</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="378" parent="241" name="idesc">
+      <Comment>描述</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <column id="379" parent="241" name="img_id">
+      <Comment>图片地址</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="380" parent="241" name="extra">
+      <Comment>扩展选项</Comment>
+      <DataType>varchar(4096)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+    </column>
+    <column id="381" parent="241" name="data_status">
+      <Comment>数据状态</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>13</Position>
+    </column>
+    <column id="382" parent="241" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="383" parent="241" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="384" parent="241" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <column id="385" parent="241" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>17</Position>
+    </column>
+    <column id="386" parent="241" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>18</Position>
+    </column>
+    <index id="387" parent="241" name="idx_c_cms_item_data_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="388" parent="241" name="idx_c_cms_item_data_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="389" parent="241" name="idx_c_cms_item_data_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="390" parent="241" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="391" parent="242" name="cms_schedule_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="392" parent="242" name="city_id">
+      <Comment>城市id</Comment>
+      <DataType>mediumint(9)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="393" parent="242" name="item_id">
+      <Comment>元素id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="394" parent="242" name="item_index">
+      <Comment>元素索引</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="395" parent="242" name="block_id">
+      <Comment>块id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="396" parent="242" name="block_index">
+      <Comment>块索引</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="397" parent="242" name="page_id">
+      <Comment>页面id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="398" parent="242" name="title">
+      <Comment>标题</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="399" parent="242" name="link">
+      <Comment>链接</Comment>
+      <DataType>varchar(256)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="400" parent="242" name="idesc">
+      <Comment>描述</Comment>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <column id="401" parent="242" name="img_id">
+      <Comment>图片地址</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="402" parent="242" name="extra">
+      <Comment>扩展选项</Comment>
+      <DataType>varchar(4096)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+    </column>
+    <column id="403" parent="242" name="data_status">
+      <Comment>数据状态</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>13</Position>
+    </column>
+    <column id="404" parent="242" name="schedule_time">
+      <DataType>bigint(20)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="405" parent="242" name="online_time">
+      <DataType>bigint(20)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="406" parent="242" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <column id="407" parent="242" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>17</Position>
+    </column>
+    <column id="408" parent="242" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>18</Position>
+    </column>
+    <column id="409" parent="242" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>19</Position>
+    </column>
+    <column id="410" parent="242" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>20</Position>
+    </column>
+    <index id="411" parent="242" name="idx_c_cms_item_data_schedule_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="412" parent="242" name="idx_c_cms_item_data_schedule_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="413" parent="242" name="idx_c_cms_item_data_schedule_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="414" parent="242" name="PRIMARY">
+      <ColNames>cms_schedule_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="415" parent="243" name="id">
+      <Comment>主键编码</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="416" parent="243" name="page_ename">
+      <Comment>页面英文名称</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="417" parent="243" name="page_name">
+      <Comment>页面名称</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="418" parent="243" name="page_status">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="419" parent="243" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="420" parent="243" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="421" parent="243" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="422" parent="243" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="423" parent="243" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <index id="424" parent="243" name="idx_c_cms_page_page_ename">
+      <ColNames>page_ename</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="425" parent="243" name="idx_c_cms_page_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="426" parent="243" name="idx_c_cms_page_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="427" parent="243" name="idx_c_cms_page_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="428" parent="243" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <key id="429" parent="243" name="idx_c_cms_page_page_ename">
+      <ColNames>page_ename</ColNames>
+      <UnderlyingIndexName>idx_c_cms_page_page_ename</UnderlyingIndexName>
+    </key>
+    <column id="430" parent="244" name="id">
+      <Comment>主键编码</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="431" parent="244" name="page_id">
+      <Comment>页id</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="432" parent="244" name="block_ename">
+      <Comment>块英文名称</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="433" parent="244" name="block_name">
+      <Comment>块中文名称</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="434" parent="244" name="block_status">
+      <Comment>块状态</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="435" parent="244" name="block_count">
+      <Comment>块数量</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="436" parent="244" name="block_tmpl">
+      <Comment>块模版</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="437" parent="244" name="order_index">
+      <Comment>排序值</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="438" parent="244" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="439" parent="244" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="440" parent="244" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="441" parent="244" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="442" parent="244" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <index id="443" parent="244" name="idx_c_cms_page_block_block_ename">
+      <ColNames>block_ename</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="444" parent="244" name="idx_c_cms_page_block_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="445" parent="244" name="idx_c_cms_page_block_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="446" parent="244" name="idx_c_cms_page_block_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="447" parent="244" name="PRIMARY">
+      <ColNames>id
+page_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <key id="448" parent="244" name="idx_c_cms_page_block_block_ename">
+      <ColNames>block_ename</ColNames>
+      <UnderlyingIndexName>idx_c_cms_page_block_block_ename</UnderlyingIndexName>
+    </key>
+    <column id="449" parent="245" name="id">
+      <DataType>bigint(20) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="450" parent="245" name="ptype">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="451" parent="245" name="v0">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="452" parent="245" name="v1">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="453" parent="245" name="v2">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="454" parent="245" name="v3">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="455" parent="245" name="v4">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="456" parent="245" name="v5">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <index id="457" parent="245" name="idx_casbin_rule">
+      <ColNames>ptype
+v0
+v1
+v2
+v3
+v4
+v5</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="458" parent="245" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <key id="459" parent="245" name="idx_casbin_rule">
+      <ColNames>ptype
+v0
+v1
+v2
+v3
+v4
+v5</ColNames>
+      <UnderlyingIndexName>idx_casbin_rule</UnderlyingIndexName>
+    </key>
+    <column id="460" parent="246" name="id">
+      <Comment>城市ID（修改表内容后要清空缓存：CityAllCache）</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="461" parent="246" name="name">
+      <Comment>城市名称</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="462" parent="246" name="fullname">
+      <DataType>varchar(50)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="463" parent="246" name="provinceId">
+      <Comment>省份ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="464" parent="246" name="districtId">
+      <Comment>地区ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="465" parent="246" name="cityPy">
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="466" parent="246" name="py">
+      <Comment>拼音</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <DefaultExpression>&apos;www&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="467" parent="246" name="pinyin">
+      <Comment>拼音(全拼)</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="468" parent="246" name="priority">
+      <Comment>城市重要度优先级，越大越优先，是3的倍数的在热门的拼音里显示；100以上的，在城市列表页面标红</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="469" parent="246" name="longitude">
+      <Comment>经度</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="470" parent="246" name="latitude">
+      <Comment>纬度</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="471" parent="246" name="isHot">
+      <Comment>是否热门城市：0.不是 1.是</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+    </column>
+    <column id="472" parent="246" name="isNewHouse">
+      <Comment>是否有新房：0.不是 1.是&#xd;
+不是时该城市域名全站页面不显示新房列表</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>13</Position>
+    </column>
+    <column id="473" parent="246" name="timeUpdate">
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <NotNull>1</NotNull>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+      <Position>14</Position>
+    </column>
+    <column id="474" parent="246" name="linkCityId">
+      <Comment>链接城市ID，此字段大于0时，表示该记录是链接城市</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>15</Position>
+    </column>
+    <column id="475" parent="246" name="linkCityAreaId">
+      <Comment>链接城区ID，链接到另一城市的某一城区</Comment>
+      <DataType>int(10) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>16</Position>
+    </column>
+    <column id="476" parent="246" name="indexGroupNo">
+      <DataType>int(10) unsigned zerofill|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>17</Position>
+    </column>
+    <column id="477" parent="246" name="isMarketing">
+      <Comment>是否已开通营销：0.否 1.是</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>1</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>18</Position>
+    </column>
+    <column id="478" parent="246" name="municipalityCounty">
+      <Comment>是否直辖县</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>19</Position>
+    </column>
+    <column id="479" parent="246" name="level">
+      <Comment>等级(搜索时取价格使用)</Comment>
+      <DataType>tinyint(3) unsigned|0s</DataType>
+      <DefaultExpression>4</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>20</Position>
+    </column>
+    <column id="480" parent="246" name="linkPeripheryCityId">
+      <Comment>周边城市ID</Comment>
+      <DataType>smallint(6)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>21</Position>
+    </column>
+    <index id="481" parent="246" name="un_city_py">
+      <ColNames>py</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="482" parent="246" name="ix_city_name">
+      <ColNames>name</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="483" parent="246" name="ix_city_provinceId">
+      <ColNames>provinceId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="484" parent="246" name="ix_city_districtId">
+      <ColNames>districtId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="485" parent="246" name="ix_city_cityPy">
+      <ColNames>cityPy</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="486" parent="246" name="ix_city_pinyin">
+      <ColNames>pinyin</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="487" parent="246" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <key id="488" parent="246" name="un_city_py">
+      <ColNames>py</ColNames>
+      <UnderlyingIndexName>un_city_py</UnderlyingIndexName>
+    </key>
+    <column id="489" parent="247" name="id">
+      <Comment>区域ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="490" parent="247" name="id_0">
+      <Comment>国家统计局表对应自增ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="491" parent="247" name="code_0">
+      <Comment>国家统计局表对应code码</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="492" parent="247" name="name_0">
+      <Comment>国家统计局表对应全名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="493" parent="247" name="valid">
+      <Comment>是否有效 1有效</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="494" parent="247" name="selectedEnabled">
+      <Comment>是否显示</Comment>
+      <DataType>tinyint(1)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="495" parent="247" name="name">
+      <Comment>区域名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="496" parent="247" name="fullname">
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="497" parent="247" name="pinyin">
+      <Comment>拼音(全拼)</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <Position>9</Position>
+    </column>
+    <column id="498" parent="247" name="py">
+      <Comment>简拼</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="499" parent="247" name="cityId">
+      <Comment>城市ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="500" parent="247" name="longitude">
+      <Comment>经度</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="501" parent="247" name="latitude">
+      <Comment>纬度</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="502" parent="247" name="linkCityId">
+      <Comment>链接城市ID，此字段大于0时，表示该记录是链接城区</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>14</Position>
+    </column>
+    <column id="503" parent="247" name="linkCityAreaId">
+      <Comment>链接城区ID，链接到另一城市的某一城区</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>15</Position>
+    </column>
+    <column id="504" parent="247" name="baiduCode">
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>16</Position>
+    </column>
+    <column id="505" parent="247" name="rank">
+      <Comment>区域排序权重：取值10、20、30等，权重越高显示越靠前，0为不显示</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>100</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>17</Position>
+    </column>
+    <column id="506" parent="247" name="deleteState">
+      <Comment>逻辑删除:1.存在 0：删除</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>1</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>18</Position>
+    </column>
+    <column id="507" parent="247" name="timeCreate">
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>19</Position>
+    </column>
+    <column id="508" parent="247" name="timeLocUpdate">
+      <DataType>timestamp(3)|0s</DataType>
+      <Position>20</Position>
+    </column>
+    <column id="509" parent="247" name="creater">
+      <Comment>创建人</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>21</Position>
+    </column>
+    <index id="510" parent="247" name="ix_cityarea_pinyin">
+      <ColNames>pinyin</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="511" parent="247" name="ix_cityarea_cityId">
+      <ColNames>cityId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="512" parent="247" name="ix_cityarea_linkCityId">
+      <ColNames>linkCityId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="513" parent="247" name="ix_cityarea_linkCityAreaid">
+      <ColNames>linkCityAreaId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="514" parent="247" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="515" parent="248" name="id">
+      <Comment>区域ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="516" parent="248" name="name">
+      <Comment>地区名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <key id="517" parent="248" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="518" parent="249" name="id">
+      <Comment>省份ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="519" parent="249" name="name">
+      <Comment>省份名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="520" parent="249" name="pinyin">
+      <Comment>拼音(全拼)</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="521" parent="249" name="pyshort">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="522" parent="249" name="districtId">
+      <Comment>地区ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="523" parent="249" name="sort">
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>50</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <index id="524" parent="249" name="ix_province_pinyin">
+      <ColNames>pinyin</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="525" parent="249" name="ix_province_districtId">
+      <ColNames>districtId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="526" parent="249" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="527" parent="250" name="id">
+      <Comment>主键编码</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="528" parent="250" name="handle">
+      <Comment>handle</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="529" parent="250" name="title">
+      <Comment>标题</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="530" parent="250" name="path">
+      <Comment>地址</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="531" parent="250" name="type">
+      <Comment>接口类型</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="532" parent="250" name="action">
+      <Comment>请求类型</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="533" parent="250" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="534" parent="250" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="535" parent="250" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="536" parent="250" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="537" parent="250" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <index id="538" parent="250" name="idx_sys_api_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="539" parent="250" name="idx_sys_api_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="540" parent="250" name="idx_sys_api_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="541" parent="250" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="542" parent="251" name="p_type">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="543" parent="251" name="v0">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="544" parent="251" name="v1">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="545" parent="251" name="v2">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="546" parent="251" name="v3">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="547" parent="251" name="v4">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="548" parent="251" name="v5">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <index id="549" parent="251" name="idx_sys_casbin_rule">
+      <ColNames>p_type
+v0
+v1
+v2
+v3
+v4
+v5</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="550" parent="251" name="idx_sys_casbin_rule">
+      <ColNames>p_type
+v0
+v1
+v2
+v3
+v4
+v5</ColNames>
+      <UnderlyingIndexName>idx_sys_casbin_rule</UnderlyingIndexName>
+    </key>
+    <column id="551" parent="252" name="column_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="552" parent="252" name="table_id">
+      <DataType>bigint(20)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="553" parent="252" name="column_name">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="554" parent="252" name="column_comment">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="555" parent="252" name="column_type">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="556" parent="252" name="go_type">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="557" parent="252" name="go_field">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="558" parent="252" name="json_field">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="559" parent="252" name="is_pk">
+      <DataType>varchar(4)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="560" parent="252" name="is_increment">
+      <DataType>varchar(4)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="561" parent="252" name="is_required">
+      <DataType>varchar(4)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="562" parent="252" name="is_insert">
+      <DataType>varchar(4)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="563" parent="252" name="is_edit">
+      <DataType>varchar(4)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="564" parent="252" name="is_list">
+      <DataType>varchar(4)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="565" parent="252" name="is_query">
+      <DataType>varchar(4)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="566" parent="252" name="query_type">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <column id="567" parent="252" name="html_type">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>17</Position>
+    </column>
+    <column id="568" parent="252" name="dict_type">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>18</Position>
+    </column>
+    <column id="569" parent="252" name="sort">
+      <DataType>bigint(20)|0s</DataType>
+      <Position>19</Position>
+    </column>
+    <column id="570" parent="252" name="list">
+      <DataType>varchar(1)|0s</DataType>
+      <Position>20</Position>
+    </column>
+    <column id="571" parent="252" name="pk">
+      <DataType>tinyint(1)|0s</DataType>
+      <Position>21</Position>
+    </column>
+    <column id="572" parent="252" name="required">
+      <DataType>tinyint(1)|0s</DataType>
+      <Position>22</Position>
+    </column>
+    <column id="573" parent="252" name="super_column">
+      <DataType>tinyint(1)|0s</DataType>
+      <Position>23</Position>
+    </column>
+    <column id="574" parent="252" name="usable_column">
+      <DataType>tinyint(1)|0s</DataType>
+      <Position>24</Position>
+    </column>
+    <column id="575" parent="252" name="increment">
+      <DataType>tinyint(1)|0s</DataType>
+      <Position>25</Position>
+    </column>
+    <column id="576" parent="252" name="insert">
+      <DataType>tinyint(1)|0s</DataType>
+      <Position>26</Position>
+    </column>
+    <column id="577" parent="252" name="edit">
+      <DataType>tinyint(1)|0s</DataType>
+      <Position>27</Position>
+    </column>
+    <column id="578" parent="252" name="query">
+      <DataType>tinyint(1)|0s</DataType>
+      <Position>28</Position>
+    </column>
+    <column id="579" parent="252" name="remark">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>29</Position>
+    </column>
+    <column id="580" parent="252" name="fk_table_name">
+      <DataType>longtext|0s</DataType>
+      <Position>30</Position>
+    </column>
+    <column id="581" parent="252" name="fk_table_name_class">
+      <DataType>longtext|0s</DataType>
+      <Position>31</Position>
+    </column>
+    <column id="582" parent="252" name="fk_table_name_package">
+      <DataType>longtext|0s</DataType>
+      <Position>32</Position>
+    </column>
+    <column id="583" parent="252" name="fk_label_id">
+      <DataType>longtext|0s</DataType>
+      <Position>33</Position>
+    </column>
+    <column id="584" parent="252" name="fk_label_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>34</Position>
+    </column>
+    <column id="585" parent="252" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>35</Position>
+    </column>
+    <column id="586" parent="252" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>36</Position>
+    </column>
+    <column id="587" parent="252" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>37</Position>
+    </column>
+    <column id="588" parent="252" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>38</Position>
+    </column>
+    <column id="589" parent="252" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>39</Position>
+    </column>
+    <index id="590" parent="252" name="idx_sys_columns_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="591" parent="252" name="idx_sys_columns_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="592" parent="252" name="idx_sys_columns_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="593" parent="252" name="PRIMARY">
+      <ColNames>column_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="594" parent="253" name="id">
+      <Comment>主键编码</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="595" parent="253" name="config_name">
+      <Comment>ConfigName</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="596" parent="253" name="config_key">
+      <Comment>ConfigKey</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="597" parent="253" name="config_value">
+      <Comment>ConfigValue</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="598" parent="253" name="config_type">
+      <Comment>ConfigType</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="599" parent="253" name="is_frontend">
+      <Comment>是否前台</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="600" parent="253" name="remark">
+      <Comment>Remark</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="601" parent="253" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="602" parent="253" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="603" parent="253" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="604" parent="253" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="605" parent="253" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <index id="606" parent="253" name="idx_sys_config_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="607" parent="253" name="idx_sys_config_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="608" parent="253" name="idx_sys_config_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="609" parent="253" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="610" parent="254" name="dept_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="611" parent="254" name="parent_id">
+      <DataType>bigint(20)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="612" parent="254" name="dept_path">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="613" parent="254" name="dept_name">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="614" parent="254" name="sort">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="615" parent="254" name="leader">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="616" parent="254" name="phone">
+      <DataType>varchar(11)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="617" parent="254" name="email">
+      <DataType>varchar(64)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="618" parent="254" name="status">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="619" parent="254" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="620" parent="254" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="621" parent="254" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="622" parent="254" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="623" parent="254" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <index id="624" parent="254" name="idx_sys_dept_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="625" parent="254" name="idx_sys_dept_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="626" parent="254" name="idx_sys_dept_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="627" parent="254" name="PRIMARY">
+      <ColNames>dept_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="628" parent="255" name="dict_code">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="629" parent="255" name="dict_sort">
+      <DataType>bigint(20)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="630" parent="255" name="dict_label">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="631" parent="255" name="dict_value">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="632" parent="255" name="dict_type">
+      <DataType>varchar(64)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="633" parent="255" name="css_class">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="634" parent="255" name="list_class">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="635" parent="255" name="is_default">
+      <DataType>varchar(8)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="636" parent="255" name="status">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="637" parent="255" name="default">
+      <DataType>varchar(8)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="638" parent="255" name="remark">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="639" parent="255" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="640" parent="255" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="641" parent="255" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="642" parent="255" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="643" parent="255" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <index id="644" parent="255" name="idx_sys_dict_data_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="645" parent="255" name="idx_sys_dict_data_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="646" parent="255" name="idx_sys_dict_data_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="647" parent="255" name="PRIMARY">
+      <ColNames>dict_code</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="648" parent="256" name="dict_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="649" parent="256" name="dict_name">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="650" parent="256" name="dict_type">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="651" parent="256" name="status">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="652" parent="256" name="remark">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="653" parent="256" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="654" parent="256" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="655" parent="256" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="656" parent="256" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="657" parent="256" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <index id="658" parent="256" name="idx_sys_dict_type_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="659" parent="256" name="idx_sys_dict_type_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="660" parent="256" name="idx_sys_dict_type_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="661" parent="256" name="PRIMARY">
+      <ColNames>dict_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="662" parent="257" name="job_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="663" parent="257" name="job_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="664" parent="257" name="job_group">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="665" parent="257" name="job_type">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="666" parent="257" name="cron_expression">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="667" parent="257" name="invoke_target">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="668" parent="257" name="args">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="669" parent="257" name="misfire_policy">
+      <DataType>bigint(20)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="670" parent="257" name="concurrent">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="671" parent="257" name="status">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="672" parent="257" name="entry_id">
+      <DataType>smallint(6)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="673" parent="257" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="674" parent="257" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="675" parent="257" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="676" parent="257" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="677" parent="257" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <index id="678" parent="257" name="idx_sys_job_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="679" parent="257" name="idx_sys_job_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="680" parent="257" name="idx_sys_job_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="681" parent="257" name="PRIMARY">
+      <ColNames>job_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="682" parent="258" name="id">
+      <Comment>主键编码</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="683" parent="258" name="username">
+      <Comment>用户名</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="684" parent="258" name="status">
+      <Comment>状态</Comment>
+      <DataType>varchar(4)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="685" parent="258" name="ipaddr">
+      <Comment>ip地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="686" parent="258" name="login_location">
+      <Comment>归属地</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="687" parent="258" name="browser">
+      <Comment>浏览器</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="688" parent="258" name="os">
+      <Comment>系统</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="689" parent="258" name="platform">
+      <Comment>固件</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="690" parent="258" name="login_time">
+      <Comment>登录时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="691" parent="258" name="remark">
+      <Comment>备注</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="692" parent="258" name="msg">
+      <Comment>信息</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="693" parent="258" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="694" parent="258" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="695" parent="258" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="696" parent="258" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <index id="697" parent="258" name="idx_sys_login_log_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="698" parent="258" name="idx_sys_login_log_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="699" parent="258" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="700" parent="259" name="menu_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="701" parent="259" name="menu_name">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="702" parent="259" name="title">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="703" parent="259" name="icon">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="704" parent="259" name="path">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="705" parent="259" name="paths">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="706" parent="259" name="menu_type">
+      <DataType>varchar(1)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="707" parent="259" name="action">
+      <DataType>varchar(16)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="708" parent="259" name="permission">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="709" parent="259" name="parent_id">
+      <DataType>smallint(6)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="710" parent="259" name="no_cache">
+      <DataType>tinyint(1)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="711" parent="259" name="breadcrumb">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="712" parent="259" name="component">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="713" parent="259" name="sort">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="714" parent="259" name="visible">
+      <DataType>varchar(1)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="715" parent="259" name="is_frame">
+      <DataType>varchar(1)|0s</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <Position>16</Position>
+    </column>
+    <column id="716" parent="259" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>17</Position>
+    </column>
+    <column id="717" parent="259" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>18</Position>
+    </column>
+    <column id="718" parent="259" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>19</Position>
+    </column>
+    <column id="719" parent="259" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>20</Position>
+    </column>
+    <column id="720" parent="259" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>21</Position>
+    </column>
+    <index id="721" parent="259" name="idx_sys_menu_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="722" parent="259" name="idx_sys_menu_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="723" parent="259" name="idx_sys_menu_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="724" parent="259" name="PRIMARY">
+      <ColNames>menu_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="725" parent="260" name="sys_menu_menu_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="726" parent="260" name="sys_api_id">
+      <Comment>主键编码</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="727" parent="260" name="fk_sys_menu_api_rule_sys_menu">
+      <ColNames>sys_menu_menu_id</ColNames>
+      <RefColNames>menu_id</RefColNames>
+      <RefTableName>sys_menu</RefTableName>
+    </foreign-key>
+    <foreign-key id="728" parent="260" name="fk_sys_menu_api_rule_sys_api">
+      <ColNames>sys_api_id</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>sys_api</RefTableName>
+    </foreign-key>
+    <index id="729" parent="260" name="fk_sys_menu_api_rule_sys_api">
+      <ColNames>sys_api_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="730" parent="260" name="PRIMARY">
+      <ColNames>sys_menu_menu_id
+sys_api_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="731" parent="261" name="version">
+      <DataType>varchar(191)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="732" parent="261" name="apply_time">
+      <DataType>datetime(3)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <key id="733" parent="261" name="PRIMARY">
+      <ColNames>version</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="734" parent="262" name="id">
+      <Comment>主键编码</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="735" parent="262" name="title">
+      <Comment>操作模块</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="736" parent="262" name="business_type">
+      <Comment>操作类型</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="737" parent="262" name="business_types">
+      <Comment>BusinessTypes</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="738" parent="262" name="method">
+      <Comment>函数</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="739" parent="262" name="request_method">
+      <Comment>请求方式</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="740" parent="262" name="operator_type">
+      <Comment>操作类型</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="741" parent="262" name="oper_name">
+      <Comment>操作者</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="742" parent="262" name="dept_name">
+      <Comment>部门名称</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="743" parent="262" name="oper_url">
+      <Comment>访问地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="744" parent="262" name="oper_ip">
+      <Comment>客户端ip</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="745" parent="262" name="oper_location">
+      <Comment>访问位置</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="746" parent="262" name="oper_param">
+      <Comment>请求参数</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="747" parent="262" name="status">
+      <Comment>操作状态</Comment>
+      <DataType>varchar(4)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="748" parent="262" name="oper_time">
+      <Comment>操作时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="749" parent="262" name="json_result">
+      <Comment>返回数据</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <column id="750" parent="262" name="remark">
+      <Comment>备注</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>17</Position>
+    </column>
+    <column id="751" parent="262" name="latency_time">
+      <Comment>耗时</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>18</Position>
+    </column>
+    <column id="752" parent="262" name="user_agent">
+      <Comment>ua</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>19</Position>
+    </column>
+    <column id="753" parent="262" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>20</Position>
+    </column>
+    <column id="754" parent="262" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>21</Position>
+    </column>
+    <column id="755" parent="262" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>22</Position>
+    </column>
+    <column id="756" parent="262" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>23</Position>
+    </column>
+    <index id="757" parent="262" name="idx_sys_opera_log_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="758" parent="262" name="idx_sys_opera_log_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="759" parent="262" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="760" parent="263" name="post_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="761" parent="263" name="post_name">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="762" parent="263" name="post_code">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="763" parent="263" name="sort">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="764" parent="263" name="status">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="765" parent="263" name="remark">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="766" parent="263" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="767" parent="263" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="768" parent="263" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="769" parent="263" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="770" parent="263" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <index id="771" parent="263" name="idx_sys_post_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="772" parent="263" name="idx_sys_post_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="773" parent="263" name="idx_sys_post_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="774" parent="263" name="PRIMARY">
+      <ColNames>post_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="775" parent="264" name="role_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="776" parent="264" name="role_name">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="777" parent="264" name="status">
+      <DataType>varchar(4)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="778" parent="264" name="role_key">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="779" parent="264" name="role_sort">
+      <DataType>bigint(20)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="780" parent="264" name="flag">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="781" parent="264" name="remark">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="782" parent="264" name="admin">
+      <DataType>tinyint(1)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="783" parent="264" name="data_scope">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="784" parent="264" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="785" parent="264" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="786" parent="264" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="787" parent="264" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="788" parent="264" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <index id="789" parent="264" name="idx_sys_role_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="790" parent="264" name="idx_sys_role_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="791" parent="264" name="idx_sys_role_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="792" parent="264" name="PRIMARY">
+      <ColNames>role_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="793" parent="265" name="role_id">
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="794" parent="265" name="dept_id">
+      <DataType>smallint(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <key id="795" parent="265" name="PRIMARY">
+      <ColNames>role_id
+dept_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="796" parent="266" name="role_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="797" parent="266" name="menu_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="798" parent="266" name="fk_sys_role_menu_sys_role">
+      <ColNames>role_id</ColNames>
+      <RefColNames>role_id</RefColNames>
+      <RefTableName>sys_role</RefTableName>
+    </foreign-key>
+    <foreign-key id="799" parent="266" name="fk_sys_role_menu_sys_menu">
+      <ColNames>menu_id</ColNames>
+      <RefColNames>menu_id</RefColNames>
+      <RefTableName>sys_menu</RefTableName>
+    </foreign-key>
+    <index id="800" parent="266" name="fk_sys_role_menu_sys_menu">
+      <ColNames>menu_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="801" parent="266" name="PRIMARY">
+      <ColNames>role_id
+menu_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="802" parent="267" name="table_id">
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="803" parent="267" name="table_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="804" parent="267" name="table_comment">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="805" parent="267" name="class_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="806" parent="267" name="tpl_category">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="807" parent="267" name="package_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="808" parent="267" name="module_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="809" parent="267" name="module_front_name">
+      <Comment>前端文件名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="810" parent="267" name="business_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="811" parent="267" name="function_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="812" parent="267" name="function_author">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="813" parent="267" name="pk_column">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="814" parent="267" name="pk_go_field">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="815" parent="267" name="pk_json_field">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="816" parent="267" name="options">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="817" parent="267" name="tree_code">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <column id="818" parent="267" name="tree_parent_code">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>17</Position>
+    </column>
+    <column id="819" parent="267" name="tree_name">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>18</Position>
+    </column>
+    <column id="820" parent="267" name="tree">
+      <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>19</Position>
+    </column>
+    <column id="821" parent="267" name="crud">
+      <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>1</DefaultExpression>
+      <Position>20</Position>
+    </column>
+    <column id="822" parent="267" name="remark">
+      <DataType>varchar(255)|0s</DataType>
+      <Position>21</Position>
+    </column>
+    <column id="823" parent="267" name="is_data_scope">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>22</Position>
+    </column>
+    <column id="824" parent="267" name="is_actions">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>23</Position>
+    </column>
+    <column id="825" parent="267" name="is_auth">
+      <DataType>tinyint(4)|0s</DataType>
+      <Position>24</Position>
+    </column>
+    <column id="826" parent="267" name="is_logical_delete">
+      <DataType>varchar(1)|0s</DataType>
+      <Position>25</Position>
+    </column>
+    <column id="827" parent="267" name="logical_delete">
+      <DataType>tinyint(1)|0s</DataType>
+      <Position>26</Position>
+    </column>
+    <column id="828" parent="267" name="logical_delete_column">
+      <DataType>varchar(128)|0s</DataType>
+      <Position>27</Position>
+    </column>
+    <column id="829" parent="267" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>28</Position>
+    </column>
+    <column id="830" parent="267" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>29</Position>
+    </column>
+    <column id="831" parent="267" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>30</Position>
+    </column>
+    <column id="832" parent="267" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>31</Position>
+    </column>
+    <column id="833" parent="267" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>32</Position>
+    </column>
+    <index id="834" parent="267" name="idx_sys_tables_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="835" parent="267" name="idx_sys_tables_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="836" parent="267" name="idx_sys_tables_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="837" parent="267" name="PRIMARY">
+      <ColNames>table_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="838" parent="268" name="user_id">
+      <Comment>编码</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="839" parent="268" name="username">
+      <Comment>用户名</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="840" parent="268" name="password">
+      <Comment>密码</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="841" parent="268" name="nick_name">
+      <Comment>昵称</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="842" parent="268" name="phone">
+      <Comment>手机号</Comment>
+      <DataType>varchar(11)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="843" parent="268" name="role_id">
+      <Comment>角色ID</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="844" parent="268" name="salt">
+      <Comment>加盐</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="845" parent="268" name="avatar">
+      <Comment>头像</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="846" parent="268" name="sex">
+      <Comment>性别</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="847" parent="268" name="email">
+      <Comment>邮箱</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="848" parent="268" name="dept_id">
+      <Comment>部门</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="849" parent="268" name="post_id">
+      <Comment>岗位</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="850" parent="268" name="remark">
+      <Comment>备注</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="851" parent="268" name="status">
+      <Comment>状态</Comment>
+      <DataType>varchar(4)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="852" parent="268" name="create_by">
+      <Comment>创建者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="853" parent="268" name="update_by">
+      <Comment>更新者</Comment>
+      <DataType>bigint(20)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <column id="854" parent="268" name="created_at">
+      <Comment>创建时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>17</Position>
+    </column>
+    <column id="855" parent="268" name="updated_at">
+      <Comment>最后更新时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>18</Position>
+    </column>
+    <column id="856" parent="268" name="deleted_at">
+      <Comment>删除时间</Comment>
+      <DataType>datetime(3)|0s</DataType>
+      <Position>19</Position>
+    </column>
+    <index id="857" parent="268" name="idx_sys_user_create_by">
+      <ColNames>create_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="858" parent="268" name="idx_sys_user_update_by">
+      <ColNames>update_by</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="859" parent="268" name="idx_sys_user_deleted_at">
+      <ColNames>deleted_at</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="860" parent="268" name="PRIMARY">
+      <ColNames>user_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="861" parent="269" name="id">
+      <Comment>序号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="862" parent="269" name="company">
+      <Comment>单位</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="863" parent="269" name="sex">
+      <Comment>性别</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="864" parent="269" name="user_id">
+      <Comment>身份证号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="865" parent="269" name="nation">
+      <Comment>名族</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="866" parent="269" name="residence">
+      <Comment>籍贯</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="867" parent="269" name="education">
+      <Comment>文化程度</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="868" parent="269" name="job_time">
+      <Comment>参加工作时间</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="869" parent="269" name="apply_time">
+      <Comment>递交申请时间</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="870" parent="269" name="job_name">
+      <Comment>职务职称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="871" parent="269" name="training_state">
+      <Comment>培训情况</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="872" parent="269" name="telephone">
+      <Comment>联系电话</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="873" parent="269" name="category">
+      <Comment>类别</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="874" parent="269" name="training_people">
+      <Comment>培养人</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="875" parent="269" name="name">
+      <Comment>姓名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="876" parent="269" name="active_time">
+      <Comment>列为入党积极分子</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <key id="877" parent="269" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="878" parent="270" name="id">
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="879" parent="270" name="name">
+      <Comment>管理员名字</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="880" parent="270" name="userID">
+      <Comment>身份证号</Comment>
+      <DataType>varchar(18)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="881" parent="270" name="age">
+      <Comment>年龄</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="882" parent="270" name="sex">
+      <Comment>性别</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="883" parent="270" name="rescode">
+      <Comment>户编码</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="884" parent="270" name="telephone">
+      <Comment>管理员电话</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="885" parent="270" name="notice">
+      <Comment>备注</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="886" parent="270" name="password">
+      <Comment>登陆密码</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="887" parent="270" name="adminID">
+      <Comment>网格员编号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <index id="888" parent="270" name="name">
+      <ColNames>name</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="889" parent="270" name="adminID">
+      <ColNames>adminID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="890" parent="270" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="891" parent="271" name="id">
+      <Comment>序号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="892" parent="271" name="company">
+      <Comment>单位</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="893" parent="271" name="sex">
+      <Comment>性别</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="894" parent="271" name="user_id">
+      <Comment>身份证号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="895" parent="271" name="nation">
+      <Comment>名族</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="896" parent="271" name="residence">
+      <Comment>籍贯</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="897" parent="271" name="education">
+      <Comment>文化程度</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="898" parent="271" name="job_time">
+      <Comment>参加工作时间</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="899" parent="271" name="apply_time">
+      <Comment>递交申请时间</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="900" parent="271" name="job_name">
+      <Comment>职务职称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="901" parent="271" name="training_state">
+      <Comment>培训情况</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="902" parent="271" name="telephone">
+      <Comment>联系电话</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="903" parent="271" name="category">
+      <Comment>类别</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="904" parent="271" name="training_people">
+      <Comment>培养人</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="905" parent="271" name="name">
+      <Comment>姓名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="906" parent="271" name="active_time">
+      <Comment>列为入党积极分子</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <column id="907" parent="271" name="development_time">
+      <Comment>列为发展对象</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>17</Position>
+    </column>
+    <column id="908" parent="271" name="registration_people">
+      <Comment>入党介绍人</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>18</Position>
+    </column>
+    <key id="909" parent="271" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="910" parent="272" name="id">
+      <Comment>  序号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="911" parent="272" name="rescode">
+      <Comment>户编码</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="912" parent="272" name="check_time">
+      <Comment>排查时间</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="913" parent="272" name="check_unity">
+      <Comment>排查单位</Comment>
+      <DataType>varchar(15)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="914" parent="272" name="host_name">
+      <Comment>养犬户主姓名</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="915" parent="272" name="host_telephone">
+      <Comment>户主电话</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="916" parent="272" name="address">
+      <Comment>现住址</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="917" parent="272" name="dog_count">
+      <Comment>养犬数量</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="918" parent="272" name="dog_category">
+      <Comment>犬只种类</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="919" parent="272" name="is_dog_certificate">
+      <Comment>是否持有养犬证书</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="920" parent="272" name="dog_certificate_number">
+      <Comment>犬证编号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="921" parent="272" name="is_quarantine">
+      <Comment>是否农业局检疫检测</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="922" parent="272" name="quarantine_result">
+      <Comment>检疫结果</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="923" parent="272" name="dog_card1">
+      <Comment>犬牌号1</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="924" parent="272" name="dog_card2">
+      <Comment>犬牌号2</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="925" parent="272" name="admin_name">
+      <Comment>网格员</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <column id="926" parent="272" name="telephone">
+      <Comment>联系电话</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>17</Position>
+    </column>
+    <column id="927" parent="272" name="notice">
+      <Comment>备注</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>18</Position>
+    </column>
+    <column id="928" parent="272" name="is_deleted">
+      <Comment>逻辑删除(1:已删除，0:未删除)</Comment>
+      <DataType>tinyint(1) unsigned zerofill|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>19</Position>
+    </column>
+    <column id="929" parent="272" name="create_time">
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <Position>20</Position>
+    </column>
+    <column id="930" parent="272" name="update_time">
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <Position>21</Position>
+    </column>
+    <key id="931" parent="272" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="932" parent="273" name="id">
+      <Comment>序号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="933" parent="273" name="number">
+      <Comment>编号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="934" parent="273" name="sex">
+      <Comment>性别</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="935" parent="273" name="user_id">
+      <Comment>身份证号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="936" parent="273" name="in_army_time">
+      <Comment>入伍时间</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="937" parent="273" name="out_army_time">
+      <Comment>退伍时间</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="938" parent="273" name="military_unity">
+      <Comment>部队番号</Comment>
+      <DataType>varchar(25)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="939" parent="273" name="people_category">
+      <Comment>人员类别</Comment>
+      <DataType>varchar(25)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="940" parent="273" name="residence_address">
+      <Comment>户籍地址</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="941" parent="273" name="address">
+      <Comment>现住址</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="942" parent="273" name="company">
+      <Comment>工作单位</Comment>
+      <DataType>varchar(50)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="943" parent="273" name="is_card">
+      <Comment>是否挂牌</Comment>
+      <DataType>varchar(2)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="944" parent="273" name="telephone">
+      <Comment>电话</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="945" parent="273" name="notice">
+      <Comment>备注</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="946" parent="273" name="is_deleted">
+      <Comment>逻辑删除(1:已删除，0:未删除)</Comment>
+      <DataType>tinyint(1) unsigned|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>15</Position>
+    </column>
+    <column id="947" parent="273" name="name">
+      <Comment>姓名</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <column id="948" parent="273" name="certificate">
+      <Comment>证书编号</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>17</Position>
+    </column>
+    <column id="949" parent="273" name="create_time">
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <Position>18</Position>
+    </column>
+    <column id="950" parent="273" name="update_time">
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <Position>19</Position>
+    </column>
+    <column id="951" parent="273" name="rescode">
+      <Comment>户编码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>20</Position>
+    </column>
+    <key id="952" parent="273" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="953" parent="274" name="id">
+      <Comment>序号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="954" parent="274" name="company">
+      <Comment>单位</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="955" parent="274" name="sex">
+      <Comment>性别</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="956" parent="274" name="user_id">
+      <Comment>身份证号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="957" parent="274" name="nation">
+      <Comment>名族</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="958" parent="274" name="residence">
+      <Comment>籍贯</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="959" parent="274" name="education">
+      <Comment>文化程度</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="960" parent="274" name="in_part_time">
+      <Comment>入党时间</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="961" parent="274" name="in_flow_time">
+      <Comment>流入时间</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="962" parent="274" name="out_flow_time">
+      <Comment>流出时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="963" parent="274" name="out_flow_company">
+      <Comment>流出地或单位</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="964" parent="274" name="out_flow_party_number">
+      <Comment>流动党员编号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="965" parent="274" name="telephone">
+      <Comment>电话</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="966" parent="274" name="name">
+      <Comment>姓名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="967" parent="274" name="residence_address">
+      <Comment>户口所在地或居住地</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <key id="968" parent="274" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="969" parent="275" name="id">
+      <Comment>自增主键</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="970" parent="275" name="name">
+      <Comment>党员姓名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="971" parent="275" name="userID">
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="972" parent="275" name="sex">
+      <Comment>性别</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="973" parent="275" name="social">
+      <Comment>所在社区</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="974" parent="275" name="nation">
+      <Comment>民族</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="975" parent="275" name="residene">
+      <Comment>籍贯</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="976" parent="275" name="jobName">
+      <Comment>任职岗位及名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="977" parent="275" name="education">
+      <Comment>文化程度</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="978" parent="275" name="joinWorkTime">
+      <Comment>参加工作时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="979" parent="275" name="BranchTime">
+      <Comment>组织关系进入本组织时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="980" parent="275" name="residenceAddress">
+      <Comment>户口所在地(居住地)</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="981" parent="275" name="outBranchTime">
+      <Comment>组织关系转出时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="982" parent="275" name="buildName">
+      <Comment>楼栋名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="983" parent="275" name="address">
+      <Comment>详细地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="984" parent="275" name="job">
+      <Comment>工作名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <column id="985" parent="275" name="rescode">
+      <Comment>户编码</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <Position>17</Position>
+    </column>
+    <column id="986" parent="275" name="inPartTime">
+      <Comment>入党时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>18</Position>
+    </column>
+    <column id="987" parent="275" name="telephone">
+      <Comment>联系电话</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>19</Position>
+    </column>
+    <column id="988" parent="275" name="buildID">
+      <Comment>楼栋号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>20</Position>
+    </column>
+    <index id="989" parent="275" name="tb_party_ibfk_2">
+      <ColNames>buildName</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="990" parent="275" name="tb_party_ibfk_3">
+      <ColNames>address</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="991" parent="275" name="tb_party_ibfk_1">
+      <ColNames>rescode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="992" parent="275" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="993" parent="276" name="id">
+      <Comment>序号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="994" parent="276" name="company">
+      <Comment>单位</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="995" parent="276" name="sex">
+      <Comment>性别</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="996" parent="276" name="user_id">
+      <Comment>身份证号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="997" parent="276" name="nation">
+      <Comment>名族</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="998" parent="276" name="residence">
+      <Comment>籍贯</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="999" parent="276" name="education">
+      <Comment>文化程度</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="1000" parent="276" name="job_time">
+      <Comment>参加工作时间</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="1001" parent="276" name="apply_time">
+      <Comment>递交申请时间</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="1002" parent="276" name="job_name">
+      <Comment>职务职称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="1003" parent="276" name="training_state">
+      <Comment>培训情况</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="1004" parent="276" name="telephone">
+      <Comment>联系电话</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="1005" parent="276" name="category">
+      <Comment>类别</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="1006" parent="276" name="name">
+      <Comment>姓名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <key id="1007" parent="276" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="1008" parent="277" name="id">
+      <Comment>自增id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="1009" parent="277" name="rescode">
+      <Comment>户编码</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1010" parent="277" name="buildID">
+      <Comment>楼栋编码</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="1011" parent="277" name="adress">
+      <Comment>详细地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="1012" parent="277" name="name">
+      <Comment>住户姓名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="1013" parent="277" name="sex">
+      <Comment>性别</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="1014" parent="277" name="age">
+      <Comment>年龄</Comment>
+      <DataType>int(2) unsigned zerofill|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="1015" parent="277" name="userID">
+      <Comment>身份证号  0表示没有未输入身份证号</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="1016" parent="277" name="nation">
+      <Comment>民族</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="1017" parent="277" name="political">
+      <Comment>政治面貌</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <column id="1018" parent="277" name="education">
+      <Comment>文化程度</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>11</Position>
+    </column>
+    <column id="1019" parent="277" name="registration">
+      <Comment>户口性质</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>12</Position>
+    </column>
+    <column id="1020" parent="277" name="residence">
+      <Comment>户籍地</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>13</Position>
+    </column>
+    <column id="1021" parent="277" name="is_marry">
+      <Comment>婚姻</Comment>
+      <DataType>varchar(3)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>14</Position>
+    </column>
+    <column id="1022" parent="277" name="is_disable">
+      <Comment>残疾</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>15</Position>
+    </column>
+    <column id="1023" parent="277" name="is_soldier">
+      <Comment>军人</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>16</Position>
+    </column>
+    <column id="1024" parent="277" name="is_low">
+      <Comment>低保户</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>17</Position>
+    </column>
+    <column id="1025" parent="277" name="is_rent">
+      <Comment>租户</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>18</Position>
+    </column>
+    <column id="1026" parent="277" name="is_dog">
+      <Comment>是否养狗？0：否 1：是</Comment>
+      <DataType>int(1) unsigned zerofill|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>19</Position>
+    </column>
+    <column id="1027" parent="277" name="company">
+      <Comment>公司</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>20</Position>
+    </column>
+    <column id="1028" parent="277" name="telephone">
+      <Comment>电话号码</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>21</Position>
+    </column>
+    <column id="1029" parent="277" name="notice">
+      <Comment>备注</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>22</Position>
+    </column>
+    <column id="1030" parent="277" name="adminID">
+      <Comment>网格人员编号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>23</Position>
+    </column>
+    <index id="1031" parent="277" name="rescode">
+      <ColNames>rescode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1032" parent="277" name="tb_resident_ibfk_5">
+      <ColNames>adress</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1033" parent="277" name="adminID">
+      <ColNames>adminID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1034" parent="277" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="1035" parent="278" name="id">
+      <Comment>序号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="1036" parent="278" name="name">
+      <Comment>姓名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="1037" parent="278" name="sex">
+      <Comment>性别</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="1038" parent="278" name="user_id">
+      <Comment>身份证号</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="1039" parent="278" name="nation">
+      <Comment>名族</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="1040" parent="278" name="residence">
+      <Comment>籍贯</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="1041" parent="278" name="education">
+      <Comment>文化程度</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="1042" parent="278" name="body_station">
+      <Comment>身体状况</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="1043" parent="278" name="in_part_time">
+      <Comment>入党时间</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="1044" parent="278" name="job">
+      <Comment>原工作单位</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="1045" parent="278" name="job_name">
+      <Comment>原工作单位职务</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="1046" parent="278" name="in_branch_time">
+      <Comment>进入党支部时间</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="1047" parent="278" name="residence_address">
+      <Comment>户口所在地或居住地</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="1048" parent="278" name="category">
+      <Comment>类别</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="1049" parent="278" name="telephone">
+      <Comment>联系电话</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <key id="1050" parent="278" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="1051" parent="279" name="id">
+      <Comment>编号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="1052" parent="279" name="adminID">
+      <Comment>网格人员编号</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="1053" parent="279" name="name">
+      <Comment>社区人员姓名</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="1054" parent="279" name="telephone">
+      <Comment>服务人员电话</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="1055" parent="279" name="rescode">
+      <Comment>服务住户的户编码</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="1056" parent="279" name="imgStr">
+      <Comment>图片地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="1057" parent="279" name="address">
+      <Comment>住户的详细住址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="1058" parent="279" name="serviceTime">
+      <Comment>服务时间</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <column id="1059" parent="279" name="serviceItem">
+      <Comment>服务事件描述</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+    </column>
+    <column id="1060" parent="279" name="create_time">
+      <Comment>创建时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <NotNull>1</NotNull>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+      <Position>10</Position>
+    </column>
+    <column id="1061" parent="279" name="update_time">
+      <Comment>更新时间</Comment>
+      <DataType>timestamp|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <index id="1062" parent="279" name="adminID">
+      <ColNames>adminID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1063" parent="279" name="name">
+      <ColNames>name</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1064" parent="279" name="rescode">
+      <ColNames>rescode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1065" parent="279" name="tb_service_ibfk_4">
+      <ColNames>address</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1066" parent="279" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="1067" parent="280" name="buildID">
+      <Comment>楼栋号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="1068" parent="280" name="buildName">
+      <Comment>楼栋名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="1069" parent="280" name="street">
+      <ColNames>buildID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1070" parent="280" name="tb_social_ibfk_1">
+      <ColNames>buildName</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1071" parent="280" name="PRIMARY">
+      <ColNames>buildID</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+    <column id="1072" parent="281" name="id">
+      <Comment>自增id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="1073" parent="281" name="rescode">
+      <Comment>户编号</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="1074" parent="281" name="buildID">
+      <Comment>楼栋编码</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="1075" parent="281" name="address">
+      <Comment>详细住址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="1076" parent="281" name="name">
+      <Comment>姓名</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="1077" parent="281" name="sex">
+      <Comment>性别</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="1078" parent="281" name="age">
+      <Comment>年龄</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="1079" parent="281" name="userID">
+      <Comment>身份证</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="1080" parent="281" name="nation">
+      <Comment>民族</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="1081" parent="281" name="political">
+      <Comment>政治面貌</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="1082" parent="281" name="education">
+      <Comment>文化程度</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <Position>11</Position>
+    </column>
+    <column id="1083" parent="281" name="registration">
+      <Comment>户口性质</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="1084" parent="281" name="residence">
+      <Comment>户籍地</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>13</Position>
+    </column>
+    <column id="1085" parent="281" name="is_marry">
+      <Comment>婚姻状况</Comment>
+      <DataType>varchar(3)|0s</DataType>
+      <Position>14</Position>
+    </column>
+    <column id="1086" parent="281" name="is_disable">
+      <Comment>残疾人</Comment>
+      <DataType>int(1) unsigned zerofill|0s</DataType>
+      <Position>15</Position>
+    </column>
+    <column id="1087" parent="281" name="is_soldier">
+      <Comment>军人</Comment>
+      <DataType>int(1) unsigned zerofill|0s</DataType>
+      <Position>16</Position>
+    </column>
+    <column id="1088" parent="281" name="is_low">
+      <Comment>低保</Comment>
+      <DataType>int(1) unsigned zerofill|0s</DataType>
+      <Position>17</Position>
+    </column>
+    <column id="1089" parent="281" name="is_rent">
+      <Comment>租户</Comment>
+      <DataType>int(1) unsigned zerofill|0s</DataType>
+      <Position>18</Position>
+    </column>
+    <column id="1090" parent="281" name="is_dog">
+      <Comment>养犬</Comment>
+      <DataType>int(1) unsigned zerofill|0s</DataType>
+      <Position>19</Position>
+    </column>
+    <column id="1091" parent="281" name="is_vaccine">
+      <Comment>是否接种疫苗 0：否 1：是</Comment>
+      <DataType>int(11)|0s</DataType>
+      <Position>20</Position>
+    </column>
+    <column id="1092" parent="281" name="company">
+      <Comment>公司</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>21</Position>
+      <CollationName>utf8_bin</CollationName>
+    </column>
+    <column id="1093" parent="281" name="telephone">
+      <Comment>电话号码</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>22</Position>
+    </column>
+    <column id="1094" parent="281" name="notice">
+      <Comment>备注</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <Position>23</Position>
+      <CollationName>utf8_bin</CollationName>
+    </column>
+    <column id="1095" parent="281" name="adminID">
+      <Comment>网格员编号</Comment>
+      <DataType>varchar(5)|0s</DataType>
+      <Position>24</Position>
+    </column>
+    <index id="1096" parent="281" name="rescode_2">
+      <ColNames>rescode
+address</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1097" parent="281" name="rescode">
+      <ColNames>rescode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1098" parent="281" name="buildID">
+      <ColNames>buildID</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="1099" parent="281" name="address">
+      <ColNames>address</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="1100" parent="281" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
