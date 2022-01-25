@@ -23,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="枚举类更新">
-      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/enums/IntegralEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/enums/LendStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/enums/ReturnMethodEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/enums/UserBindEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/enums/UserBindEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/enums/UserBindEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +57,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fca54352-4ee3-46fb-8b27-c899f94f2604" />
+        <option name="url" value="git@github.com:f117-sercet/finacialpotal.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -408,14 +413,7 @@
       <workItem from="1642331803673" duration="170000" />
       <workItem from="1642674053266" duration="384000" />
       <workItem from="1642857996451" duration="1233000" />
-      <workItem from="1642984812401" duration="5715000" />
-    </task>
-    <task id="LOCAL-00035" summary="核心业务代码更新">
-      <created>1623750534832</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1623750534832</updated>
+      <workItem from="1642984812401" duration="7179000" />
     </task>
     <task id="LOCAL-00036" summary="service实现">
       <created>1623810571995</created>
@@ -753,7 +751,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643008250315</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="枚举类更新">
+      <created>1643009728677</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1643009728677</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
