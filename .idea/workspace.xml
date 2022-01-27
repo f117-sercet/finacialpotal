@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="借款人审批">
-      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/Vo/BorrowerApprovalVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -415,14 +414,8 @@
       <workItem from="1642857996451" duration="1233000" />
       <workItem from="1642984812401" duration="7179000" />
       <workItem from="1643117258556" duration="1782000" />
-      <workItem from="1643204038971" duration="397000" />
-    </task>
-    <task id="LOCAL-00038" summary="服务实现类">
-      <created>1623902601137</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1623902601137</updated>
+      <workItem from="1643204038971" duration="427000" />
+      <workItem from="1643247550767" duration="3523000" />
     </task>
     <task id="LOCAL-00039" summary="业务逻辑完成">
       <created>1623916095480</created>
@@ -760,7 +753,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643117753261</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="借款人审批">
+      <created>1643204449783</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1643204449784</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
