@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="借款人审批">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="借款人资料附件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -416,13 +416,7 @@
       <workItem from="1643117258556" duration="1782000" />
       <workItem from="1643204038971" duration="427000" />
       <workItem from="1643247550767" duration="3523000" />
-    </task>
-    <task id="LOCAL-00039" summary="业务逻辑完成">
-      <created>1623916095480</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1623916095480</updated>
+      <workItem from="1643290065943" duration="499000" />
     </task>
     <task id="LOCAL-00040" summary="汇付宝接口">
       <created>1623982775009</created>
@@ -760,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643204449784</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="借款人资料附件">
+      <created>1643290379895</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1643290379895</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,7 +780,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="数据字典service" />
     <MESSAGE value="数据字典service，controller" />
     <MESSAGE value="数据字典 redis" />
     <MESSAGE value="redis 缓存测试" />
@@ -804,7 +804,8 @@
     <MESSAGE value="枚举类更新" />
     <MESSAGE value="查询类" />
     <MESSAGE value="借款人审批" />
-    <option name="LAST_COMMIT_MESSAGE" value="借款人审批" />
+    <MESSAGE value="借款人资料附件" />
+    <option name="LAST_COMMIT_MESSAGE" value="借款人资料附件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
