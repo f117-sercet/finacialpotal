@@ -1,7 +1,10 @@
 package com.atguigu.srb.core.service;
 
+import com.atguigu.srb.core.pojo.Vo.BorrowerAttachVO;
 import com.atguigu.srb.core.pojo.entity.BorrowerAttach;
 import com.baomidou.mybatisplus.extension.service.IService;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +16,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface BorrowerAttachService extends IService<BorrowerAttach> {
 
+    List<BorrowerAttachVO> selectBorrowerAttachVoList(Long borrowerId);
 }

@@ -22,8 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="借款人资料附件">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="VO类">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58646b8e-3767-4737-9cfe-c3069b4287fd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58646b8e-3767-4737-9cfe-c3069b4287fd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/mapper/BorrowerAttachMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/mapper/BorrowerAttachMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/entity/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/entity/Borrower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/BorrowerAttachService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/BorrowerAttachService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -416,21 +420,12 @@
       <workItem from="1643117258556" duration="1782000" />
       <workItem from="1643204038971" duration="427000" />
       <workItem from="1643247550767" duration="3523000" />
-      <workItem from="1643290065943" duration="499000" />
-    </task>
-    <task id="LOCAL-00040" summary="汇付宝接口">
-      <created>1623982775009</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1623982775009</updated>
-    </task>
-    <task id="LOCAL-00041" summary="controller 更新">
-      <created>1624065822891</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1624065822891</updated>
+      <workItem from="1643290065943" duration="1053000" />
+      <workItem from="1643336597807" duration="677000" />
+      <workItem from="1643421663519" duration="3740000" />
+      <workItem from="1643439241427" duration="2137000" />
+      <workItem from="1643446685190" duration="2751000" />
+      <workItem from="1643554873659" duration="302000" />
     </task>
     <task id="LOCAL-00042" summary="controller类更新">
       <created>1624196000347</created>
@@ -761,7 +756,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643290379895</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="VO类">
+      <created>1643336167979</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1643336167979</updated>
+    </task>
+    <task id="LOCAL-00090" summary="VO类">
+      <created>1643336369085</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1643336369085</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -780,7 +789,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="数据字典service，controller" />
     <MESSAGE value="数据字典 redis" />
     <MESSAGE value="redis 缓存测试" />
     <MESSAGE value="sms测试" />
@@ -805,7 +813,8 @@
     <MESSAGE value="查询类" />
     <MESSAGE value="借款人审批" />
     <MESSAGE value="借款人资料附件" />
-    <option name="LAST_COMMIT_MESSAGE" value="借款人资料附件" />
+    <MESSAGE value="VO类" />
+    <option name="LAST_COMMIT_MESSAGE" value="VO类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
