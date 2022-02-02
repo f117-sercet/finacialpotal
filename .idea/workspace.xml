@@ -22,12 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="VO类">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58646b8e-3767-4737-9cfe-c3069b4287fd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58646b8e-3767-4737-9cfe-c3069b4287fd.xml" afterDir="false" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="借款人上传资源列表">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/mapper/BorrowerAttachMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/mapper/BorrowerAttachMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/entity/Borrower.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/entity/Borrower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/BorrowerAttachService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/BorrowerAttachService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/controller/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/UserInfoServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -425,14 +424,8 @@
       <workItem from="1643421663519" duration="3740000" />
       <workItem from="1643439241427" duration="2137000" />
       <workItem from="1643446685190" duration="2751000" />
-      <workItem from="1643554873659" duration="302000" />
-    </task>
-    <task id="LOCAL-00042" summary="controller类更新">
-      <created>1624196000347</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1624196000347</updated>
+      <workItem from="1643554873659" duration="373000" />
+      <workItem from="1643790999417" duration="1162000" />
     </task>
     <task id="LOCAL-00043" summary="controller类更新">
       <created>1624247381562</created>
@@ -770,7 +763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643336369085</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="借款人上传资源列表">
+      <created>1643555234603</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1643555234603</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -789,7 +789,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="数据字典 redis" />
     <MESSAGE value="redis 缓存测试" />
     <MESSAGE value="sms测试" />
     <MESSAGE value="sms配置类" />
@@ -814,7 +813,8 @@
     <MESSAGE value="借款人审批" />
     <MESSAGE value="借款人资料附件" />
     <MESSAGE value="VO类" />
-    <option name="LAST_COMMIT_MESSAGE" value="VO类" />
+    <MESSAGE value="借款人上传资源列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="借款人上传资源列表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
