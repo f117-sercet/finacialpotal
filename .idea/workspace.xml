@@ -22,12 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="借款人上传资源列表">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/controller/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/UserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="用户信息列表" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -426,13 +421,7 @@
       <workItem from="1643446685190" duration="2751000" />
       <workItem from="1643554873659" duration="373000" />
       <workItem from="1643790999417" duration="1162000" />
-    </task>
-    <task id="LOCAL-00043" summary="controller类更新">
-      <created>1624247381562</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1624247381562</updated>
+      <workItem from="1643812310516" duration="132000" />
     </task>
     <task id="LOCAL-00044" summary="controller类更新">
       <created>1624262846558</created>
@@ -770,7 +759,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643555234603</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="用户信息列表">
+      <created>1643812374904</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1643812374904</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -789,7 +785,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="redis 缓存测试" />
     <MESSAGE value="sms测试" />
     <MESSAGE value="sms配置类" />
     <MESSAGE value="sms配置文件" />
@@ -814,7 +809,8 @@
     <MESSAGE value="借款人资料附件" />
     <MESSAGE value="VO类" />
     <MESSAGE value="借款人上传资源列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="借款人上传资源列表" />
+    <MESSAGE value="用户信息列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户信息列表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
