@@ -22,13 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="springcloud远程调用">
-      <change afterPath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/java/com/atguigu/sms/client/CoreUserInfoClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-base/guigu-service-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-base/guigu-service-base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu_service_oss/guigu_service_oss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_oss/guigu_service_oss.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/guigu_service_sms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/guigu_service_sms.iml" afterDir="false" />
-    </list>
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="Feign 引入" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -429,14 +423,7 @@
       <workItem from="1643790999417" duration="1162000" />
       <workItem from="1643812310516" duration="132000" />
       <workItem from="1643902669581" duration="327000" />
-      <workItem from="1643978330736" duration="959000" />
-    </task>
-    <task id="LOCAL-00045" summary="后端部分修改">
-      <created>1624266622202</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1624266622202</updated>
+      <workItem from="1643978330736" duration="1091000" />
     </task>
     <task id="LOCAL-00046" summary="后端调试修改">
       <created>1624330608064</created>
@@ -774,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643902949099</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Feign 引入">
+      <created>1643986375830</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1643986375830</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -793,7 +787,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="sms配置类" />
     <MESSAGE value="sms配置文件" />
     <MESSAGE value="JWT测试" />
     <MESSAGE value="SMS测试类" />
@@ -818,7 +811,8 @@
     <MESSAGE value="借款人上传资源列表" />
     <MESSAGE value="用户信息列表" />
     <MESSAGE value="springcloud远程调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud远程调用" />
+    <MESSAGE value="Feign 引入" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feign 引入" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
