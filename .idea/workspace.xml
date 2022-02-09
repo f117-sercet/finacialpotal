@@ -22,7 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="Feign 引入" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="短信模板">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/BorrowerAttachServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/BorrowerAttachServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/java/com/atguigu/sms/controller/api/ApiSmsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/java/com/atguigu/sms/controller/api/ApiSmsController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -424,13 +428,11 @@
       <workItem from="1643812310516" duration="132000" />
       <workItem from="1643902669581" duration="327000" />
       <workItem from="1643978330736" duration="1091000" />
-    </task>
-    <task id="LOCAL-00046" summary="后端调试修改">
-      <created>1624330608064</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1624330608064</updated>
+      <workItem from="1644063412626" duration="378000" />
+      <workItem from="1644114209750" duration="629000" />
+      <workItem from="1644158461667" duration="4007000" />
+      <workItem from="1644326459881" duration="604000" />
+      <workItem from="1644413715850" duration="807000" />
     </task>
     <task id="LOCAL-00047" summary="文档更新">
       <created>1627267875341</created>
@@ -768,7 +770,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643986375830</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="短信模板">
+      <created>1644063782283</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1644063782283</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,7 +796,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="sms配置文件" />
     <MESSAGE value="JWT测试" />
     <MESSAGE value="SMS测试类" />
     <MESSAGE value="SmsService 服务接口" />
@@ -812,7 +820,8 @@
     <MESSAGE value="用户信息列表" />
     <MESSAGE value="springcloud远程调用" />
     <MESSAGE value="Feign 引入" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feign 引入" />
+    <MESSAGE value="短信模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="短信模板" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
