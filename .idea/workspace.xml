@@ -22,10 +22,39 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="短信模板">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="借款人照片信息">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_datasource_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_circuitbreaker_sentinel_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_sentinel_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_annotation_aspectj_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_client_default_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_common_default_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_server_default_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_reactor_adapter_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webflux_adapter_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webmvc_adapter_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-base/src/main/java/com/atguigu/srb/base/config/OpenFeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/java/com/atguigu/sms/client/fallback/CoreUserInfoClientFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/BorrowerAttachServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/BorrowerAttachServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/java/com/atguigu/sms/controller/api/ApiSmsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/java/com/atguigu/sms/controller/api/ApiSmsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-base/guigu-service-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-base/guigu-service-base.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/guigu-service-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/guigu-service-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu_service_oss/guigu_service_oss.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_oss/guigu_service_oss.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/guigu_service_sms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/guigu_service_sms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/java/com/atguigu/sms/client/CoreUserInfoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu_service_sms/src/main/java/com/atguigu/sms/client/CoreUserInfoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +71,8 @@
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -432,14 +461,9 @@
       <workItem from="1644114209750" duration="629000" />
       <workItem from="1644158461667" duration="4007000" />
       <workItem from="1644326459881" duration="604000" />
-      <workItem from="1644413715850" duration="807000" />
-    </task>
-    <task id="LOCAL-00047" summary="文档更新">
-      <created>1627267875341</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1627267875341</updated>
+      <workItem from="1644413715850" duration="1187000" />
+      <workItem from="1644490085408" duration="861000" />
+      <workItem from="1644543791077" duration="2914000" />
     </task>
     <task id="LOCAL-00048" summary="文档更新">
       <created>1627269508447</created>
@@ -777,7 +801,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644063782283</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="借款人照片信息">
+      <created>1644414946696</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1644414946696</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -796,7 +827,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="JWT测试" />
     <MESSAGE value="SMS测试类" />
     <MESSAGE value="SmsService 服务接口" />
     <MESSAGE value="SmsServiceImpl" />
@@ -821,7 +851,8 @@
     <MESSAGE value="springcloud远程调用" />
     <MESSAGE value="Feign 引入" />
     <MESSAGE value="短信模板" />
-    <option name="LAST_COMMIT_MESSAGE" value="短信模板" />
+    <MESSAGE value="借款人照片信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="借款人照片信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -13,6 +13,7 @@
         <module name="hfb" />
         <module name="guigu-common" />
         <module name="service-oss" />
+        <module name="atguigu_hfb" />
         <module name="guigu-service-base" />
         <module name="guigu_service_oss" />
         <module name="rabbit-mq" />
@@ -24,6 +25,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="atguigu_hfb" target="8" />
       <module name="finacialpotal" target="1.5" />
       <module name="guigu-common" target="8" />
       <module name="guigu-service-base" target="8" />
@@ -44,6 +46,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="atguigu_hfb" options="-parameters" />
       <module name="guigu-common" options="-parameters" />
       <module name="guigu-service-base" options="-parameters" />
       <module name="guigu-service-core" options="-parameters" />

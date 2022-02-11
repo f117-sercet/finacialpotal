@@ -15,6 +15,7 @@
         <module>guigu_service_sms</module>
         <module>guigu_service_oss</module>
         <module>guigu-service-gateway</module>
+        <module>atguigu_hfb</module>
     </modules>
 
     <parent>
