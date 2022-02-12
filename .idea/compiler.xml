@@ -25,7 +25,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="atguigu_hfb" target="8" />
+      <module name="atguigu_hfb" target="1.8" />
       <module name="finacialpotal" target="1.5" />
       <module name="guigu-common" target="8" />
       <module name="guigu-service-base" target="8" />
