@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="汇付宝接口">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/atguigu_hfb/atguigu_hfb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/atguigu_hfb/atguigu_hfb.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -435,6 +433,7 @@
       <workItem from="1644413715850" duration="1187000" />
       <workItem from="1644490085408" duration="861000" />
       <workItem from="1644543791077" duration="3601000" />
+      <workItem from="1644679941839" duration="271000" />
     </task>
     <task id="LOCAL-00049" summary="修改类">
       <created>1637740746099</created>
