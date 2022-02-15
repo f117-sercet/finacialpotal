@@ -22,7 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="基本实体类">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="汇付宝接口开发">
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/model/UserAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -435,13 +436,8 @@
       <workItem from="1644543791077" duration="3601000" />
       <workItem from="1644679941839" duration="271000" />
       <workItem from="1644760275087" duration="381000" />
-    </task>
-    <task id="LOCAL-00050" summary="修改类">
-      <created>1637741157764</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1637741157764</updated>
+      <workItem from="1644845715982" duration="1973000" />
+      <workItem from="1644934356636" duration="877000" />
     </task>
     <task id="LOCAL-00051" summary="对该项目进行重新修正">
       <created>1637741261931</created>
@@ -779,7 +775,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644760585963</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="汇付宝接口开发">
+      <created>1644846064005</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1644846064005</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -798,7 +801,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SmsServiceImpl" />
     <MESSAGE value="SmsController" />
     <MESSAGE value="oss分布式云服务类" />
     <MESSAGE value="oss分布式云服务类接口实现" />
@@ -823,7 +825,8 @@
     <MESSAGE value="借款人照片信息" />
     <MESSAGE value="汇付宝接口" />
     <MESSAGE value="基本实体类" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本实体类" />
+    <MESSAGE value="汇付宝接口开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="汇付宝接口开发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
