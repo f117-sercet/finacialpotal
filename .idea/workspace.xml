@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="汇付宝接口开发">
-      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/model/UserAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="汇付宝接口开发" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -437,7 +434,7 @@
       <workItem from="1644679941839" duration="271000" />
       <workItem from="1644760275087" duration="381000" />
       <workItem from="1644845715982" duration="1973000" />
-      <workItem from="1644934356636" duration="877000" />
+      <workItem from="1644934356636" duration="1003000" />
     </task>
     <task id="LOCAL-00051" summary="对该项目进行重新修正">
       <created>1637741261931</created>
