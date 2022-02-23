@@ -440,13 +440,9 @@
       <workItem from="1645181781911" duration="1420000" />
       <workItem from="1645325291185" duration="622000" />
       <workItem from="1645362450941" duration="1115000" />
-    </task>
-    <task id="LOCAL-00053" summary="service-core接口调试">
-      <created>1638021626575</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1638021626576</updated>
+      <workItem from="1645525488590" duration="202000" />
+      <workItem from="1645581858380" duration="656000" />
+      <workItem from="1645603469944" duration="442000" />
     </task>
     <task id="LOCAL-00054" summary="service-common接口调试">
       <created>1638089644350</created>
@@ -784,7 +780,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645362675504</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="汇付宝接口开发">
+      <created>1645525664803</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1645525664804</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
