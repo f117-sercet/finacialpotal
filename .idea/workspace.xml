@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="汇付宝接口实体类">
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/LendReturnService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +41,8 @@
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -444,14 +445,8 @@
       <workItem from="1645581858380" duration="656000" />
       <workItem from="1645603469944" duration="442000" />
       <workItem from="1645611172998" duration="2247000" />
-      <workItem from="1645664231341" duration="621000" />
-    </task>
-    <task id="LOCAL-00055" summary="service-common接口调试">
-      <created>1638107716377</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1638107716377</updated>
+      <workItem from="1645664231341" duration="1358000" />
+      <workItem from="1645715595037" duration="368000" />
     </task>
     <task id="LOCAL-00056" summary="异常处理组件">
       <created>1638149895697</created>
@@ -789,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645612040865</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="汇付宝接口实体类">
+      <created>1645702471675</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1645702471676</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
