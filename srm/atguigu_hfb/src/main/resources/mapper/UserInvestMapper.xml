@@ -5,6 +5,8 @@
 
 <mapper namespace="com.heepy.mapper.UserInvestMapper">
     <resultMap id="UserInvestMap" type="com.heepy.model.UserInvest">
+      <result property="id" column="id" />
+      <result property="voteBindCode"/>
 
 
     </resultMap>
