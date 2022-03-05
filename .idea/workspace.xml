@@ -23,8 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="编写mapper.xml">
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/UserAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/UserBindService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/UserInvestService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/resources/mapper/UserInvestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/resources/mapper/UserInvestMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/LendReturnService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/LendReturnService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +44,8 @@
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -125,7 +128,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -456,14 +459,7 @@
       <workItem from="1645664231341" duration="1358000" />
       <workItem from="1645715595037" duration="5802000" />
       <workItem from="1646303189134" duration="580000" />
-      <workItem from="1646393009710" duration="4907000" />
-    </task>
-    <task id="LOCAL-00061" summary="数据字典 redis">
-      <created>1639033660792</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1639033660793</updated>
+      <workItem from="1646393009710" duration="6642000" />
     </task>
     <task id="LOCAL-00062" summary="redis 缓存测试">
       <created>1639566843339</created>
@@ -801,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646393923385</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="编写mapper.xml">
+      <created>1646449176657</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1646449176657</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
