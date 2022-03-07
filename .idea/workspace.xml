@@ -22,12 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="编写mapper.xml">
-      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/UserAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/UserBindService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/UserInvestService.java" afterDir="false" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="接口服务类">
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/util/BigDemicalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/util/HfbException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/util/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/util/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/util/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/util/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/util/SignUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/LendReturnService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/LendReturnService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +47,8 @@
         <option value="JUnit5 Test Class" />
         <option value="FxmlFile" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -459,14 +462,8 @@
       <workItem from="1645664231341" duration="1358000" />
       <workItem from="1645715595037" duration="5802000" />
       <workItem from="1646303189134" duration="580000" />
-      <workItem from="1646393009710" duration="6642000" />
-    </task>
-    <task id="LOCAL-00062" summary="redis 缓存测试">
-      <created>1639566843339</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1639566843340</updated>
+      <workItem from="1646393009710" duration="7149000" />
+      <workItem from="1646619106088" duration="2750000" />
     </task>
     <task id="LOCAL-00063" summary="sms测试">
       <created>1639654331710</created>
@@ -804,7 +801,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646449176657</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="接口服务类">
+      <created>1646451371737</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1646451371738</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -823,7 +827,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="日志记录" />
     <MESSAGE value="云服务网关" />
     <MESSAGE value="跨域配置" />
     <MESSAGE value="用户登录信息类" />
@@ -848,7 +851,8 @@
     <MESSAGE value="汇付宝接口服务类开发" />
     <MESSAGE value="汇付宝服务接口" />
     <MESSAGE value="编写mapper.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="编写mapper.xml" />
+    <MESSAGE value="接口服务类" />
+    <option name="LAST_COMMIT_MESSAGE" value="接口服务类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
