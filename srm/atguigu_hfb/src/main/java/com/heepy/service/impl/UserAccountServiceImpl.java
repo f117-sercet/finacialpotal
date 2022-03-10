@@ -88,10 +88,22 @@ public class UserAccountServiceImpl extends ServiceImpl<UserAccountMapper,UserAc
     @Transactional(rollbackFor = Exception.class)
     @Override
     public boolean unLockAccount(String userCode, String unLockAmt) {
-        return false;
+
+        UserAccount userAccount = this.getByUserCode(userCode);
+        String freezeAmount = userAccount.getFreezeAmount();
+        if (Double.parseDouble(freezeAmount) < Double.parseDouble(unLockAmt)) {
+
+
+            return false;
+        }
+        freezeAmount = BigDemicalUtil.subtract(userAccount.getFreezeAmount(), unLockAmt);
+        userAccount.setFreezeAmount(freezeAmount);
+        this.updateById(userAccount);
+        return true;
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public boolean transferAccounts(String userCode, String unLockAmt) {
         return false;
     }
