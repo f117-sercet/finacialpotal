@@ -105,11 +105,20 @@ public class UserAccountServiceImpl extends ServiceImpl<UserAccountMapper,UserAc
     @Override
     @Transactional(rollbackFor = Exception.class)
     public boolean transferAccounts(String userCode, String unLockAmt) {
-        return false;
+
+       UserAccount userAccount = this.getByUserCode(userCode);
+       String amount =userAccount.getAmount();
+
+       amount = BigDemicalUtil.add(amount,unLockAmt);
+       userAccount.setAmount(amount);
+       this.updateById(userAccount);
+
+       return false;
     }
 
     @Override
     public String getAmount(String userCode) {
+
         return null;
     }
 
