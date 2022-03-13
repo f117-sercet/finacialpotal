@@ -25,7 +25,6 @@
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="借贷返还服务类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/impl/UserAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/impl/UserAccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -469,20 +468,9 @@
       <workItem from="1646786429616" duration="1400000" />
       <workItem from="1646787868914" duration="893000" />
       <workItem from="1646908240196" duration="999000" />
-    </task>
-    <task id="LOCAL-00066" summary="sms配置文件">
-      <created>1640093968675</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1640093968675</updated>
-    </task>
-    <task id="LOCAL-00067" summary="JWT测试">
-      <created>1640175695888</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1640175695889</updated>
+      <workItem from="1646910779585" duration="1302000" />
+      <workItem from="1646996276541" duration="554000" />
+      <workItem from="1647166934078" duration="1415000" />
     </task>
     <task id="LOCAL-00068" summary="JWT测试">
       <created>1640349991281</created>
@@ -813,7 +801,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646728252035</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="借贷返还服务类">
+      <created>1646910821726</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1646910821727</updated>
+    </task>
+    <task id="LOCAL-00116" summary="借贷返还服务类">
+      <created>1646996792518</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1646996792519</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

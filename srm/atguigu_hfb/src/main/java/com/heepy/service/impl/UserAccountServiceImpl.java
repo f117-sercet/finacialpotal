@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.beans.Transient;
 import java.util.Map;
 
 /**
@@ -119,16 +120,28 @@ public class UserAccountServiceImpl extends ServiceImpl<UserAccountMapper,UserAc
     @Override
     public String getAmount(String userCode) {
 
-        return null;
+        UserAccount userAccount = this.getByUserCode(userCode);
+        String amount = userAccount.getAmount();
+        return amount;
     }
 
     @Override
     public UserAccount getByUserCode(String userCode) {
-        return null;
+
+        return userAccountMapper.selectOne(new QueryWrapper<UserAccount>().eq("user_code",userCode));
     }
 
+    @Transactional(rollbackFor = Exception.class)
     @Override
     public boolean dealAccount(String userCode, String amount, String freezeAmount) {
+
+        UserAccount userAccount = this.getByUserCode(userCode);
+        String amount1 = BigDemicalUtil.add(userAccount.getAmount(), amount);
+        String freezeAmount1 = BigDemicalUtil.add(userAccount.getFreezeAmount(), freezeAmount);
+        userAccount.setAmount(amount1);
+        userAccount.setFreezeAmount(freezeAmount1);
+        userAccountMapper.updateById(userAccount);
         return false;
     }
+
 }
