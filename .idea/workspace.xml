@@ -22,9 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="借贷返还服务类">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="用户投资">
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/test/java/com/atguigu/srb/core/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/impl/UserAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/impl/UserAccountServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,23 +168,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceCoreApplication (1)">
-    <configuration name="RedisTemplateTests.getDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="service-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epdemic.srm.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.epdemic.srm.core" />
-      <option name="MAIN_CLASS_NAME" value="com.epdemic.srm.core.RedisTemplateTests" />
-      <option name="METHOD_NAME" value="getDict" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Test.test">
     <configuration name="RedisTestTemplate.getDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guigu-service-core" />
       <extension name="coverage">
@@ -212,6 +196,22 @@
       <option name="PACKAGE_NAME" value="com.atguigu.srb.core" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.srb.core.RedisTestTemplate" />
       <option name="METHOD_NAME" value="saveDict" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guigu-service-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.srb.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.srb.core" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.srb.core.Test" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -251,20 +251,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RedisTemplateTests.getDict" />
       <item itemvalue="JUnit.RedisTestTemplate.saveDict" />
       <item itemvalue="JUnit.RedisTestTemplate.getDict" />
+      <item itemvalue="JUnit.Test.test" />
       <item itemvalue="Spring Boot.ManagerApplication" />
       <item itemvalue="Spring Boot.ServiceCoreApplication (1)" />
       <item itemvalue="Spring Boot.ServiceSmsApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.test" />
         <item itemvalue="Spring Boot.ServiceCoreApplication (1)" />
         <item itemvalue="Spring Boot.ServiceSmsApplication" />
         <item itemvalue="JUnit.RedisTestTemplate.getDict" />
         <item itemvalue="JUnit.RedisTestTemplate.saveDict" />
-        <item itemvalue="JUnit.RedisTemplateTests.getDict" />
       </list>
     </recent_temporary>
   </component>
@@ -470,28 +470,10 @@
       <workItem from="1646908240196" duration="999000" />
       <workItem from="1646910779585" duration="1302000" />
       <workItem from="1646996276541" duration="554000" />
-      <workItem from="1647166934078" duration="1415000" />
-    </task>
-    <task id="LOCAL-00068" summary="JWT测试">
-      <created>1640349991281</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1640349991282</updated>
-    </task>
-    <task id="LOCAL-00069" summary="SMS测试类">
-      <created>1640433300922</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1640433300922</updated>
-    </task>
-    <task id="LOCAL-00070" summary="SmsService 服务接口">
-      <created>1640606898004</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1640606898004</updated>
+      <workItem from="1647166934078" duration="2319000" />
+      <workItem from="1647261532773" duration="2618000" />
+      <workItem from="1647307198077" duration="1836000" />
+      <workItem from="1647338565157" duration="1208000" />
     </task>
     <task id="LOCAL-00071" summary="SmsServiceImpl">
       <created>1640688638866</created>
@@ -815,7 +797,28 @@
       <option name="project" value="LOCAL" />
       <updated>1646996792519</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="借贷返还服务类">
+      <created>1647168403366</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1647168403366</updated>
+    </task>
+    <task id="LOCAL-00118" summary="用户投资">
+      <created>1647168560607</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1647168560607</updated>
+    </task>
+    <task id="LOCAL-00119" summary="用户投资">
+      <created>1647265156587</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1647265156587</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -834,7 +837,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="用户登录信息类" />
     <MESSAGE value="操作日志类" />
     <MESSAGE value="投标" />
     <MESSAGE value="枚举类更新" />
@@ -859,7 +861,8 @@
     <MESSAGE value="接口服务类" />
     <MESSAGE value="工具类" />
     <MESSAGE value="借贷返还服务类" />
-    <option name="LAST_COMMIT_MESSAGE" value="借贷返还服务类" />
+    <MESSAGE value="用户投资" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户投资" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

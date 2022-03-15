@@ -1,5 +1,6 @@
 package com.heepy.service.impl;
 
+import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -36,6 +37,9 @@ public class UserInvestServiceImpl extends ServiceImpl<UserInvestMapper, UserInv
     @Transactional(rollbackFor = Exception.class)
     @Override
     public UserInvest invest(Map<String, Object> paramMap) {
+
+        UserInvest userInvest = JSONObject.parseObject(JSONObject.toJSONString(paramMap),UserInvest.class);
+
         return null;
     }
 
