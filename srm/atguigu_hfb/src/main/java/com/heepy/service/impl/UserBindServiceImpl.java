@@ -1,12 +1,16 @@
 package com.heepy.service.impl;
 
 import com.alibaba.fastjson.JSON;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.heepy.mapper.UserAccountMapper;
 import com.heepy.mapper.UserBindMapper;
 import com.heepy.model.UserAccount;
 import com.heepy.model.UserBind;
 import com.heepy.service.UserBindService;
+import com.heepy.util.HfbException;
+import com.heepy.util.ResultCodeEnum;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
@@ -44,16 +48,32 @@ public class UserBindServiceImpl extends ServiceImpl<UserBindMapper, UserBind> i
 
     @Override
     public boolean isBind(String idCard) {
+
+        Integer count = baseMapper.selectCount(new QueryWrapper<UserBind>().eq("id_card", idCard));
+        if(count.intValue() > 0) {
+            return true;
+        }
         return false;
     }
 
     @Override
     public UserBind getByBindCode(String bindCode) {
-        return null;
+
+
+        return baseMapper.selectOne(new QueryWrapper<UserBind>().eq("bind_code",bindCode));
     }
 
     @Override
     public void checkPassword(String bindCode, String password) {
+        if (StringUtils.isEmpty(password)){
+
+            throw  new HfbException(ResultCodeEnum.PAY_PASSWORD_ERROR);
+        }
+        UserBind userBind = this.getByBindCode(bindCode);
+        if (!password.equals(userBind.getPayPasswd())){
+
+            throw new HfbException(ResultCodeEnum.PAY_PASSWORD_ERROR);
+        }
 
     }
 }
