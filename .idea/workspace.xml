@@ -474,14 +474,7 @@
       <workItem from="1647307198077" duration="1836000" />
       <workItem from="1647338565157" duration="7226000" />
       <workItem from="1647510164865" duration="3273000" />
-      <workItem from="1647594826860" duration="592000" />
-    </task>
-    <task id="LOCAL-00074" summary="oss分布式云服务类接口实现">
-      <created>1641304338062</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1641304338062</updated>
+      <workItem from="1647594826860" duration="2034000" />
     </task>
     <task id="LOCAL-00075" summary="oss分布存储，控制层和实现层">
       <created>1641378782494</created>
@@ -819,7 +812,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647564322526</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="用户投资">
+      <created>1647614147399</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1647614147399</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
