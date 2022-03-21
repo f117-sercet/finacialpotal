@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="用户账户控制器" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="用户投资控制器">
+      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/controller/UserInvestController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -474,21 +476,7 @@
       <workItem from="1647510164865" duration="3273000" />
       <workItem from="1647594826860" duration="2034000" />
       <workItem from="1647701739731" duration="676000" />
-      <workItem from="1647779631940" duration="6839000" />
-    </task>
-    <task id="LOCAL-00078" summary="云服务网关">
-      <created>1641738613796</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1641738613797</updated>
-    </task>
-    <task id="LOCAL-00079" summary="跨域配置">
-      <created>1641812085403</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1641812085403</updated>
+      <workItem from="1647779631940" duration="8438000" />
     </task>
     <task id="LOCAL-00080" summary="用户登录信息类">
       <created>1641983095717</created>
@@ -819,7 +807,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647831684301</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="用户账户控制器">
+      <created>1647832335672</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1647832335672</updated>
+    </task>
+    <task id="LOCAL-00128" summary="用户投资控制器">
+      <created>1647833286139</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1647833286139</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -874,7 +876,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="查询类" />
     <MESSAGE value="借款人审批" />
     <MESSAGE value="借款人资料附件" />
     <MESSAGE value="VO类" />
@@ -899,7 +900,8 @@
     <MESSAGE value="用户投资控制类" />
     <MESSAGE value="用户投资控制类-页面" />
     <MESSAGE value="用户账户控制器" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户账户控制器" />
+    <MESSAGE value="用户投资控制器" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户投资控制器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
