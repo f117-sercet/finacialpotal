@@ -137,6 +137,13 @@ public class UserAccountController {
         resultMap.put("timestamp", new Date().getTime());
         resultMap.put("sign", SignUtil.getSign(resultMap));
 
-        return "";
+        //异步通知
+        //threadPoolExecutor.submit(new NotifyThread((String)paramMap.get("notifyUrl"), paramMap));
+        ScheduledTask.queue.offer(new NotifyVo((String)paramMap.get("notifyUrl"), resultMap));
+
+        //同步跳转
+        //response.sendRedirect(userBind.getReturnUrl());
+        model.addAttribute("returnUrl", paramMap.get("returnUrl"));
+        return "withdraw/success";
     }
 }

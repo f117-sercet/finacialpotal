@@ -22,19 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="用户投资控制类-页面">
-      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/config/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/config/NotifyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/config/Swagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/config/ThreadPoolConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/controller/UserAccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/task/ScheduledTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/resources/template/lendReturn/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/controller/LendReturnController.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/controller/LendReturnController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/resources/template/lendReturn/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/resources/template/lendReturn/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="用户账户控制器" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -486,14 +474,7 @@
       <workItem from="1647510164865" duration="3273000" />
       <workItem from="1647594826860" duration="2034000" />
       <workItem from="1647701739731" duration="676000" />
-      <workItem from="1647779631940" duration="6525000" />
-    </task>
-    <task id="LOCAL-00077" summary="日志记录">
-      <created>1641651704970</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1641651704970</updated>
+      <workItem from="1647779631940" duration="6839000" />
     </task>
     <task id="LOCAL-00078" summary="云服务网关">
       <created>1641738613796</created>
@@ -831,7 +812,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647780267106</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="用户账户控制器">
+      <created>1647831684301</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1647831684301</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -886,7 +874,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="枚举类更新" />
     <MESSAGE value="查询类" />
     <MESSAGE value="借款人审批" />
     <MESSAGE value="借款人资料附件" />
@@ -911,7 +898,8 @@
     <MESSAGE value="用户投资" />
     <MESSAGE value="用户投资控制类" />
     <MESSAGE value="用户投资控制类-页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户投资控制类-页面" />
+    <MESSAGE value="用户账户控制器" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户账户控制器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
