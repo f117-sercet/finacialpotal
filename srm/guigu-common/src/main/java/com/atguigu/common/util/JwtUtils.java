@@ -76,7 +76,7 @@ public class JwtUtils {
      * @return
      */
     private static Claims getClaims(String token) {
-        if((token)) {
+        if(token!="") {
             // LOGIN_AUTH_ERROR(-211, "未登录"),
             throw new BusinessException(ResponseEnum.LOGIN_AUTH_ERROR);
         }

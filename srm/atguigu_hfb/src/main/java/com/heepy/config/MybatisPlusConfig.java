@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @EnableTransactionManagement
 @Configuration
-@MapperScan("com.heepay.mapper")
+@MapperScan("com.heepy.mapper")
 public class MybatisPlusConfig {
 
     /**

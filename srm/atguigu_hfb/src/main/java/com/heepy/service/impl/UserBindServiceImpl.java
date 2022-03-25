@@ -11,6 +11,7 @@ import com.heepy.model.UserBind;
 import com.heepy.service.UserBindService;
 import com.heepy.util.HfbException;
 import com.heepy.util.ResultCodeEnum;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
@@ -23,6 +24,7 @@ import java.util.UUID;
  * @author: 段世超
  * @aate: Created in 2022/3/16 9:37
  */
+@Service
 public class UserBindServiceImpl extends ServiceImpl<UserBindMapper, UserBind> implements UserBindService {
 
    @Resource

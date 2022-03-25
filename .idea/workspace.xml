@@ -22,8 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="汇付宝页面">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="借款信息表，服务类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/impl/UserBindServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/atguigu_hfb/src/main/java/com/heepy/service/impl/UserBindServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-common/src/main/java/com/atguigu/common/util/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-common/src/main/java/com/atguigu/common/util/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/BorrowInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/BorrowInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/BorrowerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/BorrowerServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +172,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ManagerApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceCoreApplication (1)">
     <configuration name="RedisTestTemplate.getDict" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="guigu-service-core" />
       <extension name="coverage">
@@ -259,8 +264,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test.test" />
         <item itemvalue="Spring Boot.ServiceCoreApplication (1)" />
+        <item itemvalue="JUnit.Test.test" />
         <item itemvalue="Spring Boot.ServiceSmsApplication" />
         <item itemvalue="JUnit.RedisTestTemplate.getDict" />
         <item itemvalue="JUnit.RedisTestTemplate.saveDict" />
@@ -477,13 +482,8 @@
       <workItem from="1647594826860" duration="2034000" />
       <workItem from="1647701739731" duration="676000" />
       <workItem from="1647779631940" duration="9882000" />
-    </task>
-    <task id="LOCAL-00081" summary="操作日志类">
-      <created>1642674417471</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1642674417471</updated>
+      <workItem from="1648119725286" duration="290000" />
+      <workItem from="1648193661414" duration="2917000" />
     </task>
     <task id="LOCAL-00082" summary="投标">
       <created>1642858756523</created>
@@ -821,7 +821,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647833453622</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="汇付宝页面">
+      <created>1648119986460</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1648119986460</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -876,7 +883,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="借款人资料附件" />
     <MESSAGE value="VO类" />
     <MESSAGE value="借款人上传资源列表" />
     <MESSAGE value="用户信息列表" />
@@ -901,7 +907,8 @@
     <MESSAGE value="用户账户控制器" />
     <MESSAGE value="用户投资控制器" />
     <MESSAGE value="汇付宝页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="汇付宝页面" />
+    <MESSAGE value="借款信息表，服务类" />
+    <option name="LAST_COMMIT_MESSAGE" value="借款信息表，服务类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
