@@ -1,5 +1,12 @@
 [
   {
+    "name": "about",
+    "path": "/about",
+    "component": "F:\\\\git\\\\Repository\\\\gitHub\\\\finacialpotal\\\\nuxt-app\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "_name": "_ba5088c8"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "F:\\\\git\\\\Repository\\\\gitHub\\\\finacialpotal\\\\nuxt-app\\\\pages\\\\index.vue",
