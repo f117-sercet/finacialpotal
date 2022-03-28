@@ -7,6 +7,13 @@
     "_name": "_ba5088c8"
   },
   {
+    "name": "user-user",
+    "path": "/user/user",
+    "component": "F:\\\\git\\\\Repository\\\\gitHub\\\\finacialpotal\\\\nuxt-app\\\\pages\\\\user\\\\user.vue",
+    "chunkName": "pages/user/user",
+    "_name": "_127aa4d7"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "F:\\\\git\\\\Repository\\\\gitHub\\\\finacialpotal\\\\nuxt-app\\\\pages\\\\index.vue",
