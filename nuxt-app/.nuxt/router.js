@@ -5,7 +5,10 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _ba5088c8 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _127aa4d7 = () => interopDefault(import('..\\pages\\user\\user.vue' /* webpackChunkName: "pages/user/user" */))
+const _6f282952 = () => interopDefault(import('..\\pages\\lend\\index.vue' /* webpackChunkName: "pages/lend/index" */))
+const _73c0720c = () => interopDefault(import('..\\pages\\user.vue' /* webpackChunkName: "pages/user" */))
+const _09c88614 = () => interopDefault(import('..\\pages\\user\\index.vue' /* webpackChunkName: "pages/user/index" */))
+const _74bcf45e = () => interopDefault(import('..\\pages\\user\\account.vue' /* webpackChunkName: "pages/user/account" */))
 const _7ae0d33e = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -29,9 +32,21 @@ export const routerOptions = {
     component: _ba5088c8,
     name: "about"
   }, {
-    path: "/user/user",
-    component: _127aa4d7,
-    name: "user-user"
+    path: "/lend",
+    component: _6f282952,
+    name: "lend"
+  }, {
+    path: "/user",
+    component: _73c0720c,
+    children: [{
+      path: "",
+      component: _09c88614,
+      name: "user"
+    }, {
+      path: "account",
+      component: _74bcf45e,
+      name: "user-account"
+    }]
   }, {
     path: "/",
     component: _7ae0d33e,

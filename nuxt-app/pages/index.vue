@@ -11,7 +11,25 @@
       用户中心
     </nuxtLink>
     <a href="http://atguigu.com" target="_blank">尚硅谷</a>
-      
     <h1>Home page</h1>  
   </div>
+  {{ip}}
 </template>
+<script>
+export default {
+  data() {
+
+    return{
+
+      ip:null,
+    }
+    
+  },
+   created() {
+    this.$axios.$get('http://icanhazip.com').then((response) => {
+      console.log(response)
+      this.ip = response
+    })
+  },
+}
+</script>

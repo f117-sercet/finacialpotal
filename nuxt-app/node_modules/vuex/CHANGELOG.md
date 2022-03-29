@@ -1,3 +1,15 @@
+## [3.6.2](https://github.com/vuejs/vuex/compare/v3.6.1...v3.6.2) (2021-01-26)
+
+### Bug Fixes
+
+* **build:** fix wrong path name for the export module ([679313b](https://github.com/vuejs/vuex/commit/679313bf5e4de066f340a06ef9bfe08d1536fadd))
+
+## [3.6.1](https://github.com/vuejs/vuex/compare/v3.6.0...v3.6.1) (2021-01-26)
+
+### Bug Fixes
+
+* fix tree shaking notworking in webpack bundle ([#1906](https://github.com/vuejs/vuex/issues/1906)) ([1dc2d1f](https://github.com/vuejs/vuex/commit/1dc2d1f21de42138053ea3281dde05487642a76d))
+
 # [3.6.0](https://github.com/vuejs/vuex/compare/v3.5.1...v3.6.0) (2020-11-25)
 
 ### Bug Fixes

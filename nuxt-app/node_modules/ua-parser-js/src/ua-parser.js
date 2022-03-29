@@ -1,9 +1,9 @@
 /*!
- * UAParser.js v0.7.23
+ * UAParser.js v0.7.24
  * Lightweight JavaScript-based User-Agent string parser
  * https://github.com/faisalman/ua-parser-js
  *
- * Copyright © 2012-2019 Faisal Salman <f@faisalman.com>
+ * Copyright © 2012-2021 Faisal Salman <f@faisalman.com>
  * Licensed under MIT License
  */
 
@@ -16,7 +16,7 @@
     /////////////
 
 
-    var LIBVERSION  = '0.7.23',
+    var LIBVERSION  = '0.7.24',
         EMPTY       = '',
         UNKNOWN     = '?',
         FUNC_TYPE   = 'function',
@@ -340,7 +340,10 @@
             /android.+version\/([\w\.]+)\s+(?:mobile\s?safari|safari)*/i        // Android Browser
             ], [VERSION, [NAME, 'Android Browser']], [
 
-            /(sailfishbrowser)\/([\w\.]+)/i                                     // Sailfish Browser
+            /(coc_coc_browser)\/([\w\.]+)/i                                     // Coc Coc Browser
+            ], [[NAME, 'Coc Coc'], VERSION], [
+
+              /(sailfishbrowser)\/([\w\.]+)/i                                     // Sailfish Browser
             ], [[NAME, 'Sailfish Browser'], VERSION], [
 
             /(chrome|omniweb|arora|[tizenoka]{5}\s?browser)\/v?([\w\.]+)/i
@@ -448,7 +451,7 @@
             ], [MODEL, [VENDOR, 'Amazon'], [TYPE, TABLET]], [
             /(sd|kf)[0349hijorstuw]+(\sbuild\/|\)).+silk\//i                    // Fire Phone
             ], [[MODEL, mapper.str, maps.device.amazon.model], [VENDOR, 'Amazon'], [TYPE, MOBILE]], [
-            /android.+aft([bms])\sbuild/i                                       // Fire TV
+            /android.+aft([\w])(\sbuild\/|\))/i                                 // Fire TV
             ], [MODEL, [VENDOR, 'Amazon'], [TYPE, SMARTTV]], [
 
             /\((ip[honed|\s\w*]+);.+(apple)/i                                   // iPod/iPhone
@@ -530,7 +533,7 @@
             /\(dtv[\);].+(aquos)/i                                              // Sharp
             ], [MODEL, [VENDOR, 'Sharp'], [TYPE, SMARTTV]], [
 
-            /android.+((sch-i[89]0\d|shw-m380s|SM-P605|SM-P610|gt-p\d{4}|gt-n\d+|sgh-t8[56]9|nexus 10))/i,
+            /android.+((sch-i[89]0\d|shw-m380s|SM-P605|SM-P610|SM-P587|gt-p\d{4}|gt-n\d+|sgh-t8[56]9|nexus 10))/i,
             /((SM-T\w+))/i
             ], [[VENDOR, 'Samsung'], MODEL, [TYPE, TABLET]], [                  // Samsung
             /smart-tv.+(samsung)/i
@@ -617,7 +620,7 @@
             /android.+[;\/]\s*(Q[T|M][\d\w]+)\s+build/i                         // Verizon Tablet
             ], [MODEL, [VENDOR, 'Verizon'], [TYPE, TABLET]], [
 
-            /android.+[;\/]\s+(Barnes[&\s]+Noble\s+|BN[RT])(V?.*)\s+build/i     // Barnes & Noble Tablet
+            /android.+[;\/]\s+(Barnes[&\s]+Noble\s+|BN[RT])(\S(?:.*\S)?)\s+build/i     // Barnes & Noble Tablet
             ], [[VENDOR, 'Barnes & Noble'], MODEL, [TYPE, TABLET]], [
 
             /android.+[;\/]\s+(TM\d{3}.*\b)\s+build/i                           // Barnes & Noble Tablet
@@ -689,7 +692,10 @@
             ], [[TYPE, SMARTTV]], [
 
             /(android[\w\.\s\-]{0,9});.+build/i                                 // Generic Android Device
-            ], [MODEL, [VENDOR, 'Generic']]
+            ], [MODEL, [VENDOR, 'Generic']], [
+
+            /(phone)/i
+            ], [[TYPE, MOBILE]]
         ],
 
         engine : [[
@@ -712,6 +718,9 @@
         ],
 
         os : [[
+
+            // Xbox, consider this before other Windows-based devices
+            /(xbox);\s+xbox\s([^\);]+)/i,                                       // Microsoft Xbox (360, One, X, S, Series X, Series S)
 
             // Windows based
             /microsoft\s(windows)\s(vista|xp)/i                                 // Windows (iTunes)
