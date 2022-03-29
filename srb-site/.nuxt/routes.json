@@ -1,0 +1,39 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "F:\\\\git\\\\Repository\\\\gitHub\\\\finacialpotal\\\\nuxt-app\\\\pages\\\\about.vue",
+    "chunkName": "pages/about"
+  },
+  {
+    "name": "lend",
+    "path": "/lend",
+    "component": "F:\\\\git\\\\Repository\\\\gitHub\\\\finacialpotal\\\\nuxt-app\\\\pages\\\\lend\\\\index.vue",
+    "chunkName": "pages/lend/index"
+  },
+  {
+    "path": "/user",
+    "component": "F:\\\\git\\\\Repository\\\\gitHub\\\\finacialpotal\\\\nuxt-app\\\\pages\\\\user.vue",
+    "chunkName": "pages/user",
+    "children": [
+      {
+        "name": "user",
+        "path": "",
+        "component": "F:\\\\git\\\\Repository\\\\gitHub\\\\finacialpotal\\\\nuxt-app\\\\pages\\\\user\\\\index.vue",
+        "chunkName": "pages/user/index"
+      },
+      {
+        "name": "user-account",
+        "path": "account",
+        "component": "F:\\\\git\\\\Repository\\\\gitHub\\\\finacialpotal\\\\nuxt-app\\\\pages\\\\user\\\\account.vue",
+        "chunkName": "pages/user/account"
+      }
+    ]
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "F:\\\\git\\\\Repository\\\\gitHub\\\\finacialpotal\\\\nuxt-app\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
