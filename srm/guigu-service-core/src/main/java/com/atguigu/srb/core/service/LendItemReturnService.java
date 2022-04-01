@@ -31,5 +31,10 @@ public interface LendItemReturnService extends IService<LendItemReturn> {
      */
     List<Map<String,Object>> addReturnDetail(Long lendReturnId);
 
-
+    /**
+     * 根据还款记录的id查询对应的汇款记录
+     * @param lendReturnId
+     * @return
+     */
+    List<LendItemReturn> selectLendItemReturnList(Long lendReturnId);
 }
