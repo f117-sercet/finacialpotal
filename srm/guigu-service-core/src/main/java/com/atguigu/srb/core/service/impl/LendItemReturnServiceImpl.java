@@ -95,9 +95,11 @@ public class LendItemReturnServiceImpl extends ServiceImpl<LendItemReturnMapper,
 
         return lendItemReturnDetailList;
     }
-
     @Override
     public List<LendItemReturn> selectLendItemReturnList(Long lendReturnId) {
-        return null;
+        QueryWrapper<LendItemReturn> lendItemReturnQueryWrapper = new QueryWrapper<>();
+        lendItemReturnQueryWrapper.eq("lend_return_id", lendReturnId);
+        return baseMapper.selectList(lendItemReturnQueryWrapper);
     }
+
 }
