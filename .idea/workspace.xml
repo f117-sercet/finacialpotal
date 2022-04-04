@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="添加服务类接口">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="selectByid">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/LendItemReturnServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/LendItemReturnServiceImpl.java" afterDir="false" />
     </list>
@@ -487,14 +487,9 @@
       <workItem from="1648805354162" duration="2859000" />
       <workItem from="1648861533370" duration="1352000" />
       <workItem from="1648903997880" duration="590000" />
-      <workItem from="1648979427169" duration="1165000" />
-    </task>
-    <task id="LOCAL-00085" summary="枚举类更新">
-      <created>1643117629767</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1643117629767</updated>
+      <workItem from="1648979427169" duration="1223000" />
+      <workItem from="1649054241494" duration="37000" />
+      <workItem from="1649061798979" duration="382000" />
     </task>
     <task id="LOCAL-00086" summary="查询类">
       <created>1643117753260</created>
@@ -832,7 +827,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648808108937</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="selectByid">
+      <created>1649000243730</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1649000243730</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -887,7 +889,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="用户信息列表" />
     <MESSAGE value="springcloud远程调用" />
     <MESSAGE value="Feign 引入" />
     <MESSAGE value="短信模板" />
@@ -912,7 +913,8 @@
     <MESSAGE value="借款信息表，服务类" />
     <MESSAGE value="借款服务" />
     <MESSAGE value="添加服务类接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加服务类接口" />
+    <MESSAGE value="selectByid" />
+    <option name="LAST_COMMIT_MESSAGE" value="selectByid" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
