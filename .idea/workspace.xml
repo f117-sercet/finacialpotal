@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="还款id" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="selectLendItemReturnList" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -487,13 +487,7 @@
       <workItem from="1648979427169" duration="1223000" />
       <workItem from="1649054241494" duration="37000" />
       <workItem from="1649061798979" duration="503000" />
-    </task>
-    <task id="LOCAL-00087" summary="借款人审批">
-      <created>1643204449783</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1643204449784</updated>
+      <workItem from="1649062661006" duration="105000" />
     </task>
     <task id="LOCAL-00088" summary="借款人资料附件">
       <created>1643290379895</created>
@@ -831,7 +825,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649062302236</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="selectLendItemReturnList">
+      <created>1649062735334</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1649062735334</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -886,7 +887,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Feign 引入" />
     <MESSAGE value="短信模板" />
     <MESSAGE value="借款人照片信息" />
     <MESSAGE value="汇付宝接口" />
@@ -911,7 +911,8 @@
     <MESSAGE value="添加服务类接口" />
     <MESSAGE value="selectByid" />
     <MESSAGE value="还款id" />
-    <option name="LAST_COMMIT_MESSAGE" value="还款id" />
+    <MESSAGE value="selectLendItemReturnList" />
+    <option name="LAST_COMMIT_MESSAGE" value="selectLendItemReturnList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
