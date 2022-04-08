@@ -20,7 +20,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface UserInfoService extends IService<UserInfo> {
 
-    void register(RegisterVO registerVO);
 
     UserInfoVO login(LoginVO loginVO, String ip);
 
@@ -34,6 +33,8 @@ public interface UserInfoService extends IService<UserInfo> {
     UserIndexVO getIndexUserInfo(Long userId);
 
     String getMobileByBindCode(String bindCode);
+
+    void register(RegisterVO registerVO);
 
 
 
