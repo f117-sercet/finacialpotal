@@ -18,6 +18,7 @@ import com.atguigu.srb.core.pojo.query.UserInfoQuery;
 import com.atguigu.srb.core.service.UserInfoService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
@@ -86,7 +87,34 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
 
     @Override
     public IPage<UserInfo> listPage(Page<UserInfo> pageParam, UserInfoQuery userInfoQuery) {
-        return null;
+
+        if(userInfoQuery == null){
+            return baseMapper.selectPage(pageParam, null);
+        }
+
+        String mobile = userInfoQuery.getMobile();
+        Integer status = userInfoQuery.getStatus();
+        Integer userType = userInfoQuery.getUserType();
+
+        QueryWrapper<UserInfo> userInfoQueryWrapper = new QueryWrapper<>();
+        userInfoQueryWrapper
+                .eq(StringUtils.isNotBlank(mobile), "mobile", mobile)
+                .eq(status != null, "status", status)
+                .eq(userType != null, "user_type", userType);
+
+//        if(StringUtils.isNotBlank(mobile)){
+//            userInfoQueryWrapper.eq("mobile", mobile);
+//        }
+//
+//        if(status != null){
+//            userInfoQueryWrapper.eq("status", status);
+//        }
+//
+//        if(userType != null){
+//            userInfoQueryWrapper.eq("user_type", userType);
+//        }
+
+        return baseMapper.selectPage(pageParam, userInfoQueryWrapper);
     }
 
     @Override
@@ -151,10 +179,6 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
         UserInfo userInfo = baseMapper.selectOne(userInfoQueryWrapper);
         return userInfo.getMobile();
     }
-
-
-
-
 
     @Transactional(rollbackFor = {Exception.class})
     @Override

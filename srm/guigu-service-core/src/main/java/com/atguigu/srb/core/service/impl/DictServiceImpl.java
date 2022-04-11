@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.io.InputStream;
+import java.util.List;
 
 /**
  * <p>
@@ -36,5 +37,25 @@ public class DictServiceImpl extends ServiceImpl<DictMapper, Dict> implements Di
 
 
 
+    }
+
+    @Override
+    public List<ExcelDictDTO> listDictData() {
+        return null;
+    }
+
+    @Override
+    public List<Dict> listByParentId(Long parentId) {
+        return null;
+    }
+
+    @Override
+    public List<Dict> findByDictCode(String dictCode) {
+        return null;
+    }
+
+    @Override
+    public String getNameByParentDictCodeAndValue(String dictCode, Integer value) {
+        return null;
     }
 }
