@@ -1,12 +1,15 @@
 package com.atguigu.srb.core.service.impl;
 
+import com.atguigu.srb.core.mapper.LendMapper;
+import com.atguigu.srb.core.mapper.UserAccountMapper;
 import com.atguigu.srb.core.pojo.Vo.InvestVO;
 import com.atguigu.srb.core.pojo.entity.LendItem;
 import com.atguigu.srb.core.mapper.LendItemMapper;
-import com.atguigu.srb.core.service.LendItemService;
+import com.atguigu.srb.core.service.*;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.List;
 import java.util.Map;
 
@@ -20,6 +23,24 @@ import java.util.Map;
  */
 @Service
 public class LendItemServiceImpl extends ServiceImpl<LendItemMapper, LendItem> implements LendItemService {
+
+    @Resource
+    private LendMapper lendMapper;
+
+    @Resource
+    private UserAccountService userAccountService;
+
+    @Resource
+    private UserBindService userBindService;
+
+    @Resource
+    private LendService lendService;
+
+    @Resource
+    private TransFlowService transFlowService;
+
+    @Resource
+    private UserAccountMapper userAccountMapper;
 
     @Override
     public String commitInvest(InvestVO investVO) {
