@@ -23,8 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="数据字典及其他">
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/utils/LendNoUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/DictServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/DictServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/LendItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/LendItemServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -502,14 +503,7 @@
       <workItem from="1649658354810" duration="1862000" />
       <workItem from="1649745621153" duration="1102000" />
       <workItem from="1649746749183" duration="6031000" />
-      <workItem from="1649836655993" duration="486000" />
-    </task>
-    <task id="LOCAL-00095" summary="短信模板">
-      <created>1644063782283</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1644063782283</updated>
+      <workItem from="1649836655993" duration="3297000" />
     </task>
     <task id="LOCAL-00096" summary="借款人照片信息">
       <created>1644414946696</created>
@@ -847,7 +841,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649751710786</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="数据字典及其他">
+      <created>1649838627963</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1649838627963</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
