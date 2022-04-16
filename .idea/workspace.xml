@@ -23,7 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="表单，借款，及其他">
-      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/hfb/RequestHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -503,14 +502,7 @@
       <workItem from="1649745621153" duration="1102000" />
       <workItem from="1649746749183" duration="6031000" />
       <workItem from="1649836655993" duration="4291000" />
-      <workItem from="1649930557757" duration="466000" />
-    </task>
-    <task id="LOCAL-00097" summary="汇付宝接口">
-      <created>1644548896175</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1644548896176</updated>
+      <workItem from="1649930557757" duration="1310000" />
     </task>
     <task id="LOCAL-00098" summary="基本实体类">
       <created>1644760585963</created>
@@ -848,7 +840,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649841006492</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="表单，借款，及其他">
+      <created>1649931259720</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1649931259720</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

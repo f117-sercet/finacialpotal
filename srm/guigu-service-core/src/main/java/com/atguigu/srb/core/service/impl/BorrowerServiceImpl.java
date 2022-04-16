@@ -14,6 +14,7 @@ import com.atguigu.srb.core.pojo.entity.UserInfo;
 import com.atguigu.srb.core.service.BorrowerAttachService;
 import com.atguigu.srb.core.service.BorrowerService;
 import com.atguigu.srb.core.service.DictService;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -82,7 +83,16 @@ public class BorrowerServiceImpl extends ServiceImpl<BorrowerMapper, Borrower> i
 
     @Override
     public Integer getStatusByUserId(Long userId) {
-        return null;
+
+        QueryWrapper<Borrower> borrowerQueryWrapper = new QueryWrapper<>();
+        borrowerQueryWrapper.select("status").eq("user_id", userId);
+        List<Object> objects = baseMapper.selectObjs(borrowerQueryWrapper);
+        if(objects.size() == 0){
+            return BorrowerStatusEnum.NO_AUTH.getStatus();
+        }
+
+        Integer status = (Integer)objects.get(0);
+        return status;
     }
 
     @Override
