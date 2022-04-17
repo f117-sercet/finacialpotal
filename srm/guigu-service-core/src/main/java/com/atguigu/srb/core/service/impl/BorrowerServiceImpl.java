@@ -7,6 +7,7 @@ import com.atguigu.srb.core.mapper.UserIntegralMapper;
 import com.atguigu.srb.core.pojo.Vo.BorrowerApprovalVO;
 import com.atguigu.srb.core.pojo.Vo.BorrowerDetailVO;
 import com.atguigu.srb.core.pojo.Vo.BorrowerVO;
+import com.atguigu.srb.core.pojo.entity.BorrowInfo;
 import com.atguigu.srb.core.pojo.entity.Borrower;
 import com.atguigu.srb.core.mapper.BorrowerMapper;
 import com.atguigu.srb.core.pojo.entity.BorrowerAttach;
@@ -108,5 +109,9 @@ public class BorrowerServiceImpl extends ServiceImpl<BorrowerMapper, Borrower> i
     @Override
     public void approval(BorrowerApprovalVO borrowerApprovalVO) {
 
+
+        //获取借款额度申请id
+        Long borrowerId = borrowerApprovalVO.getBorrowerId();
     }
-}
+
+    }
