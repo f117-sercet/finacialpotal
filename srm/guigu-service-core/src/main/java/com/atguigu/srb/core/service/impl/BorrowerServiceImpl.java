@@ -7,11 +7,8 @@ import com.atguigu.srb.core.mapper.UserIntegralMapper;
 import com.atguigu.srb.core.pojo.Vo.BorrowerApprovalVO;
 import com.atguigu.srb.core.pojo.Vo.BorrowerDetailVO;
 import com.atguigu.srb.core.pojo.Vo.BorrowerVO;
-import com.atguigu.srb.core.pojo.entity.BorrowInfo;
-import com.atguigu.srb.core.pojo.entity.Borrower;
+import com.atguigu.srb.core.pojo.entity.*;
 import com.atguigu.srb.core.mapper.BorrowerMapper;
-import com.atguigu.srb.core.pojo.entity.BorrowerAttach;
-import com.atguigu.srb.core.pojo.entity.UserInfo;
 import com.atguigu.srb.core.service.BorrowerAttachService;
 import com.atguigu.srb.core.service.BorrowerService;
 import com.atguigu.srb.core.service.DictService;
@@ -112,6 +109,26 @@ public class BorrowerServiceImpl extends ServiceImpl<BorrowerMapper, Borrower> i
 
         //获取借款额度申请id
         Long borrowerId = borrowerApprovalVO.getBorrowerId();
+
+        //获取借款额度申请对象
+        Borrower borrower = baseMapper.selectById(borrowerId);
+
+        //设置审核状态
+        borrower.setStatus(borrowerApprovalVO.getStatus());
+        baseMapper.updateById(borrower);
+
+        //获取用户id
+        Long userId = borrower.getUserId();
+
+        //获取用户的对象
+        UserInfo userInfo = userInfoMapper.selectById(userId);
+
+        //用户的原始积分
+        Integer integral = userInfo.getIntegral();
+
+        //计算基本信息积分
+        UserIntegral userIntegral = new UserIntegral();
+
     }
 
     }

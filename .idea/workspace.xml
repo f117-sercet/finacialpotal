@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="service服务类">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="借款申请额度id">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -504,13 +504,7 @@
       <workItem from="1649836655993" duration="4291000" />
       <workItem from="1649930557757" duration="1310000" />
       <workItem from="1650120814604" duration="510000" />
-    </task>
-    <task id="LOCAL-00099" summary="汇付宝接口开发">
-      <created>1644846064005</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1644846064005</updated>
+      <workItem from="1650205405853" duration="890000" />
     </task>
     <task id="LOCAL-00100" summary="汇付宝接口开发">
       <created>1645181922113</created>
@@ -848,7 +842,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650121204364</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="借款申请额度id">
+      <created>1650205654493</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1650205654493</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -903,7 +904,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="编写mapper.xml" />
     <MESSAGE value="接口服务类" />
     <MESSAGE value="工具类" />
     <MESSAGE value="借贷返还服务类" />
@@ -928,7 +928,8 @@
     <MESSAGE value="数据字典及其他" />
     <MESSAGE value="表单，借款，及其他" />
     <MESSAGE value="service服务类" />
-    <option name="LAST_COMMIT_MESSAGE" value="service服务类" />
+    <MESSAGE value="借款申请额度id" />
+    <option name="LAST_COMMIT_MESSAGE" value="借款申请额度id" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
