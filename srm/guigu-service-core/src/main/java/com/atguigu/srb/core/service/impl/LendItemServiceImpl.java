@@ -3,6 +3,9 @@ package com.atguigu.srb.core.service.impl;
 import com.atguigu.common.exception.Assert;
 import com.atguigu.common.result.ResponseEnum;
 import com.atguigu.srb.core.enums.LendStatusEnum;
+import com.atguigu.srb.core.hfb.FormHelper;
+import com.atguigu.srb.core.hfb.HfbConst;
+import com.atguigu.srb.core.hfb.RequestHelper;
 import com.atguigu.srb.core.mapper.LendMapper;
 import com.atguigu.srb.core.mapper.UserAccountMapper;
 import com.atguigu.srb.core.pojo.Vo.InvestVO;
@@ -13,10 +16,12 @@ import com.atguigu.srb.core.service.*;
 import com.atguigu.srb.core.utils.LendNoUtils;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -106,15 +111,42 @@ public class LendItemServiceImpl extends ServiceImpl<LendItemMapper, LendItem> i
         //存入数据库
         baseMapper.insert(lendItem);
 
+        //获取投资人的bindCode
+        String bindCode = userBindService.getBindCodeByUserId(investUserId);
+        //获取借款人的bindCode
+        String benefitBindCode = userBindService.getBindCodeByUserId(lend.getUserId());
 
 
+        //封装提交至汇款宝
+        Map<String,Object>paramMap = new HashMap<>();
+        paramMap.put("agentId", HfbConst.AGENT_ID);
+        paramMap.put("voteBindCode",bindCode);
+        paramMap.put("benefitBindCode",benefitBindCode);
+        paramMap.put("agentProjectCode",lend.getLendNo());
+        paramMap.put("agentProjectName",lend.getTitle());
 
-        return null;
+        //在资金托管平台上的投资订单的唯一编号，可以独立生成，不一定非要和lendItemNo保持一致，但是可以一致。
+        paramMap.put("agentBillNo",lendItemNo);
+        paramMap.put("voteAmt",investVO.getInvestAmount());
+        paramMap.put("votePrizeAmt","0");
+        paramMap.put("voteFeeAmt","0");
+        paramMap.put("projectAmt",lend.getAmount());
+        paramMap.put("note","");
+        paramMap.put("notifyUrl",HfbConst.INVEST_NOTIFY_URL);
+        paramMap.put("returnUrl",HfbConst.INVEST_RETURN_URL);
+        paramMap.put("timestamp", RequestHelper.getTimestamp());
+        String sign = RequestHelper.getSign(paramMap);
+        paramMap.put("sign",sign);
+
+        //构建充值自动提交表单
+        String formStr = FormHelper.buildForm(HfbConst.INVEST_URL, paramMap);
+
+        return formStr;
     }
-
+    @Transactional(rollbackFor = Exception.class)
     @Override
     public void notify(Map<String, Object> paramMap) {
-
+   // 幂等性
     }
 
     @Override
