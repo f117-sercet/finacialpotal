@@ -14,7 +14,9 @@ import com.atguigu.srb.core.pojo.entity.LendItem;
 import com.atguigu.srb.core.mapper.LendItemMapper;
 import com.atguigu.srb.core.service.*;
 import com.atguigu.srb.core.utils.LendNoUtils;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.boot.web.reactive.context.StandardReactiveWebEnvironment;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -146,7 +148,32 @@ public class LendItemServiceImpl extends ServiceImpl<LendItemMapper, LendItem> i
     @Transactional(rollbackFor = Exception.class)
     @Override
     public void notify(Map<String, Object> paramMap) {
-   // 幂等性
+
+
+        // 幂等性返回
+        String agentBillNo = (String) paramMap.get("agentBillNo");
+        boolean result = transFlowService.isSaveTransFlow(agentBillNo);
+
+        if (result){
+
+            log.warn("幂等性返回");
+            return;
+        }
+        //修改账户金额：从余额中减去投资金额，在冻结金额中增加投资进入
+
+        String voteBindCode = (String) paramMap.get("voteBindCode");
+        String voteAmt = (String) paramMap.get("voteAmt");
+
+        userAccountMapper.updateAccount(
+                voteBindCode,
+                new BigDecimal("_"+voteAmt),
+                new BigDecimal(voteAmt));
+
+        //修改投资记录的状态
+        //修改投资记录的状态
+        LendItem lendItem = this.getByLenItemNo(agentBillNo);
+        lendItem.setStatus(1);
+        baseMapper.updateById(lendItem);
     }
 
     @Override
@@ -157,5 +184,16 @@ public class LendItemServiceImpl extends ServiceImpl<LendItemMapper, LendItem> i
     @Override
     public List<LendItem> selectByLendId(Long lendId) {
         return null;
+    }
+
+    /**
+     * 根据流水号获取投资记录
+     * @param lendItemNo
+     * @return
+     */
+    private LendItem getByLenItemNo(String lendItemNo){
+        QueryWrapper<LendItem> lendItemQueryWrapper = new QueryWrapper<>();
+        lendItemQueryWrapper.eq("lend_item_no", lendItemNo);
+        return baseMapper.selectOne(lendItemQueryWrapper);
     }
 }
