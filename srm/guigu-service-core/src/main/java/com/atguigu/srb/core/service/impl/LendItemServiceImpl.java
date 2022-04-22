@@ -178,12 +178,21 @@ public class LendItemServiceImpl extends ServiceImpl<LendItemMapper, LendItem> i
 
     @Override
     public List<LendItem> selectByLendId(Long lendId, Integer status) {
-        return null;
+
+
+        QueryWrapper<LendItem> lendItemQueryWrapper = new QueryWrapper<>();
+        lendItemQueryWrapper
+                .eq("lend_id", lendId)
+                .eq("status", status);
+        return baseMapper.selectList(lendItemQueryWrapper);
     }
 
     @Override
     public List<LendItem> selectByLendId(Long lendId) {
-        return null;
+        QueryWrapper<LendItem> queryWrapper = new QueryWrapper();
+        queryWrapper.eq("lend_id", lendId);
+        List<LendItem> lendItemList = baseMapper.selectList(queryWrapper);
+        return lendItemList;
     }
 
     /**
