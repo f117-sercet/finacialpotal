@@ -1,19 +1,33 @@
 package com.atguigu.srb.core.service.impl;
 
+import com.alibaba.fastjson.JSONObject;
 import com.atguigu.srb.core.enums.LendStatusEnum;
+import com.atguigu.srb.core.enums.ReturnMethodEnum;
+import com.atguigu.srb.core.hfb.HfbConst;
+import com.atguigu.srb.core.hfb.RequestHelper;
+import com.atguigu.srb.core.mapper.BorrowerMapper;
+import com.atguigu.srb.core.mapper.UserAccountMapper;
+import com.atguigu.srb.core.mapper.UserInfoMapper;
 import com.atguigu.srb.core.pojo.Vo.BorrowInfoApprovalVO;
+import com.atguigu.srb.core.pojo.Vo.BorrowerDetailVO;
 import com.atguigu.srb.core.pojo.entity.BorrowInfo;
+import com.atguigu.srb.core.pojo.entity.Borrower;
 import com.atguigu.srb.core.pojo.entity.Lend;
 import com.atguigu.srb.core.mapper.LendMapper;
-import com.atguigu.srb.core.service.LendService;
+import com.atguigu.srb.core.service.*;
+import com.atguigu.srb.core.utils.Amount1Helper;
 import com.atguigu.srb.core.utils.LendNoUtils;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -26,8 +40,36 @@ import java.util.Map;
  * @since 2021-11-25
  */
 @Service
+@Slf4j
 public class LendServiceImpl extends ServiceImpl<LendMapper, Lend> implements LendService {
 
+
+    @Resource
+    private DictService dictService;
+
+    @Resource
+    private BorrowerMapper borrowerMapper;
+
+    @Resource
+    private BorrowerService borrowerService;
+
+    @Resource
+    private UserInfoMapper userInfoMapper;
+
+    @Resource
+    private UserAccountMapper userAccountMapper;
+
+    @Resource
+    private LendItemService lendItemService;
+
+    @Resource
+    private TransFlowService transFlowService;
+
+    @Resource
+    private LendReturnService lendReturnService;
+
+    @Resource
+    private LendItemReturnService lendItemReturnService;
     @Override
     public void createLend(BorrowInfoApprovalVO borrowInfoApprovalVO, BorrowInfo borrowInfo) {
 
@@ -81,16 +123,53 @@ public class LendServiceImpl extends ServiceImpl<LendMapper, Lend> implements Le
 
     @Override
     public List<Lend> selectList() {
-        return null;
+
+        List<Lend> lendList = baseMapper.selectList(null);
+        lendList.forEach(lend -> {
+
+            String returnMethod = dictService.getNameByParentDictCodeAndValue("returnMethod", lend.getReturnMethod());
+            String status = LendStatusEnum.getMsgByStatus(lend.getStatus());
+            lend.getParam().put("returnMethod", returnMethod);
+            lend.getParam().put("status", status);
+        });
+
+        return lendList;
     }
 
     @Override
     public Map<String, Object> getLendDetail(Long id) {
-        return null;
+
+        //查询lend
+        Lend lend = baseMapper.selectById(id);
+        String returnMethod = dictService.getNameByParentDictCodeAndValue("returnMethod", lend.getReturnMethod());
+        String status = LendStatusEnum.getMsgByStatus(lend.getStatus());
+        lend.getParam().put("returnMethod", returnMethod);
+        lend.getParam().put("status", status);
+
+
+        //查询借款人对象：Borrower(BorrowerDetailVO)
+        QueryWrapper<Borrower> borrowerQueryWrapper = new QueryWrapper<>();
+        borrowerQueryWrapper.eq("user_id", lend.getUserId());
+        Borrower borrower = borrowerMapper.selectOne(borrowerQueryWrapper);
+        BorrowerDetailVO borrowerDetailVO = borrowerService.getBorrowerDetailVOById(borrower.getId());
+
+        //组装集合结果
+        Map<String, Object> result = new HashMap<>();
+        result.put("lend", lend);
+        result.put("borrower", borrowerDetailVO);
+        return result;
     }
 
     @Override
     public BigDecimal getInterestCount(BigDecimal invest, BigDecimal yearRate, Integer totalmonth, Integer returnMethod) {
+
+        BigDecimal interestCount ;
+        if (returnMethod.intValue() == ReturnMethodEnum.ONE.getMethod()){
+
+            interestCount = Amount1Helper.getInterestCount(invest, yearRate, totalmonth);
+        }
+
+
         return null;
     }
 
