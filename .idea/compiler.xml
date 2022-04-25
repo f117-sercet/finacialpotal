@@ -27,12 +27,12 @@
     <bytecodeTargetLevel>
       <module name="atguigu_hfb" target="1.8" />
       <module name="finacialpotal" target="1.5" />
-      <module name="guigu-common" target="8" />
-      <module name="guigu-service-base" target="8" />
-      <module name="guigu-service-core" target="8" />
+      <module name="guigu-common" target="1.8" />
+      <module name="guigu-service-base" target="1.8" />
+      <module name="guigu-service-core" target="1.8" />
       <module name="guigu-service-gateway" target="1.8" />
-      <module name="guigu_service_oss" target="8" />
-      <module name="guigu_service_sms" target="8" />
+      <module name="guigu_service_oss" target="1.8" />
+      <module name="guigu_service_sms" target="1.8" />
       <module name="hfb" target="1.8" />
       <module name="rabbit-mq" target="1.8" />
       <module name="service-base" target="1.8" />
