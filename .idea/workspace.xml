@@ -22,11 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="LendItemServiceImpl.java">
-      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/utils/Amount1Helper.java" afterDir="false" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="LendServiceImpl">
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/utils/Amount2Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/entity/Lend.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/pojo/entity/Lend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/LendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/LendServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -499,14 +497,7 @@
       <workItem from="1650847078253" duration="305000" />
       <workItem from="1650855774963" duration="3113000" />
       <workItem from="1650869971715" duration="595000" />
-      <workItem from="1650876996912" duration="3418000" />
-    </task>
-    <task id="LOCAL-00108" summary="编写mapper.xml">
-      <created>1646393433909</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1646393433910</updated>
+      <workItem from="1650876996912" duration="7075000" />
     </task>
     <task id="LOCAL-00109" summary="编写mapper.xml">
       <created>1646393923385</created>
@@ -844,7 +835,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650877008972</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="LendServiceImpl">
+      <created>1650882501685</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1650882501685</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -899,7 +897,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="借贷返还服务类" />
     <MESSAGE value="用户投资" />
     <MESSAGE value="用户投资控制类" />
     <MESSAGE value="用户投资控制类-页面" />
@@ -924,7 +921,8 @@
     <MESSAGE value="借款申请额度id" />
     <MESSAGE value="BorrowerServiceImpl" />
     <MESSAGE value="LendItemServiceImpl.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="LendItemServiceImpl.java" />
+    <MESSAGE value="LendServiceImpl" />
+    <option name="LAST_COMMIT_MESSAGE" value="LendServiceImpl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
