@@ -16,6 +16,7 @@
         <module name="atguigu_hfb" />
         <module name="guigu-service-base" />
         <module name="guigu_service_oss" />
+        <module name="rabbit_mq" />
         <module name="rabbit-mq" />
         <module name="guigu-service-core" />
         <module name="guigu_service_sms" />
@@ -25,14 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="atguigu_hfb" target="1.8" />
       <module name="finacialpotal" target="1.5" />
-      <module name="guigu-common" target="1.8" />
-      <module name="guigu-service-base" target="1.8" />
-      <module name="guigu-service-core" target="1.8" />
-      <module name="guigu-service-gateway" target="1.8" />
-      <module name="guigu_service_oss" target="1.8" />
-      <module name="guigu_service_sms" target="1.8" />
       <module name="hfb" target="1.8" />
       <module name="rabbit-mq" target="1.8" />
       <module name="service-base" target="1.8" />
@@ -41,7 +35,6 @@
       <module name="service-gateway" target="1.8" />
       <module name="service-oss" target="1.8" />
       <module name="service-sms" target="1.8" />
-      <module name="srm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -54,6 +47,7 @@
       <module name="guigu_service_oss" options="-parameters" />
       <module name="guigu_service_sms" options="-parameters" />
       <module name="rabbit-mq" options="-parameters" />
+      <module name="rabbit_mq" options="-parameters" />
       <module name="service-base" options="-parameters" />
       <module name="service-common" options="-parameters" />
       <module name="service-core" options="-parameters" />

@@ -16,6 +16,7 @@
         <module>guigu_service_oss</module>
         <module>guigu-service-gateway</module>
         <module>atguigu_hfb</module>
+        <module>rabbit_mq</module>
     </modules>
 
     <parent>
