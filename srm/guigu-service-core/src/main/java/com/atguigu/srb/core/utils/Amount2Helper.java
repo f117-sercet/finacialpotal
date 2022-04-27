@@ -1,5 +1,4 @@
 package com.atguigu.srb.core.utils;
-
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +11,6 @@ import java.util.Map;
  */
 public class Amount2Helper {
 
-
     /**
      * 每月本息
      * @param invest 总借款额（贷款本金）
@@ -20,18 +18,16 @@ public class Amount2Helper {
      * @param totalMonth 还款总月数
      * @return 每月偿还利息
      */
-    public static Map<Integer, BigDecimal> getPerMonthPrincipalInterest(BigDecimal invest, BigDecimal yearRate, int totalMonth){
-        Map<Integer,BigDecimal> map = new HashMap<>();
-
-        //每月本金
+    public static Map<Integer, BigDecimal> getPerMonthPrincipalInterest(BigDecimal invest, BigDecimal yearRate, int totalMonth) {
+        Map<Integer, BigDecimal> map = new HashMap();
+        // 每月本金
         BigDecimal monthPri = invest.divide(new BigDecimal(totalMonth), 8, BigDecimal.ROUND_DOWN);
-
-        //获取月利率
-        double monthRate = yearRate.divide(new BigDecimal(12),8,BigDecimal.ROUND_DOWN).doubleValue();
-        monthRate = new BigDecimal(monthRate).setScale(8,BigDecimal.ROUND_DOWN).doubleValue();
-        for (int i = 0; i < totalMonth; i++) {
-          double  monthRes = monthPri.doubleValue();
-          monthRes = new BigDecimal(monthRes).setScale(2,BigDecimal.ROUND_DOWN).doubleValue();
+        // 获取月利率
+        double monthRate = yearRate.divide(new BigDecimal(12), 8, BigDecimal.ROUND_DOWN).doubleValue();
+        monthRate = new BigDecimal(monthRate).setScale(8, BigDecimal.ROUND_DOWN).doubleValue();
+        for (int i = 1; i <= totalMonth; i++) {
+            double monthRes = monthPri.doubleValue() + (invest.doubleValue() - monthPri.doubleValue() * (i - 1)) * monthRate;
+            monthRes = new BigDecimal(monthRes).setScale(2, BigDecimal.ROUND_DOWN).doubleValue();
             map.put(i, new BigDecimal(monthRes));
         }
         return map;

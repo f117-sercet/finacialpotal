@@ -1,8 +1,11 @@
 package com.atguigu.srb.core.service.impl;
 
 import com.alibaba.fastjson.JSONObject;
+import com.atguigu.common.exception.Assert;
+import com.atguigu.common.exception.BusinessException;
 import com.atguigu.srb.core.enums.LendStatusEnum;
 import com.atguigu.srb.core.enums.ReturnMethodEnum;
+import com.atguigu.srb.core.enums.TransTypeEnum;
 import com.atguigu.srb.core.hfb.HfbConst;
 import com.atguigu.srb.core.hfb.RequestHelper;
 import com.atguigu.srb.core.mapper.BorrowerMapper;
@@ -10,13 +13,14 @@ import com.atguigu.srb.core.mapper.UserAccountMapper;
 import com.atguigu.srb.core.mapper.UserInfoMapper;
 import com.atguigu.srb.core.pojo.Vo.BorrowInfoApprovalVO;
 import com.atguigu.srb.core.pojo.Vo.BorrowerDetailVO;
+import com.atguigu.srb.core.pojo.bo.TransFlowBO;
 import com.atguigu.srb.core.pojo.entity.BorrowInfo;
 import com.atguigu.srb.core.pojo.entity.Borrower;
 import com.atguigu.srb.core.pojo.entity.Lend;
 import com.atguigu.srb.core.mapper.LendMapper;
+import com.atguigu.srb.core.pojo.entity.UserInfo;
 import com.atguigu.srb.core.service.*;
-import com.atguigu.srb.core.utils.Amount1Helper;
-import com.atguigu.srb.core.utils.LendNoUtils;
+import com.atguigu.srb.core.utils.*;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
@@ -161,20 +165,79 @@ public class LendServiceImpl extends ServiceImpl<LendMapper, Lend> implements Le
     }
 
     @Override
-    public BigDecimal getInterestCount(BigDecimal invest, BigDecimal yearRate, Integer totalmonth, Integer returnMethod) {
+    public BigDecimal getInterestCount(BigDecimal invest, BigDecimal yearRate, Integer totalmonth, Integer returnMethod){
 
-        BigDecimal interestCount ;
-        if (returnMethod.intValue() == ReturnMethodEnum.ONE.getMethod()){
-
-            interestCount = Amount1Helper.getInterestCount(invest, yearRate, totalmonth);
-        }
-
-
-        return null;
+    BigDecimal interestCount;
+        if(returnMethod.intValue() == ReturnMethodEnum.ONE.getMethod()){
+        interestCount = Amount1Helper.getInterestCount(invest, yearRate, totalmonth);
+    }else if(returnMethod.intValue() == ReturnMethodEnum.TWO.getMethod()){
+        interestCount = Amount2Helper.getInterestCount(invest, yearRate, totalmonth);
+    }else if(returnMethod.intValue() == ReturnMethodEnum.THREE.getMethod()){
+        interestCount = Amount3Helper.getInterestCount(invest, yearRate, totalmonth);
+    }else{
+        interestCount = Amount4Helper.getInterestCount(invest, yearRate, totalmonth);
     }
+        return interestCount;
+}
 
     @Override
     public void makeLoan(Long id) {
+
+        //获取标的信息
+        Lend lend = baseMapper.selectById(id);
+
+        //调用汇付宝接口
+        Map<String,Object> map = new HashMap<>();
+        map.put("agentId",HfbConst.AGENT_ID);
+        map.put("agentProjectCode",lend.getLendNo());
+        map.put("agentBillNo",LendNoUtils.getLendNo());
+
+        //月年化
+        BigDecimal monthRate = lend.getServiceRate().divide(new BigDecimal(12), 8, BigDecimal.ROUND_DOWN);
+        //平台服务费 = 已投金额 * 月年化 * 投资时长
+        BigDecimal realAmount = lend.getInvestAmount().multiply(monthRate).multiply(new BigDecimal(lend.getPeriod()));
+        map.put("mchFee", realAmount);
+
+        map.put("timestamp", RequestHelper.getTimestamp());
+        map.put("sign", RequestHelper.getSign(map));
+
+        //提交远程请求
+        JSONObject result = RequestHelper.sendRequest(map,HfbConst.MAKE_LOAD_URL);
+        log.info("放宽结果："+result.toJSONString());
+
+        //放款失败的处理
+        if (!"0000".equals(result.getString("resultCode"))){
+            throw new BusinessException(result.getString("resultMsg"));
+        }
+
+        //放款成功
+ //     (1)标的状态和标的平台收益：更新标的相关信息
+        //平台收益
+        lend.setRealAmount(realAmount);
+        lend.setStatus(LendStatusEnum.PAY_RUN.getStatus());
+        lend.setPaymentTime(LocalDateTime.now());
+        baseMapper.updateById(lend);
+
+//     (2)给借款账号转入金额
+       //获取借款人bindCode
+        Long userId = lend.getUserId();
+        UserInfo userInfo = userInfoMapper.selectById(userId);
+        String bindCode = userInfo.getBindCode();
+
+        //转账
+        BigDecimal voteAmt = new BigDecimal(result.getString("voteAmt"));
+        userAccountMapper.updateAccount(bindCode, voteAmt, new BigDecimal(0));
+
+//     (3)增加借款交易流水
+        TransFlowBO transFlowBO = new TransFlowBO(
+                result.getString("agentBillNo"),
+                bindCode,
+                voteAmt,
+                TransTypeEnum.BORROW_BACK,
+                "项目放款，项目编号：" + lend.getLendNo() + "，项目名称：" + lend.getTitle()
+        );
+        transFlowService.saveTransFlow(transFlowBO);
+        Assert.isNull();
 
     }
 }
