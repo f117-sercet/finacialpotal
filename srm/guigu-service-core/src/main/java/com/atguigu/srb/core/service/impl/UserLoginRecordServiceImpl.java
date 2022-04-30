@@ -24,10 +24,10 @@ public class UserLoginRecordServiceImpl extends ServiceImpl<UserLoginRecordMappe
     public List<UserLoginRecord> listTop50(Long userId) {
 
         QueryWrapper<UserLoginRecord> userLoginRecordQueryWrapper = new QueryWrapper<>();
-        userLoginRecordQueryWrapper
-                .eq("user_id",userId)
+        userLoginRecordQueryWrapper.eq("user_id", userId)
                 .orderByDesc("id")
                 .last("limit 50");
+
         List<UserLoginRecord> userLoginRecordList = baseMapper.selectList(userLoginRecordQueryWrapper);
         return userLoginRecordList;
     }
