@@ -102,5 +102,7 @@ public class AdminIntegralGradeController {
             return R.error().message("更新失败");
         }
     }
+
+
 }
 
