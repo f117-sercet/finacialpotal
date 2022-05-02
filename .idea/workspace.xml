@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="controller">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="AdminBorrowInfoController">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -507,13 +507,7 @@
       <workItem from="1651227242213" duration="996000" />
       <workItem from="1651331345711" duration="65000" />
       <workItem from="1651331424920" duration="397000" />
-    </task>
-    <task id="LOCAL-00117" summary="借贷返还服务类">
-      <created>1647168403366</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1647168403366</updated>
+      <workItem from="1651399945439" duration="1690000" />
     </task>
     <task id="LOCAL-00118" summary="用户投资">
       <created>1647168560607</created>
@@ -851,7 +845,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651331793356</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="AdminBorrowInfoController">
+      <created>1651400433192</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1651400433192</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -906,7 +907,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="借款信息表，服务类" />
     <MESSAGE value="借款服务" />
     <MESSAGE value="添加服务类接口" />
     <MESSAGE value="selectByid" />
@@ -931,7 +931,8 @@
     <MESSAGE value="rabbit_maven,userAccount" />
     <MESSAGE value="UserBindServiceImpl" />
     <MESSAGE value="controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="controller" />
+    <MESSAGE value="AdminBorrowInfoController" />
+    <option name="LAST_COMMIT_MESSAGE" value="AdminBorrowInfoController" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
