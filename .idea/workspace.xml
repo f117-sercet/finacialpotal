@@ -507,13 +507,7 @@
       <workItem from="1651331424920" duration="397000" />
       <workItem from="1651399945439" duration="1690000" />
       <workItem from="1651482811979" duration="107000" />
-    </task>
-    <task id="LOCAL-00119" summary="用户投资">
-      <created>1647265156587</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1647265156587</updated>
+      <workItem from="1651484009014" duration="368000" />
     </task>
     <task id="LOCAL-00120" summary="用户投资">
       <created>1647340525731</created>
@@ -851,7 +845,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651482907426</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="AdminDictController">
+      <created>1651484345485</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1651484345485</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
