@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="AdminDictController" />
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="还款记录">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -508,13 +510,7 @@
       <workItem from="1651399945439" duration="1690000" />
       <workItem from="1651482811979" duration="107000" />
       <workItem from="1651484009014" duration="368000" />
-    </task>
-    <task id="LOCAL-00120" summary="用户投资">
-      <created>1647340525731</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1647340525731</updated>
+      <workItem from="1651585965084" duration="1010000" />
     </task>
     <task id="LOCAL-00121" summary="用户投资">
       <created>1647564314345</created>
@@ -852,7 +848,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651484345485</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="还款记录">
+      <created>1651586118186</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1651586118186</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -907,7 +910,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="添加服务类接口" />
     <MESSAGE value="selectByid" />
     <MESSAGE value="还款id" />
     <MESSAGE value="selectLendItemReturnList" />
@@ -932,7 +934,8 @@
     <MESSAGE value="controller" />
     <MESSAGE value="AdminBorrowInfoController" />
     <MESSAGE value="AdminDictController" />
-    <option name="LAST_COMMIT_MESSAGE" value="AdminDictController" />
+    <MESSAGE value="还款记录" />
+    <option name="LAST_COMMIT_MESSAGE" value="还款记录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
