@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="还款记录">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="登录接口日志">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -511,20 +511,8 @@
       <workItem from="1651482811979" duration="107000" />
       <workItem from="1651484009014" duration="368000" />
       <workItem from="1651585965084" duration="1010000" />
-    </task>
-    <task id="LOCAL-00121" summary="用户投资">
-      <created>1647564314345</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1647564314345</updated>
-    </task>
-    <task id="LOCAL-00122" summary="用户投资">
-      <created>1647564322526</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1647564322526</updated>
+      <workItem from="1651747072850" duration="718000" />
+      <workItem from="1652006866385" duration="4932000" />
     </task>
     <task id="LOCAL-00123" summary="用户投资">
       <created>1647614147399</created>
@@ -855,7 +843,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651586118186</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="会员管理">
+      <created>1651747177390</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1651747177390</updated>
+    </task>
+    <task id="LOCAL-00171" summary="登录接口日志">
+      <created>1652006990823</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1652006990823</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -910,8 +912,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="selectByid" />
-    <MESSAGE value="还款id" />
     <MESSAGE value="selectLendItemReturnList" />
     <MESSAGE value="方法更新" />
     <MESSAGE value="文档更新" />
@@ -935,7 +935,9 @@
     <MESSAGE value="AdminBorrowInfoController" />
     <MESSAGE value="AdminDictController" />
     <MESSAGE value="还款记录" />
-    <option name="LAST_COMMIT_MESSAGE" value="还款记录" />
+    <MESSAGE value="会员管理" />
+    <MESSAGE value="登录接口日志" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录接口日志" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
