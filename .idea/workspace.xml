@@ -23,7 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="登录接口日志">
+      <change afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/controller/api/LendController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/controller/DictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/controller/api/DictController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +109,7 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/git/Repository/gitHub/finacialpotal/srm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;9896c19fa0f31a5cf549e8b825364572&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;5b80bc2e17f4e6daa9ba0d487455f7ae&quot;
   }
 }</component>
   <component name="ReactorSettings">
@@ -512,14 +514,10 @@
       <workItem from="1651484009014" duration="368000" />
       <workItem from="1651585965084" duration="1010000" />
       <workItem from="1651747072850" duration="718000" />
-      <workItem from="1652006866385" duration="4932000" />
-    </task>
-    <task id="LOCAL-00123" summary="用户投资">
-      <created>1647614147399</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1647614147399</updated>
+      <workItem from="1652006866385" duration="5524000" />
+      <workItem from="1652267299726" duration="1484000" />
+      <workItem from="1652340189370" duration="1290000" />
+      <workItem from="1652413038680" duration="382000" />
     </task>
     <task id="LOCAL-00124" summary="用户投资控制类">
       <created>1647702382750</created>
@@ -857,7 +855,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652006990823</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="登录接口日志">
+      <created>1652094289683</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1652094289683</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

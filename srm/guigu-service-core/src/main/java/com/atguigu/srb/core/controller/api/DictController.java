@@ -1,4 +1,4 @@
-package com.atguigu.srb.core.controller;
+package com.atguigu.srb.core.controller.api;
 
 
 import com.atguigu.common.exception.BusinessException;
