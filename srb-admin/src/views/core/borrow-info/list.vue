@@ -7,6 +7,10 @@
     <el-table-column prop="mobile" label="手机"/>
     <el-table-column prop="amount" label="借款金额"/>
     <el-table-column prop="name" label="借款人姓名" width="90" />
+    <el-table-column  label="借款人姓名">
+      <template slot-scope="scope">{{scope.row.period}}个月</template>
+    </el-table-column>
+    <el-table-column prop="param.returnMethod" label="还款方式"></el-table-column>
   </el-table>
 </div>
 </template>
