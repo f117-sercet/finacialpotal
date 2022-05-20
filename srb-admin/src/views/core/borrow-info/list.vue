@@ -1,5 +1,14 @@
-<template>
-
+<template xmlns:el-table="http://www.w3.org/1999/html">
+<div class="app-container">
+  <!--列表-->
+  <el-table :data="list" stripe>
+    <el-table-column type="index" label="序号" width="60" align="center"/>
+    <el-table-column prop="name" label="借款人姓名" width="90" />
+    <el-table-column prop="mobile" label="手机"/>
+    <el-table-column prop="amount" label="借款金额"/>
+    <el-table-column prop="name" label="借款人姓名" width="90" />
+  </el-table>
+</div>
 </template>
 <script>
 import borrowInfoApi from '@/api/core/borrow-info'
