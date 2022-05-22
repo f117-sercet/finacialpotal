@@ -22,7 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="borrower-info中的页面">
+    <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="list.vue">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srb-admin/src/views/core/borrow-info/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/srb-admin/src/views/core/borrow-info/list.vue" afterDir="false" />
     </list>
@@ -525,21 +526,8 @@
       <workItem from="1652836953736" duration="1313000" />
       <workItem from="1652926591520" duration="1001000" />
       <workItem from="1652958188144" duration="1506000" />
-      <workItem from="1653041350753" duration="683000" />
-    </task>
-    <task id="LOCAL-00129" summary="汇付宝页面">
-      <created>1647833453622</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1647833453622</updated>
-    </task>
-    <task id="LOCAL-00130" summary="汇付宝页面">
-      <created>1648119986460</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1648119986460</updated>
+      <workItem from="1653041350753" duration="1680000" />
+      <workItem from="1653228374855" duration="818000" />
     </task>
     <task id="LOCAL-00131" summary="借款信息表，服务类">
       <created>1648204329651</created>
@@ -870,7 +858,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652959649879</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="borrower-info中的页面">
+      <created>1653042197893</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1653042197894</updated>
+    </task>
+    <task id="LOCAL-00179" summary="list.vue">
+      <created>1653042408490</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1653042408490</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -931,7 +933,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="登录更新" />
     <MESSAGE value="注册方法更新" />
     <MESSAGE value="用户基本服务" />
     <MESSAGE value="Service服务类" />
@@ -956,7 +957,8 @@
     <MESSAGE value="api" />
     <MESSAGE value="detail 页面" />
     <MESSAGE value="borrower-info中的页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="borrower-info中的页面" />
+    <MESSAGE value="list.vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="list.vue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
