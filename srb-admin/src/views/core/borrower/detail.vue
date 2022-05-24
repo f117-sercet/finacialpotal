@@ -17,7 +17,56 @@
 import  borrowerApi from '@/api/core/borrower'
 
 export default {
+  data(){
 
+    return{
+      borrower:{}, // 借款人信息
+      saveBtnDisabled:false,//防止重复提交
+      approvalForm:{
+        //审批表单
+        borrowerId:0,
+        status:2,
+        content:'',
+        infoIntegral:30,
+        isIdCardOk:false,
+        isHouseOk:false,
+        isCarOk:false
+      }
+    }
+  },
+  created(){
+
+    if (this.$route.param.id){
+      this.fetchDataById()
+    }
+  },
+
+  methods: {
+
+fetchDataById(){
+
+  borrowerApi.show(this.$route.param.id).then(response =>{
+
+    this.borrower = response.data.borrowerDetailVo
+  })
+},
+
+back(){
+
+this.$router.push('/core/borrower/list')
+
+},
+
+approvalSubmit(){
+
+  this.saveBtnDisabled = true
+  this.approvalForm.borrowerId = this.$route.params.id
+
+
+}
+
+
+  }
 
 
 }
