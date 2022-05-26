@@ -6,7 +6,7 @@
       <el-table-column prop="borrowAmount" label="借款额度" />
       <el-table-column prop="integralStart" label="积分区间开始" />
       <el-table-column prop="integralEnd" label="积分区间结束" />
-   <el-table-column label="操作">
+      <el-table-column label="操作">
         <template slot-scope="scope">
           <router-link
             :to="'/core/integral-grade/edit/' + scope.row.id"
