@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSON;
 import com.atguigu.common.result.R;
 import com.atguigu.srb.base.util.JwtUtils;
 import com.atguigu.srb.core.hfb.RequestHelper;
-import com.atguigu.srb.core.pojo.vo.UserBindVO;
+import com.atguigu.srb.core.pojo.Vo.UserBindVO;
 import com.atguigu.srb.core.service.UserBindService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
