@@ -1,12 +1,27 @@
 <template>
-<div class="app-container">
-<!--输入表单-->
-<el-form label-width="120px">
-  <el-form-item label="借款额度">
-<el-input-number v-model="integralGrade.borrowAmount" :min="0"/>
-  </el-form-item>
-</el-form>
-</div>
+  <div class="app-container">
+    <!-- 输入表单 -->
+    <el-form label-width="120px">
+      <el-form-item label="借款额度">
+        <el-input-number v-model="integralGrade.borrowAmount" :min="0" />
+      </el-form-item>
+      <el-form-item label="积分区间开始">
+        <el-input-number v-model="integralGrade.integralStart" :min="0" />
+      </el-form-item>
+      <el-form-item label="积分区间结束">
+        <el-input-number v-model="integralGrade.integralEnd" :min="0" />
+      </el-form-item>
+      <el-form-item>
+        <el-button
+          :disabled="saveBtnDisabled"
+          type="primary"
+          @click="saveOrUpdate()"
+        >
+          保存
+        </el-button>
+      </el-form-item>
+    </el-form>
+  </div>
 </template>
 
 <script>
