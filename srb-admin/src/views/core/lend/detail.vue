@@ -1,4 +1,25 @@
 <template>
+<div class="app-container">
+<h4>标的信息</h4>
+<table
+ class="table table-striped table-condenseda table-bordered"
+ width="100%"
+>
+<tbody>
+  <tr>
+    <th width="15%">标的编号</th>
+    <td width="35%">
+     <b>{{lendDetail.lend.lendNo}}</b>
+    </td>
+    <th width="15%">标题</th>
+    <td width="35%">{{lendDetail.lend.title}}</td>
+  </tr>
+  <tr>
+    <th>标的金额</th>
+  </tr>
+</tbody>
+</table>
+</div>
 </template>
 
 <script>
