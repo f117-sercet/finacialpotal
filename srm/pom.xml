@@ -44,7 +44,7 @@
         <aliyun-sdk-oss.version>3.10.2</aliyun-sdk-oss.version>
         <jodatime.version>2.10.1</jodatime.version>
         <jwt.version>0.7.0</jwt.version>
-        <httpclient.version>4.5.1</httpclient.version>
+        <httpclient.version>4.5.13</httpclient.version>
     </properties>
     <dependencyManagement>
         <dependencies>
