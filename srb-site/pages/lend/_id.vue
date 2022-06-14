@@ -1,5 +1,39 @@
 <template>
-    
+ <!--信息详细-->
+ <div class="item-detail wrap">
+ <div class="breadCrumbs">
+  <a href="/">首页</a>&gt; <a href="/lend">散表投资列表</a>&gt; 
+  <span class="cur">项目详情</span>
+ </div>
+<div class="item-detail-head clearfix" data-target="sideMenu">
+<div class="hd">
+    <i class="icon icon-xin"></i>
+    <h2 style="width:70%">{{lend.title}}</h2>
+</div>
+
+<!--标的信息开始-->
+<div class="bd clearfix">
+<div class="data" style="width:auto;">
+<ul>
+    <li>
+        <span class="f16">借款金额</span><br />
+        <span class="f30 c-333">{{lend.amount}}</span>
+        元
+    </li>
+    <li class="relative">
+        <span class="f16">年利率</span><br />
+        <span class="f30 c-orange">{{lend.lendYearRate *100}}%</span>
+    </li>
+    <li>
+        <span class="f16">借款期限</span><br />
+        <span class="f30 c-333">{{lend.period}}</span>
+        个月
+    </li>
+</ul>
+</div>
+</div>
+</div>
+ </div>
 </template>
 
 <script>
