@@ -143,8 +143,67 @@ getInterestCount() {
         this.$message.error('标的投资金额不足')
         return 
     }
- }
-   }
-    
+
+    //余额的判断
+    if(this.invest.investAmount > this.account){
+
+        this.$message.error('余额不足，请充值')
+        return
+    }
+
+      //数据提交
+      this.$alert(
+        '<div style="size: 18px;color: red;">您即将前往汇付宝确认标的</div>',
+        '前往汇付宝资金托管平台',
+        {
+          dangerouslyUseHTMLString: true,
+          confirmButtonText: '立即前往',
+          callback: (action) => {
+            console.log('action', action)
+            if (action === 'confirm') {
+              this.invest.lendId = this.lend.id
+              this.$axios
+                .$post('/api/core/lendItem/auth/commitInvest', this.invest)
+                .then((response) => {
+                  // console.log(response.data.formStr)
+                  // debugger
+                  document.write(response.data.formStr)
+                })
+            }
+          },
+        }
+      )
+ },
+
+ //回款计划
+ fetchLendItemRetrunList(){
+
+    this.$axios
+    .$get('/api/core/lendItemReturn/list/' + this.$route.params.id)
+    .then((response)=>{
+
+        this.lendItemReturnList = response.data.list
+    })
+ },
+   commitReturn(lendReturnId) {
+      this.$alert(
+        '<div style="size: 18px;color: red;">您即将前往汇付宝确认还款</div>',
+        '前往汇付宝资金托管平台',
+        {
+          dangerouslyUseHTMLString: true,
+          confirmButtonText: '立即前往',
+          callback: (action) => {
+            if (action === 'confirm') {
+              this.$axios
+                .$post('/api/core/lendReturn/auth/commitReturn/' + lendReturnId)
+                .then((response) => {
+                  document.write(response.data.formStr)
+                })
+            }
+          },
+        }
+      )
+    },
+  },
 }
 </script>
