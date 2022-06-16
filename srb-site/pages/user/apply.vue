@@ -241,6 +241,7 @@ data(){
     .$then((response)=>{
 
         this.active = 1
+ 
     })
 
        },
