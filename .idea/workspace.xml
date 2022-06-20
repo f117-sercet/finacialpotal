@@ -23,7 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4effa4ab-f35f-484c-857c-9c2157ac3e05" name="Default Changelist" comment="页面重做">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/BorrowerAttachServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/service/impl/BorrowerAttachServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/srm/guigu-service-core/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/srm/guigu-service-core/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +35,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,21 +107,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/git/Repository/gitHub/finacialpotal/srm/guigu-service-core/src/main/java/com/atguigu/srb/core/controller/api&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;62d4d23b43d9592b174e69a4be95b8f3&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "F:/git/Repository/gitHub/finacialpotal/srm/guigu-service-core/src/main/resources",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "016cb182ab8cd836c7c472fda101692c",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -124,11 +130,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git\Repository\gitHub\finacialpotal\srm\guigu-service-core\src\main\resources" />
       <recent name="F:\git\Repository\gitHub\finacialpotal\srm\guigu-service-core\src\main\java\com\atguigu\srb\core\controller\api" />
       <recent name="F:\git\Repository\gitHub\finacialpotal\srm\atguigu_hfb\src\main\resources\template\withdraw" />
       <recent name="F:\git\Repository\gitHub\finacialpotal\srm\atguigu_hfb\src\main\resources\template\userInvest" />
       <recent name="F:\git\Repository\gitHub\finacialpotal\srm\atguigu_hfb\src\main\resources\template\userAccount" />
-      <recent name="F:\git\Repository\gitHub\finacialpotal\srm\atguigu_hfb\src\main\resources\template\user" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Github\Git\repo\finacialpotal\srm" />
@@ -539,13 +545,12 @@
       <workItem from="1653747239733" duration="299000" />
       <workItem from="1653904105321" duration="1191000" />
       <workItem from="1654051559981" duration="71000" />
-    </task>
-    <task id="LOCAL-00136" summary="selectLendItemReturnList">
-      <created>1649062735334</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1649062735334</updated>
+      <workItem from="1654438525466" duration="335000" />
+      <workItem from="1654500498131" duration="988000" />
+      <workItem from="1655191153064" duration="252000" />
+      <workItem from="1655191422876" duration="318000" />
+      <workItem from="1655706561019" duration="994000" />
+      <workItem from="1655707574844" duration="2062000" />
     </task>
     <task id="LOCAL-00137" summary="方法更新">
       <created>1649167725333</created>
@@ -883,7 +888,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653747448057</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="页面重做">
+      <created>1654438569071</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1654438569071</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,12 +4,12 @@ server:
 spring:
   profiles:
     active: dev # 环境设置
-    application:
-      name: service-core # 服务名
+  application:
+    name: service-core # 服务名
   datasource: # mysql数据库连接
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://:3306/srb_core?serverTimezone=GMT%2B8&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/srb_core?serverTimezone=GMT%2B8&characterEncoding=utf-8
     username: root
     password: 123123
   redis:
@@ -24,8 +24,6 @@ spring:
         max-wait: -1
         max-idle: 8
         min-idle: 0
-
-
 
 mybatis-plus: #mybatis
   configuration:

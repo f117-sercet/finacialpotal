@@ -36,7 +36,6 @@ public class BorrowerAttachServiceImpl extends ServiceImpl<BorrowerAttachMapper,
 
             borrowerAttachVOList.add(borrowerAttachVO);
         });
-
         return borrowerAttachVOList;
     }
 }
